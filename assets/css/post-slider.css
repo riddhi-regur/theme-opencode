@@ -1,0 +1,75 @@
+/* ==========================================================================
+   1. Main Slider Container
+   ========================================================================== */
+
+.custom-post-slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    /* padding: 30px 0; */
+    box-sizing: border-box;
+
+    cursor: grab;
+
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.custom-post-slider:active {
+    cursor: grabbing;
+}
+
+/* ==========================================================================
+   2. Slider Track
+   ========================================================================== */
+
+.custom-post-slider .wp-block-post-template {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    list-style: none !important;
+
+    width: 100%;
+    will-change: transform;
+
+    /* Keep Gutenberg's gap if set */
+    overflow: visible;
+}
+
+/* ==========================================================================
+   3. Slider Items
+   Widths are controlled by JavaScript
+   ========================================================================== */
+
+.custom-post-slider .wp-block-post-template > * {
+    box-sizing: border-box;
+    min-width: 0;
+
+    /* JS sets flex-basis dynamically */
+    flex-shrink: 0;
+}
+
+/* ==========================================================================
+   4. Images
+   ========================================================================== */
+
+.custom-post-slider img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+    /* Prevent image dragging */
+    pointer-events: none;
+    -webkit-user-drag: none;
+}
+
+/* ==========================================================================
+   5. Optional: Smooth card rendering
+   ========================================================================== */
+
+.custom-post-slider .wp-block-post-template > * {
+    transform: translateZ(0);
+}

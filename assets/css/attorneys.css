@@ -1,0 +1,249 @@
+.attorney-social-icons svg {
+  width: 29px !important;
+  height: 29px !important;
+}
+
+.attorneys-image {
+  height: 349px !important;
+}
+
+.attorneys-image img {
+  height: 349px !important;
+}
+
+.attorney-btn {
+  padding-top: 20px !important;
+}
+
+.team-details-grid {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, 217px); */
+    gap:0px !important;
+    padding-left: 20px !important;
+}
+
+.team-detail-right-image{
+        max-height: 20px !important;
+         max-width:  20px !important;
+         margin-top: 5px !important;
+    }
+
+
+@media (max-width: 1024px) {
+  .attorneys-heading {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+
+  .attorneys-paragraph {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+
+  .attorney-social-icons {
+    gap: 18px !important;
+  }
+
+  .attorney-social-icons svg {
+    width: 25px !important;
+    height: 25px !important;
+  }
+  /* .team-details-grid {
+    grid-template-columns: repeat(auto-fill, 180px);
+   
+} */
+  /* .team-details-social-icons{
+  justify-content: flex-start !important;
+} */
+
+}
+
+@media (max-width: 768px) {
+  .attorneys-heading {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  .attorneys-paragraph {
+    font-size: 16px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  .attorney-social-icons {
+    gap: 15px !important;
+  }
+
+  .attorneys-post-tile {
+    font-size: 20px !important;
+  }
+
+.attorneys-post-paragraph {
+  font-size: 16px !important;
+}
+
+.attorneys-post-image {
+    max-height: 300px !important;
+  }
+
+  .attorneys-post-image img {
+    max-height: 300px !important;
+     object-position: top !important;
+  }
+  .team-details-content{
+    order:2 !important;
+  }
+  .team-details-image{
+    order:1 !important;
+  }
+  .team-details-stack{
+    padding: 0 !important;
+  }
+
+  .team-details-post-image img{
+    object-position: top;
+  }
+
+  /* .team-details-grid {
+    grid-template-columns: repeat(auto-fill, 218px);
+} */
+.team-details-main-cover{
+  padding: 90px 0 !important;
+}
+/* .team-details-social-icons{
+  justify-content: flex-start !important;
+} */
+.homepage-v2-faq-maingroup{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+}
+
+@media (max-width: 430px) {
+  .attorneys-main {
+    padding-top: 64px !important;
+  }
+
+  .team-details-main{
+    padding-top: 64px !important;
+  }
+
+   .team-details-main .wp-block-columns{
+    padding-top: 0px !important;
+    gap:36px !important;
+  }
+
+  .attorneys-heading {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .attorneys-paragraph {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .attorney-social-icons {
+    gap: 10px !important;
+  }
+
+  .attorney-social-icons svg {
+    width: 24px !important;
+    height: 24px !important;
+  }
+
+  .attorneys-post-image {
+    max-height: 193px !important;
+  }
+
+  .attorneys-post-image img {
+    max-height: 193px !important;
+  }
+
+  .attorney-heading-group {
+    gap: 16px !important;
+  }
+
+  .attorney-posts-grid {
+    margin-top: 56px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .attorney-posts-group {
+    margin-bottom: 33px !important;
+  }
+
+  .attorney-data-group {
+    margin-top: 16px !important;
+  }
+
+   .attorneys-post-tile {
+    font-size: 18px !important;
+  }
+
+.attorneys-post-paragraph {
+  font-size: 14px !important;
+}
+.team-details-heading{
+  font-size: 40px !important;
+}
+.team-details-paragraph{
+  font-size: 16px !important;
+  margin-right: 0px !important;
+}
+
+.team-details-post-image{
+  min-height: 396px !important;
+}
+.team-details-stack {
+  gap:8px !important;
+}
+.team-details-grid {
+   margin-top: 35px !important;
+   padding-top: 30px !important;
+   padding-bottom: 30px !important;
+   gap:32px !important;
+   grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+}
+.team-details-social-icons{
+  justify-content: flex-start !important;
+}
+
+.team-details-social-icons svg{
+ height: 28px !important;
+ width: 28px !important;
+}
+.team-detail-right-image {
+   max-height: 15px !important;
+         max-width:  15px !important;
+         margin-top: 2px !important;
+    }
+.team-detail-right-image img{
+        max-height: 15px !important;
+         max-width:  15px !important;
+         margin-top: 0px !important;
+    }
+    .attorney-pattern-img{
+       max-height: 349px !important;
+    }
+    .attorney-pattern-img img{
+       max-height: 349px !important;
+    }
+.attorney-pattern{
+  padding-bottom: 64px !important;
+    padding-top: 64px !important;
+}
+.testimonial-home-v2{
+  padding-top: 64px !important;
+}
+.home-v2-testimonial{
+  margin-top: 16px !important;
+}
+.faq-heading-v2{
+  padding-right: 0 !important;
+}
+.homepage-v2-faq-maingroup{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+}
