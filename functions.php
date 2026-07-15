@@ -87,32 +87,6 @@ if (! function_exists('lawfirmpro_setup')) :
 			)
 		);
 
-		/*
-		 * Switch default core markup for search form, comment form, and comments
-		 * to output valid HTML5.
-		 */
-		add_theme_support(
-			'html5',
-			array(
-				'search-form',
-				'comment-form',
-				'comment-list',
-				'gallery',
-				'caption',
-				'style',
-				'script',
-			)
-		);
-
-		// Add theme support for selective refresh for widgets.
-		add_theme_support('customize-selective-refresh-widgets');
-
-		// Add support for editor styles.
-		add_theme_support('editor-styles');
-
-		// Enqueue editor styles.
-		add_editor_style('style-editor.css');
-
 		// Add support for responsive embedded content.
 		add_theme_support('responsive-embeds');
 
@@ -124,37 +98,12 @@ endif;
 add_action('after_setup_theme', 'lawfirmpro_setup');
 
 /**
- * Register widget area.
- *
- * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
- */
-function lawfirmpro_widgets_init()
-{
-	register_sidebar(
-		array(
-			'name'          => __('Footer', 'lawfirmpro'),
-			'id'            => 'sidebar-1',
-			'description'   => __('Add widgets here to appear in your footer.', 'lawfirmpro'),
-			'before_widget' => '<section id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</section>',
-			'before_title'  => '<h2 class="widget-title">',
-			'after_title'   => '</h2>',
-		)
-	);
-}
-add_action('widgets_init', 'lawfirmpro_widgets_init');
-
-/**
  * Enqueue scripts and styles.
  */
 function lawfirmpro_scripts()
 {
 	wp_enqueue_style('lawfirmpro-style', get_stylesheet_uri(), array(), LAWFIRMPRO_VERSION);
 	wp_enqueue_script('lawfirmpro-script', get_template_directory_uri() . '/js/script.min.js', array(), LAWFIRMPRO_VERSION, true);
-
-	if (is_singular() && comments_open() && get_option('thread_comments')) {
-		wp_enqueue_script('comment-reply');
-	}
 }
 add_action('wp_enqueue_scripts', 'lawfirmpro_scripts');
 
@@ -186,19 +135,6 @@ function lawfirmpro_enqueue_block_editor_script()
 add_action('enqueue_block_assets', 'lawfirmpro_enqueue_block_editor_script');
 
 /**
- * Add the Tailwind Typography classes to TinyMCE.
- *
- * @param array $settings TinyMCE settings.
- * @return array
- */
-function lawfirmpro_tinymce_add_class($settings)
-{
-	$settings['body_class'] = LAWFIRMPRO_TYPOGRAPHY_CLASSES;
-	return $settings;
-}
-add_filter('tiny_mce_before_init', 'lawfirmpro_tinymce_add_class');
-
-/**
  * Limit the block editor to heading levels supported by Tailwind Typography.
  *
  * @param array  $args Array of arguments for registering a block type.
@@ -217,16 +153,6 @@ function lawfirmpro_modify_heading_levels($args, $block_type)
 	return $args;
 }
 add_filter('register_block_type_args', 'lawfirmpro_modify_heading_levels', 10, 2);
-
-/**
- * Custom template tags for this theme.
- */
-//require get_template_directory() . '/inc/template-tags.php';
-
-/**
- * Functions which enhance the theme by hooking into WordPress.
- */
-//require get_template_directory() . '/inc/template-functions.php';
 
 function lawfirmpro_enqueue_block_assets()
 {

@@ -321,7 +321,14 @@
       }
     }
   },
-    "customTemplates": [
+  "templateParts": [
+    { "name": "header", "title": "Header", "area": "header" },
+    { "name": "header-version-2", "title": "Header Version 2", "area": "header" },
+    { "name": "footer", "title": "Footer", "area": "footer" },
+    { "name": "comments", "title": "Comments", "area": "uncategorized" },
+    { "name": "navigation-overlay", "title": "Navigation Overlay", "area": "uncategorized" }
+  ],
+  "customTemplates": [
     {
       "name": "front-page",
       "title": "Home Layout",
