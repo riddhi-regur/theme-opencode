@@ -28,7 +28,7 @@
                 <div class="wp-block-group faq-header"><!-- wp:post-title {"style":{"typography":{"fontSize":"20px","fontStyle":"normal","fontWeight":"500"}},"fontFamily":"plus-jakarta-sans"} /-->
 
                     <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"lawfirmpro-faq-item faq-icon","style":{"layout":{"selfStretch":"fixed","flexSize":"22px"}}} -->
-                    <figure class="wp-block-image size-full lawfirmpro-faq-item faq-icon"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/Group.png')); ?>" alt="" class="wp-image-2502" /></figure>
+                    <figure class="wp-block-image size-full lawfirmpro-faq-item faq-icon"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/Group.png')); ?>" alt="" class="" /></figure>
                     <!-- /wp:image -->
                 </div>
                 <!-- /wp:group -->

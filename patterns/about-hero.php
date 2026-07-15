@@ -27,7 +27,7 @@
     <!-- /wp:group -->
 
     <!-- wp:image {"sizeSlug":"large","linkDestination":"none","align":"full","className":"about-main-img"} -->
-    <figure class="wp-block-image alignfull size-large about-main-img"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/About-Hero.png')); ?>" alt="" class="wp-image-754" /></figure>
+    <figure class="wp-block-image alignfull size-large about-main-img"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/About-Hero.png')); ?>" alt="" class="" /></figure>
     <!-- /wp:image -->
 </div>
 <!-- /wp:group -->

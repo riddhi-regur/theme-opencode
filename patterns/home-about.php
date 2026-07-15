@@ -42,11 +42,8 @@
         <div class="wp-block-column"><!-- wp:columns {"isStackedOnMobile":false,"className":"column-gap","style":{"spacing":{"blockGap":{"left":"13px"}}}} -->
             <div class="wp-block-columns is-not-stacked-on-mobile column-gap"><!-- wp:column -->
                 <div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url(get_theme_file_uri('assets/images/legal-challanges-1.png')); ?>","dimRatio":0,"isUserOverlayColor":true,"minHeight":300,"sizeSlug":"full","className":"legal-challenge-hero","style":{"spacing":{"padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0","left":"var:preset|spacing|0","right":"var:preset|spacing|0"},"margin":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0"}}},"layout":{"type":"default"}} -->
-                    <div class="wp-block-cover legal-challenge-hero" style="margin-top:var(--wp--preset--spacing--0);margin-bottom:var(--wp--preset--spacing--0);padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0);min-height:300px"><img class="wp-block-cover__image-background wp-image-2488 size-full" alt="" src="<?php echo esc_url(get_theme_file_uri('assets/images/legal-challanges-1.png')); ?>" data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span>
-                        <div class="wp-block-cover__inner-container"><!-- wp:paragraph {"placeholder":"Write title…","style":{"typography":{"textAlign":"center"}}} -->
-                            <p class="has-text-align-center"></p>
-                            <!-- /wp:paragraph -->
-                        </div>
+                    <div class="wp-block-cover legal-challenge-hero" style="margin-top:var(--wp--preset--spacing--0);margin-bottom:var(--wp--preset--spacing--0);padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0);min-height:300px"><img class="wp-block-cover__image-background size-full" alt="" src="<?php echo esc_url(get_theme_file_uri('assets/images/legal-challanges-1.png')); ?>" data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span>
+                        <div class="wp-block-cover__inner-container"></div>
                     </div>
                     <!-- /wp:cover -->
                 </div>
@@ -55,11 +52,11 @@
                 <!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|0"}}} -->
                 <div class="wp-block-column"><!-- wp:group {"className":"column-gap","style":{"spacing":{"blockGap":"13px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left","flexWrap":"nowrap"}} -->
                     <div class="wp-block-group column-gap"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"legal-challenges-images","style":{"layout":{"selfStretch":"fit","flexSize":null}}} -->
-                        <figure class="wp-block-image size-full legal-challenges-images"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/legal-challanges-2.jpg')); ?>" alt="" class="wp-image-2483" /></figure>
+                        <figure class="wp-block-image size-full legal-challenges-images"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/legal-challanges-2.jpg')); ?>" alt="" class="" /></figure>
                         <!-- /wp:image -->
 
                         <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"legal-challenges-images","style":{"layout":{"selfStretch":"fit","flexSize":null}}} -->
-                        <figure class="wp-block-image size-full legal-challenges-images"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/legal-challanges-3.png')); ?>" alt="" class="wp-image-2484" /></figure>
+                        <figure class="wp-block-image size-full legal-challenges-images"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/legal-challanges-3.png')); ?>" alt="" class="" /></figure>
                         <!-- /wp:image -->
                     </div>
                     <!-- /wp:group -->

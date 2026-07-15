@@ -77,7 +77,7 @@
     <!-- wp:columns -->
     <div class="wp-block-columns"><!-- wp:column {"width":"592px"} -->
         <div class="wp-block-column" style="flex-basis:100%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"blog-detail-committed-img"} -->
-            <figure class="wp-block-image size-full blog-detail-committed-img"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/blog-detail.png')); ?>" alt="" class="wp-image-999" /></figure>
+            <figure class="wp-block-image size-full blog-detail-committed-img"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/blog-detail.png')); ?>" alt="" class="" /></figure>
             <!-- /wp:image -->
         </div>
         <!-- /wp:column -->
@@ -106,7 +106,7 @@
     <div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column -->
         <div class="wp-block-column"><!-- wp:group {"className":"blog-detail-column-stack","style":{"layout":{"selfStretch":"fit","flexSize":""},"spacing":{"blockGap":"16px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left","flexWrap":"wrap"}} -->
             <div class="wp-block-group blog-detail-column-stack"><!-- wp:image {"width":"700px","height":"408px","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"blog-detail-img","style":{"layout":{"selfStretch":"fit","flexSize":null}}} -->
-                <figure class="wp-block-image size-full is-resized blog-detail-img"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/appereance.png')); ?>" alt="" class="wp-image-1013" style="object-fit:cover;width:700px;height:408px" /></figure>
+                <figure class="wp-block-image size-full is-resized blog-detail-img"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/appereance.png')); ?>" alt="" class="" style="object-fit:cover;width:700px;height:408px" /></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"className":"blog-detail-paragraph","style":{"typography":{"fontWeight":"800","fontSize":"32px","lineHeight":"1.2"},"spacing":{"padding":{"right":"20px","top":"18px"}}}} -->
@@ -124,7 +124,7 @@
         <!-- wp:column -->
         <div class="wp-block-column"><!-- wp:group {"className":"blog-detail-column-stack","style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
             <div class="wp-block-group blog-detail-column-stack"><!-- wp:image {"width":"700px","height":"408px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"left","className":"blog-detail-img","style":{"layout":{"selfStretch":"fit","flexSize":null}}} -->
-                <figure class="wp-block-image alignleft size-full is-resized blog-detail-img"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/personal-injuryclaim.png')); ?>" alt="" class="wp-image-1001" style="object-fit:cover;width:700px;height:408px" /></figure>
+                <figure class="wp-block-image alignleft size-full is-resized blog-detail-img"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/personal-injuryclaim.png')); ?>" alt="" class="" style="object-fit:cover;width:700px;height:408px" /></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"className":"blog-detail-paragraph","style":{"typography":{"fontWeight":"800","fontSize":"32px","lineHeight":"1.2"},"spacing":{"padding":{"top":"18px","right":"20px"}}}} -->

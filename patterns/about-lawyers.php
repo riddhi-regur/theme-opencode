@@ -27,11 +27,8 @@
 
         <!-- wp:column {"className":"contact-form"} -->
         <div class="wp-block-column contact-form"><!-- wp:cover {"url":"<?php echo esc_url(get_theme_file_uri('assets/images/about-lawyers.png')); ?>","dimRatio":0,"style":{"color":[]}} -->
-            <div class="wp-block-cover"><img class="wp-block-cover__image-background wp-image-793" alt="" src="<?php echo esc_url(get_theme_file_uri('assets/images/about-lawyers.png')); ?>" data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span>
-                <div class="wp-block-cover__inner-container"><!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}},"fontSize":"large"} -->
-                    <p class="has-text-align-center has-large-font-size"></p>
-                    <!-- /wp:paragraph -->
-                </div>
+            <div class="wp-block-cover"><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url(get_theme_file_uri('assets/images/about-lawyers.png')); ?>" data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span>
+                <div class="wp-block-cover__inner-container"></div>
             </div>
             <!-- /wp:cover -->
         </div>

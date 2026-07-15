@@ -14,6 +14,11 @@
       "units": ["px", "em", "rem", "%", "vh", "vw"],
       "spacingSizes": [
         {
+          "slug": "0",
+          "size": "0px",
+          "name": "None"
+        },
+        {
           "slug": "xs",
           "size": "8px",
           "name": "XS"
@@ -110,6 +115,21 @@
           "slug": "accent-10",
           "name": "Faq paragraph",
           "color": "#393939"
+        },
+         {
+          "slug": "accent-11",
+          "name": "Tag border",
+          "color": "#afafaf"
+        },
+         {
+          "slug": "accent-12",
+          "name": "Gold",
+          "color": "#FBC618"
+        },
+         {
+          "slug": "accent-13",
+          "name": "Orange",
+          "color": "#FD8813"
         }
       ],
       "duotone": [
@@ -117,6 +137,11 @@
           "name": "Black and white",
           "slug": "midnight-glow",
           "colors": [ "#FFFFFF", "#000000" ]
+        },
+        {
+          "name": "Dark Grayscale",
+          "slug": "dark-grayscale",
+          "colors": [ "#333333", "#666666" ]
         }
       ]
     },
@@ -303,22 +328,22 @@
       "postTypes": ["page"]
     },
     {
-      "name": "home-version-1",
+      "name": "page-home-version-1",
       "title": "Home Version 1",
       "postTypes": ["page"]
     },
     {
-      "name": "home-version-2",
+      "name": "page-home-version-2",
       "title": "Home Version 2",
       "postTypes": ["page"]
     },
     {
-      "name": "about",
+      "name": "page-about",
       "title": "About Layout",
       "postTypes": ["page"]
     },
     {
-      "name": "contact",
+      "name": "page-contact",
       "title": "Contact Layout",
       "postTypes": ["page"]
     }

@@ -9,7 +9,7 @@
  */
 ?>
 <!-- wp:group {"className":"section-spacing-calculations","layout":{"type":"constrained"}} -->
-<div class="wp-block-group section-spacing-calculations"><!-- wp:group {"className":"calculations-grid","style":{"border":{"top":{"color":"var:preset|color|accent-2","width":"1px"},"right":[],"bottom":[],"left":[]},"spacing":{"padding":{"top":"36px","bottom":"36px"}}},"layout":{"type":"grid","columnCount":4}} -->
+<div class="wp-block-group section-spacing-calculations"><!-- wp:group {"className":"calculations-grid","style":{"border":{"top":{"color":"var:preset|color|accent-2","width":"1px"}},"spacing":{"padding":{"top":"36px","bottom":"36px"}}},"layout":{"type":"grid","columnCount":4}} -->
     <div class="wp-block-group calculations-grid" style="border-top-color:var(--wp--preset--color--accent-2);border-top-width:1px;padding-top:36px;padding-bottom:36px"><!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
         <div class="wp-block-group"><!-- wp:heading {"level":4,"className":"calculations-heading","style":{"typography":{"lineHeight":"56px","textAlign":"center"}}} -->
             <h4 class="wp-block-heading has-text-align-center calculations-heading" style="line-height:56px"><?php echo esc_html(lawfirmpro_get_heading('stat_1_number', '100+')); ?></h4>

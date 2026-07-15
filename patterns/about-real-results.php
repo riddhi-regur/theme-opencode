@@ -13,11 +13,8 @@
 <div class="wp-block-group" style="padding-top:77px;padding-bottom:80px"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"52px","left":"52px"}}}} -->
     <div class="wp-block-columns alignwide"><!-- wp:column -->
         <div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url(get_theme_file_uri('assets/images/real-results.png')); ?>","dimRatio":0,"style":{"color":[]}} -->
-            <div class="wp-block-cover"><img class="wp-block-cover__image-background wp-image-786" alt="" src="<?php echo esc_url(get_theme_file_uri('assets/images/real-results.png')); ?>" data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span>
-                <div class="wp-block-cover__inner-container"><!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}},"fontSize":"large"} -->
-                    <p class="has-text-align-center has-large-font-size"></p>
-                    <!-- /wp:paragraph -->
-                </div>
+            <div class="wp-block-cover"><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url(get_theme_file_uri('assets/images/real-results.png')); ?>" data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span>
+                <div class="wp-block-cover__inner-container"></div>
             </div>
             <!-- /wp:cover -->
         </div>

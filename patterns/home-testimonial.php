@@ -33,7 +33,7 @@
                             <!-- /wp:group -->
 
                             <!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fixed","flexSize":"31px"}}} -->
-                            <figure class="wp-block-image size-full"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/google-icon.png')); ?>" alt="" class="wp-image-296" /></figure>
+                            <figure class="wp-block-image size-full"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/google-icon.png')); ?>" alt="" class="" /></figure>
                             <!-- /wp:image -->
                         </div>
                         <!-- /wp:group -->

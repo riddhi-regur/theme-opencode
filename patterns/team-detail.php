@@ -29,7 +29,7 @@
             <!-- wp:group {"className":"team-details-grid","style":{"border":{"width":"2px"},"spacing":{"padding":{"top":"23px","bottom":"23px","left":"30px"},"margin":{"top":"67px"},"blockGap":"56px"}},"borderColor":"accent-8","layout":{"type":"grid","columnCount":3}} -->
             <div class="wp-block-group team-details-grid has-border-color has-accent-8-border-color" style="border-width:2px;margin-top:67px;padding-top:23px;padding-bottom:23px;padding-left:30px"><!-- wp:group {"className":"team-details-grid-row","style":{"spacing":{"blockGap":"10px","padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0","left":"var:preset|spacing|0","right":"var:preset|spacing|0"},"margin":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0"}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontFamily":"plus-jakarta-sans","layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center","justifyContent":"left"}} -->
                 <div class="wp-block-group team-details-grid-row has-plus-jakarta-sans-font-family" style="margin-top:var(--wp--preset--spacing--0);margin-bottom:var(--wp--preset--spacing--0);padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0);font-style:normal;font-weight:700"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"is-style-default team-details-grid-image","style":{"layout":{"selfStretch":"fixed","flexSize":"38px"}}} -->
-                    <figure class="wp-block-image size-full is-style-default team-details-grid-image"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/Group-2354.png')); ?>" alt="" class="wp-image-2036" /></figure>
+                    <figure class="wp-block-image size-full is-style-default team-details-grid-image"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/Group-2354.png')); ?>" alt="" class="" /></figure>
                     <!-- /wp:image -->
 
                     <!-- wp:shortcode -->
@@ -40,7 +40,7 @@
 
                 <!-- wp:group {"className":"team-details-grid-row","style":{"spacing":{"blockGap":"10px","padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0","left":"var:preset|spacing|0","right":"var:preset|spacing|0"},"margin":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0"}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontFamily":"plus-jakarta-sans","layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center","justifyContent":"left"}} -->
                 <div class="wp-block-group team-details-grid-row has-plus-jakarta-sans-font-family" style="margin-top:var(--wp--preset--spacing--0);margin-bottom:var(--wp--preset--spacing--0);padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0);font-style:normal;font-weight:700"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"team-details-grid-image","style":{"layout":{"selfStretch":"fixed","flexSize":"38px"}}} -->
-                    <figure class="wp-block-image size-full team-details-grid-image"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/Group-2355.png')); ?>" alt="" class="wp-image-2037" /></figure>
+                    <figure class="wp-block-image size-full team-details-grid-image"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/Group-2355.png')); ?>" alt="" class="" /></figure>
                     <!-- /wp:image -->
 
                     <!-- wp:shortcode -->
@@ -60,10 +60,7 @@
         <!-- wp:column {"className":"team-details-image"} -->
         <div class="wp-block-column team-details-image"><!-- wp:cover {"useFeaturedImage":true,"dimRatio":0,"customOverlayColor":"#FFF","isUserOverlayColor":false,"minHeight":400,"isDark":false,"className":"team-details-post-image","layout":{"type":"constrained"}} -->
             <div class="wp-block-cover is-light team-details-post-image" style="min-height:400px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#FFF"></span>
-                <div class="wp-block-cover__inner-container"><!-- wp:paragraph {"placeholder":"Write title…","style":{"typography":{"textAlign":"center"}}} -->
-                    <p class="has-text-align-center"></p>
-                    <!-- /wp:paragraph -->
-                </div>
+                <div class="wp-block-cover__inner-container"></div>
             </div>
             <!-- /wp:cover -->
         </div>

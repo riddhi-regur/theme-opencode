@@ -8,7 +8,7 @@
  */
 ?>
 <!-- wp:cover {"url":"<?php echo esc_url(get_theme_file_uri('assets/images/about-contact.png')); ?>","dimRatio":40,"isUserOverlayColor":true,"sizeSlug":"large","style":{"spacing":{"margin":{"top":"64px"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-cover" style="margin-top:64px"><img class="wp-block-cover__image-background wp-image-798 size-large" alt="" src="<?php echo esc_url(get_theme_file_uri('assets/images/about-contact.png')); ?>" data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-40 has-background-dim"></span>
+<div class="wp-block-cover" style="margin-top:64px"><img class="wp-block-cover__image-background size-large" alt="" src="<?php echo esc_url(get_theme_file_uri('assets/images/about-contact.png')); ?>" data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-40 has-background-dim"></span>
     <div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
         <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","align":"wide","className":"about-heading","style":{"typography":{"fontWeight":"800","lineHeight":"1.1"},"spacing":{"padding":{"right":"20px","left":"20px"}}}} -->
             <h2 class="wp-block-heading alignwide about-heading" style="padding-right:20px;padding-left:20px;font-weight:800;line-height:1.1"><?php echo esc_html(lawfirmpro_get_heading('heading_about_contact', 'Speak to an Experienced Solicitor Today')); ?></h2>
@@ -34,7 +34,7 @@
             <!-- wp:column {"verticalAlignment":"center"} -->
             <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"className":"about-contact","style":{"spacing":{"blockGap":"7px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
                 <div class="wp-block-group about-contact"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fixed","flexSize":"20px"},"css":"transform: rotate(7.97deg);"}} -->
-                    <figure class="wp-block-image size-full has-custom-css"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/call-header-1.png')); ?>" alt="" class="wp-image-117" /></figure>
+                    <figure class="wp-block-image size-full has-custom-css"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/call-header-1.png')); ?>" alt="" class="" /></figure>
                     <!-- /wp:image -->
 
                     <!-- wp:group {"style":{"spacing":{"blockGap":"7px"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center"}} -->

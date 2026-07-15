@@ -42,7 +42,7 @@
                     <!-- /wp:group -->
 
                     <!-- wp:image {"sizeSlug":"full","linkDestination":"none","metadata":{"blockVisibility":{"viewport":{"desktop":false,"tablet":false,"mobile":false}}},"className":"arrow-image button-link","style":{"layout":{"selfStretch":"fixed","flexSize":"40px"}}} -->
-                    <figure class="wp-block-image size-full arrow-image button-link"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/up-arrow.png')); ?>" alt="" class="wp-image-246" /></figure>
+                    <figure class="wp-block-image size-full arrow-image button-link"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/up-arrow.png')); ?>" alt="" class="" /></figure>
                     <!-- /wp:image -->
                 </div>
                 <!-- /wp:group -->

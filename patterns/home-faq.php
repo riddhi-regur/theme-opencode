@@ -23,7 +23,7 @@
                         <div class="wp-block-group faq-header"><!-- wp:post-title {"style":{"typography":{"fontSize":"20px","fontWeight":"500","lineHeight":"28px"}},"fontFamily":"mulish"} /-->
 
                             <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"lawfirmpro-faq-item faq-icon","style":{"layout":{"selfStretch":"fixed","flexSize":"22px"}}} -->
-                            <figure class="wp-block-image size-full lawfirmpro-faq-item faq-icon"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/Group.png')); ?>" alt="" class="wp-image-2502" /></figure>
+                            <figure class="wp-block-image size-full lawfirmpro-faq-item faq-icon"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/Group.png')); ?>" alt="" class="" /></figure>
                             <!-- /wp:image -->
                         </div>
                         <!-- /wp:group -->
@@ -41,11 +41,8 @@
 
         <!-- wp:column {"className":"faq-cover-column","style":{"spacing":{"padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0","left":"var:preset|spacing|0","right":"var:preset|spacing|0"}}}} -->
         <div class="wp-block-column faq-cover-column" style="padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0)"><!-- wp:cover {"url":"<?php echo esc_url(get_theme_file_uri('assets/images/faq.png')); ?>","dimRatio":0,"isUserOverlayColor":true,"minHeight":400,"sizeSlug":"full","className":"faq-img","style":{"spacing":{"padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0","left":"var:preset|spacing|0","right":"var:preset|spacing|0"},"margin":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0"}}},"layout":{"type":"default"}} -->
-            <div class="wp-block-cover faq-img" style="margin-top:var(--wp--preset--spacing--0);margin-bottom:var(--wp--preset--spacing--0);padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0);min-height:400px"><img class="wp-block-cover__image-background wp-image-356 size-full" alt="" src="<?php echo esc_url(get_theme_file_uri('assets/images/faq.png')); ?>" data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span>
-                <div class="wp-block-cover__inner-container"><!-- wp:paragraph {"placeholder":"Write title…","style":{"typography":{"textAlign":"center"}}} -->
-                    <p class="has-text-align-center"></p>
-                    <!-- /wp:paragraph -->
-                </div>
+            <div class="wp-block-cover faq-img" style="margin-top:var(--wp--preset--spacing--0);margin-bottom:var(--wp--preset--spacing--0);padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0);min-height:400px"><img class="wp-block-cover__image-background size-full" alt="" src="<?php echo esc_url(get_theme_file_uri('assets/images/faq.png')); ?>" data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span>
+                <div class="wp-block-cover__inner-container"></div>
             </div>
             <!-- /wp:cover -->
         </div>
