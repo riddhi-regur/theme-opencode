@@ -42,6 +42,21 @@
           "slug": "xl",
           "size": "64px",
           "name": "XL"
+        },
+        {
+          "slug": "2xl",
+          "size": "80px",
+          "name": "2XL"
+        },
+        {
+          "slug": "3xl",
+          "size": "100px",
+          "name": "3XL"
+        },
+        {
+          "slug": "4xl",
+          "size": "120px",
+          "name": "4XL"
         }
       ]
     },
@@ -214,6 +229,7 @@
       "text": "#000000"
     },
      "spacing": {
+      "blockGap": "var:preset|spacing|xs",
       "padding": {
         "left": "clamp(16px, 4vw, 35px)",
         "right": "clamp(16px, 4vw, 35px)"

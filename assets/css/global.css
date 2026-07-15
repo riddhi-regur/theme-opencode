@@ -93,7 +93,7 @@ img {
 
 @media (max-width: 430px) {
     .footer-paragraph{
-        padding-right: 24px !important;
+        padding-right: var(--wp--preset--spacing--md) !important;
     }
     .cf7-row {
         flex-direction: column;
@@ -133,7 +133,7 @@ line-height: 24px !important;
     border: none !important;
     border-bottom: 2px solid #393939 !important;
     background: transparent !important;
-    padding: 8px 16px !important;
+    padding: var(--wp--preset--spacing--xs) var(--wp--preset--spacing--sm) !important;
     color: #000000 !important;
 }
 
@@ -187,7 +187,7 @@ display: flex !important;
 flex-direction: row !important;
 justify-content: center   !important;
 align-items: center !important;
-padding: 16px 64px !important;
+padding: var(--wp--preset--spacing--sm) var(--wp--preset--spacing--xl) !important;
 gap: 8px !important;
 
 background: #000000 !important;
@@ -220,11 +220,11 @@ display: flex !important;
 flex-direction: row !important;
 justify-content: center   !important;
 align-items: center !important;
-padding: 16px 64px !important;
+padding: var(--wp--preset--spacing--sm) var(--wp--preset--spacing--xl) !important;
 gap: 8px !important;
 width: 100% !important;
 background: #000000 !important;
-margin-top: 16px !important;
+margin-top: var(--wp--preset--spacing--sm) !important;
 }
 
 .wpcf7-submit:hover,

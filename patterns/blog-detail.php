@@ -8,8 +8,8 @@
  * Inserter: true
  */
 ?>
-<!-- wp:group {"align":"wide","className":"blog-detail-main","style":{"spacing":{"padding":{"top":"64px","left":"20px","right":"20px"},"blockGap":"56px"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignwide blog-detail-main" style="padding-top:64px;padding-right:20px;padding-left:20px"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
+<!-- wp:group {"align":"wide","className":"blog-detail-main","style":{"spacing":{"padding":{"top":"var:preset|spacing|xl","left":"20px","right":"20px"},"blockGap":"56px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide blog-detail-main" style="padding-top:var(--wp--preset--spacing--xl);padding-right:20px;padding-left:20px"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
     <div class="wp-block-group"><!-- wp:heading {"align":"wide","className":"blog-detail-heading ","style":{"typography":{"fontWeight":"800","lineHeight":"1.1"},"layout":{"selfStretch":"fit","flexSize":null},"spacing":{"padding":{"right":"20px","left":"20px"}}}} -->
         <h2 class="wp-block-heading alignwide blog-detail-heading" style="padding-right:20px;padding-left:20px;font-weight:800;line-height:1.1">Essential Legal Guidance Before Taking Action</h2>
         <!-- /wp:heading -->

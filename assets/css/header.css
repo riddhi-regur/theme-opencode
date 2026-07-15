@@ -78,17 +78,17 @@
     }
 
     .header-v2-row {
-        padding-left: 16px !important;
-    padding-right: 16px !important;
+        padding-left: var(--wp--preset--spacing--sm) !important;
+    padding-right: var(--wp--preset--spacing--sm) !important;
     }
 
     
 }
 .header-v2-row {
         padding-top: 22px !important;
-        padding-bottom: 24px !important;
-        margin-top: 0px !important;
-    margin-bottom: 0px !important;
+        padding-bottom: var(--wp--preset--spacing--md) !important;
+        margin-top: 0 !important;
+    margin-bottom: 0 !important;
     padding-left: 35px !important;
     padding-right: 35px !important;
     }

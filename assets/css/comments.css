@@ -72,7 +72,7 @@ margin-bottom: 6px;
 .comment-form-comment textarea {
     width: 100%;
     height: 144px;
-    padding: 16px;
+    padding: var(--wp--preset--spacing--sm);
     border: 1px solid #ddd;
     background: #fff;
 }
@@ -113,7 +113,7 @@ margin-bottom: 6px;
 @media (max-width: 768px) {
 
     .wp-block-comments {
-    padding: 0px !important;
+    padding: 0 !important;
 }
 
     .comment-form-author,
@@ -130,14 +130,14 @@ margin-bottom: 6px;
 @media (max-width: 430px) {
     .form-submit .submit {
    
-    padding: 16px 24px !important;
+    padding: var(--wp--preset--spacing--sm) var(--wp--preset--spacing--md) !important;
 
 }
  .comment-respond {
         padding: 20px;
     }
     .lawyer-comment-title {
-    margin-bottom: 16px;
+    margin-bottom: var(--wp--preset--spacing--sm);
 }
 
 .lawyer-comment-form {

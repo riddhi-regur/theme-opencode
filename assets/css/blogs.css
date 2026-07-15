@@ -51,7 +51,7 @@
     .blog-detail-stack .wp-block-columns {
         flex-wrap: nowrap !important;
         gap:16px !important;
-        padding-top: 24px !important;
+        padding-top: var(--wp--preset--spacing--md) !important;
     }
 }
 
@@ -97,18 +97,18 @@
   height: 10px !important;
 }
 .blog-detail-main{
-  padding-top: 64px !important;
+  padding-top: var(--wp--preset--spacing--xl) !important;
   padding-left: 35px !important;
   padding-right: 35px !important;
 }
 .blog-detail-heading {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   font-size: 40px !important;
 }
 .blog-detail-paragraph{
-  padding-left: 0px !important;
-  padding-right: 0px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   font-size: 16px !important;
 }
 .blog-detail-committed-img img{
@@ -121,7 +121,7 @@ padding-bottom: 65px !important;
   padding-right: 20px !important;
    margin: 0 !important;
     /* width: calc(50vw + 80%); */
-    margin-top:64px !important;
+    margin-top: var(--wp--preset--spacing--xl) !important;
     margin-right: calc(50% - 50vw) !important;
      margin-left: calc(50% - 50vw) !important;
 }
@@ -130,14 +130,14 @@ padding-bottom: 65px !important;
   /* max-height: 280px !important; */
   object-position: top !important;}
   .comment-separator{
-    margin-top: 24px !important;
-    margin-bottom: 24px !important;
+    margin-top: var(--wp--preset--spacing--md) !important;
+    margin-bottom: var(--wp--preset--spacing--md) !important;
   }
   .blog-detail-title{
   font-size: 40px !important;
   line-height: 48px !important;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
  
 
@@ -145,18 +145,18 @@ padding-bottom: 65px !important;
 
 @media (max-width: 430px) {
   .blogs-main {
-    padding-top: 64px !important;
-     padding-bottom: 64px !important;
+    padding-top: var(--wp--preset--spacing--xl) !important;
+     padding-bottom: var(--wp--preset--spacing--xl) !important;
   }
 
   .blogs-heading {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
   .blogs-paragraph {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
   .blog-social-icons {
@@ -183,7 +183,7 @@ padding-bottom: 65px !important;
 
   .blog-posts-grid {
     margin-top: 56px !important;
-    margin-bottom: 0px !important;
+    margin-bottom: 0 !important;
   }
 
   .blog-posts-group {
@@ -191,7 +191,7 @@ padding-bottom: 65px !important;
   }
 
   .blog-data-group {
-    margin-top: 16px !important;
+    margin-top: var(--wp--preset--spacing--sm) !important;
   }
 
    .blogs-post-tile {
@@ -208,8 +208,8 @@ padding-bottom: 65px !important;
   height: 10px !important;
 }
 .blog-detail-main{
-  padding-left: 16px !important;
-  padding-right: 16px !important;
+  padding-left: var(--wp--preset--spacing--sm) !important;
+  padding-right: var(--wp--preset--spacing--sm) !important;
 }
 .blog-detail-img img{
   max-width: auto !important;
@@ -233,14 +233,14 @@ padding-bottom: 65px !important;
 .blog-detail-title{
   font-size: 40px !important;
   line-height: 48px !important;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 .blogs-detail-post-paragraph{
   font-size: 14px !important;
   line-height: 100% !important;
-  padding-left: 0px !important;
-  padding-right: 0px !important;}
+  padding-left: 0 !important;
+  padding-right: 0 !important;}
   .blog-detail-icons svg{
     width: 14px !important;
     height: 14px !important;
@@ -252,19 +252,19 @@ padding-bottom: 65px !important;
    object-position: 20% !important;
   }
   .blogs-detail-main{
-     padding-top: 64px !important;
+     padding-top: var(--wp--preset--spacing--xl) !important;
   }
   .blog-details-columns {
   
     gap: 0px !important;
-    padding-top: 16px !important;
+    padding-top: var(--wp--preset--spacing--sm) !important;
 }
 
   .blog-details-columns li {
   
   font-size: 16px !important;
   line-height: 24px !important;
-  padding-right: 40px !important;
+  padding-right: var(--wp--preset--spacing--lg) !important;
   padding-bottom: 10px !important;
 }
 .wp-block-list li {
@@ -278,7 +278,7 @@ padding-bottom: 65px !important;
     line-height: 1.5;
 }
 .extra-para{
-  margin-top: 16px !important;
+  margin-top: var(--wp--preset--spacing--sm) !important;
 }
 .blog-detail-column-stack{
   gap: 0px !important;

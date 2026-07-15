@@ -8,8 +8,8 @@
  * Inserter: true
  */
 ?>
-<!-- wp:group {"className":"section-spacing-calculations","style":{"spacing":{"margin":{"top":"64px"}}},"backgroundColor":"accent-5","layout":{"type":"constrained"}} -->
-<div class="wp-block-group section-spacing-calculations has-accent-5-background-color has-background" style="margin-top:64px"><!-- wp:columns {"style":{"spacing":{"padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0","left":"var:preset|spacing|0","right":"var:preset|spacing|0"},"margin":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0"}}}} -->
+<!-- wp:group {"className":"section-spacing-calculations","style":{"spacing":{"margin":{"top":"var:preset|spacing|xl"}}},"backgroundColor":"accent-5","layout":{"type":"constrained"}} -->
+<div class="wp-block-group section-spacing-calculations has-accent-5-background-color has-background" style="margin-top:var(--wp--preset--spacing--xl)"><!-- wp:columns {"style":{"spacing":{"padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0","left":"var:preset|spacing|0","right":"var:preset|spacing|0"},"margin":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0"}}}} -->
     <div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--0);margin-bottom:var(--wp--preset--spacing--0);padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0)"><!-- wp:column {"verticalAlignment":"center","className":"faq-column","layout":{"type":"constrained"}} -->
         <div class="wp-block-column is-vertically-aligned-center faq-column"><!-- wp:heading {"textAlign":"center","className":"faq-heading","style":{"spacing":{"padding":{"bottom":"20px"}}}} -->
             <h2 class="wp-block-heading has-text-align-center faq-heading" style="padding-bottom:20px"><?php echo esc_html(lawfirmpro_get_heading('heading_faq', 'Frequently Asked Questions')); ?></h2>

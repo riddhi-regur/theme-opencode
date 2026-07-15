@@ -9,7 +9,7 @@
 .wp-block-navigation__overlay-container .wp-block-navigation-item {
     width: 100%;
     border-bottom: 1px solid #fff !important;
-    padding: 24px 0;
+    padding: var(--wp--preset--spacing--md) 0;
      text-transform: uppercase;
 }
 

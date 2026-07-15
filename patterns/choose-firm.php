@@ -9,8 +9,8 @@
  * Inserter: true
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"50px","bottom":"50px"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:50px;padding-bottom:50px"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|lg","bottom":"var:preset|spacing|lg"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--lg);padding-bottom:var(--wp--preset--spacing--lg)"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
     <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","align":"wide","className":"about-heading ","style":{"typography":{"fontWeight":"800","lineHeight":"1.1"},"spacing":{"padding":{"right":"20px","left":"20px"}}}} -->
         <h2 class="wp-block-heading alignwide about-heading" style="padding-right:20px;padding-left:20px;font-weight:800;line-height:1.1">How to Choose the Right Lawyer for Your Case</h2>
         <!-- /wp:heading -->

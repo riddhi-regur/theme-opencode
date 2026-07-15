@@ -9,8 +9,8 @@
  * Inserter: true
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"77px","bottom":"80px"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:77px;padding-bottom:80px"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"52px","left":"52px"}}}} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|2xl","bottom":"var:preset|spacing|2xl"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--2xl);padding-bottom:var(--wp--preset--spacing--2xl)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"52px","left":"52px"}}}} -->
     <div class="wp-block-columns alignwide"><!-- wp:column -->
         <div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url(get_theme_file_uri('assets/images/real-results.png')); ?>","dimRatio":0,"style":{"color":[]}} -->
             <div class="wp-block-cover"><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url(get_theme_file_uri('assets/images/real-results.png')); ?>" data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span>

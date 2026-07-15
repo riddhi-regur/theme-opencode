@@ -16,8 +16,8 @@
 <p class="consultation-paragraph has-text-color has-plus-jakarta-sans-font-family" style="padding-right:20px;line-height:1.2">Ready to discuss your legal needs? Contact us today for a free initial consultation with our experienced team.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"right":"50px","top":"48px"},"blockGap":"var:preset|spacing|0"}},"layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap"}} -->
-<div class="wp-block-group" style="padding-top:48px;padding-right:50px"><!-- wp:group {"style":{"border":{"width":"1px"},"dimensions":{"minHeight":"0px"},"layout":{"selfStretch":"fit","flexSize":""},"spacing":{"padding":{"top":"14px","bottom":"14px","left":"var:preset|spacing|md","right":"var:preset|spacing|md"},"blockGap":"10px"}},"borderColor":"accent-6","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|lg","top":"var:preset|spacing|lg"},"blockGap":"var:preset|spacing|0"}},"layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--lg);padding-right:var(--wp--preset--spacing--lg)"><!-- wp:group {"style":{"border":{"width":"1px"},"dimensions":{"minHeight":"0px"},"layout":{"selfStretch":"fit","flexSize":""},"spacing":{"padding":{"top":"14px","bottom":"14px","left":"var:preset|spacing|md","right":"var:preset|spacing|md"},"blockGap":"10px"}},"borderColor":"accent-6","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group has-border-color has-accent-6-border-color" style="border-width:1px;min-height:0px;padding-top:14px;padding-right:var(--wp--preset--spacing--md);padding-bottom:14px;padding-left:var(--wp--preset--spacing--md)"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|dark-grayscale"},"layout":{"selfStretch":"fixed","flexSize":"24px"}}} -->
 <figure class="wp-block-image size-full"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/call-header.png')); ?>" alt="" class=""/></figure>
 <!-- /wp:image -->

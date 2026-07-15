@@ -52,7 +52,7 @@
 @media (max-width: 1024px) {
   .faq-title {
     font-size: 18px;
-    padding-right: 40px;
+    padding-right: var(--wp--preset--spacing--lg);
   }
 }
 

@@ -8,8 +8,8 @@
  * Inserter: true
  */
 ?>
-<!-- wp:group {"className":"service-details-section1","style":{"spacing":{"padding":{"top":"90px","bottom":"90px"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group service-details-section1" style="padding-top:90px;padding-bottom:90px"><!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0","left":"var:preset|spacing|0","right":"var:preset|spacing|0"},"blockGap":{"top":"var:preset|spacing|sm","left":"16px"}}}} -->
+<!-- wp:group {"className":"service-details-section1","style":{"spacing":{"padding":{"top":"var:preset|spacing|3xl","bottom":"var:preset|spacing|3xl"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group service-details-section1" style="padding-top:var(--wp--preset--spacing--3xl);padding-bottom:var(--wp--preset--spacing--3xl)"><!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0","left":"var:preset|spacing|0","right":"var:preset|spacing|0"},"blockGap":{"top":"var:preset|spacing|sm","left":"16px"}}}} -->
     <div class="wp-block-columns are-vertically-aligned-top" style="padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0)"><!-- wp:column {"verticalAlignment":"top","width":"px","style":{"spacing":{"padding":{"left":"var:preset|spacing|0","right":"var:preset|spacing|0","top":"var:preset|spacing|0","bottom":"var:preset|spacing|0"}}},"backgroundColor":"secondary"} -->
         <div class="wp-block-column is-vertically-aligned-top has-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0)"><!-- wp:group {"className":"service-detail-section1-stack","style":{"spacing":{"blockGap":"6px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
             <div class="wp-block-group service-detail-section1-stack">                <!-- wp:heading {"textAlign":"center","className":"service-detail-section1-heading","style":{"typography":{"fontWeight":"800","lineHeight":"1.1"},"spacing":{"padding":{"right":"20px"}}}} -->
@@ -102,8 +102,8 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:cover {"overlayColor":"accent-5","isUserOverlayColor":true,"isDark":false,"align":"full","className":"service-detail-section2","style":{"spacing":{"padding":{"top":"62px","bottom":"62px"},"blockGap":"32px"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-cover alignfull is-light service-detail-section2" style="padding-top:62px;padding-bottom:62px"><span aria-hidden="true" class="wp-block-cover__background has-accent-5-background-color has-background-dim-100 has-background-dim"></span>
+<!-- wp:cover {"overlayColor":"accent-5","isUserOverlayColor":true,"isDark":false,"align":"full","className":"service-detail-section2","style":{"spacing":{"padding":{"top":"var:preset|spacing|xl","bottom":"var:preset|spacing|xl"},"blockGap":"32px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignfull is-light service-detail-section2" style="padding-top:var(--wp--preset--spacing--xl);padding-bottom:var(--wp--preset--spacing--xl)"><span aria-hidden="true" class="wp-block-cover__background has-accent-5-background-color has-background-dim-100 has-background-dim"></span>
     <div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
         <div class="wp-block-group">        <!-- wp:heading {"textAlign":"center","align":"wide","className":"service-detail-section2-heading","style":{"typography":{"fontWeight":"800","lineHeight":"1.1"},"spacing":{"padding":{"right":"20px","left":"20px"}}}} -->
             <h2 class="wp-block-heading alignwide service-detail-section2-heading" style="padding-right:20px;padding-left:20px;font-weight:800;line-height:1.1">Funding Solutions For Growing Businesses</h2>
@@ -256,8 +256,8 @@
 </div>
 <!-- /wp:cover -->
 
-<!-- wp:group {"align":"wide","className":"service-detail-section3","style":{"spacing":{"padding":{"top":"64px","bottom":"64px"},"blockGap":"40px"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignwide service-detail-section3" style="padding-top:64px;padding-bottom:64px"><!-- wp:group {"className":"service-detail-section3-stack","style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<!-- wp:group {"align":"wide","className":"service-detail-section3","style":{"spacing":{"padding":{"top":"var:preset|spacing|xl","bottom":"var:preset|spacing|xl"},"blockGap":"40px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide service-detail-section3" style="padding-top:var(--wp--preset--spacing--xl);padding-bottom:var(--wp--preset--spacing--xl)"><!-- wp:group {"className":"service-detail-section3-stack","style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
     <div class="wp-block-group service-detail-section3-stack">        <!-- wp:heading {"textAlign":"center","className":"service-detail-section3-heading","style":{"typography":{"fontWeight":"800","lineHeight":"1.1"},"spacing":{"padding":{"right":"20px","left":"20px"}}}} -->
         <h2 class="wp-block-heading service-detail-section3-heading" style="padding-right:20px;padding-left:20px;font-weight:800;line-height:1.1">Assets With &nbsp;Assurance Of Expert Guidance</h2>
         <!-- /wp:heading -->

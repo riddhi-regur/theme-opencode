@@ -98,7 +98,7 @@ flex-direction: row;
 
       .wp-block-group.hero-content-stack {
           align-items: center !important;
-          padding-right: 0px !important;
+          padding-right: 0 !important;
       }
 
       .hero-content-heading {
@@ -108,8 +108,8 @@ flex-direction: row;
 
       .hero1-content-heading {
           font-size: 40px !important;
-          padding-right: 0px !important;
-           padding-left: 0px !important;
+          padding-right: 0 !important;
+           padding-left: 0 !important;
       }
 
       .challanges-heading {
@@ -126,7 +126,7 @@ flex-direction: row;
       }
 
       .offers-paragraph {
-          padding: 0px !important;
+          padding: 0 !important;
            font-size: 16px !important;
       }
 
@@ -200,23 +200,23 @@ flex-direction: row;
     padding-top:60px !important
   }
   .about-testimonial{
-    margin-top: 24px !important;
+    margin-top: var(--wp--preset--spacing--md) !important;
   }
   .about-faq{
-    margin-top: 64px !important;
+    margin-top: var(--wp--preset--spacing--xl) !important;
   }
 
   }
    @media (max-width: 430px) {
 
      .wp-block-group.hero-content-stack {
-          padding-top: 80px !important;
-          padding-right: 0px !important;
+          padding-top: var(--wp--preset--spacing--2xl) !important;
+          padding-right: 0 !important;
           align-items: flex-start !important;
       }
       .hero1-content-stack {
         padding-top: 133px !important;
-          padding-right: 0px !important;
+          padding-right: 0 !important;
           align-items: flex-start !important;
       }
 
@@ -224,7 +224,7 @@ flex-direction: row;
           text-align: left !important;
       }
       .section-spacing-legal-challenges{
-        margin-top: 64px !important;
+        margin-top: var(--wp--preset--spacing--xl) !important;
       }
       .legal-challenge-hero{
         min-height: 255px  !important;
@@ -261,10 +261,10 @@ flex-direction: row;
     min-height: 394px !important;
   }
   .section-spacing-calculations{
-margin-top: 64px !important;
+margin-top: var(--wp--preset--spacing--xl) !important;
   }
   .calculations-grid{
-    padding: 40px 0;
+    padding: var(--wp--preset--spacing--lg) 0;
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   
@@ -272,7 +272,7 @@ margin-top: 64px !important;
     padding-top:60px !important
   }
    .faq-heading {
-         padding-right: 100px !important;
+         padding-right: var(--wp--preset--spacing--3xl) !important;
       }
       .faq-img img{
         height: 435px !important;
@@ -281,10 +281,10 @@ margin-top: 64px !important;
         min-height: 435px !important;
       }
       .blogs-main-homepage{
-        padding-bottom: 64px !important;
+        padding-bottom: var(--wp--preset--spacing--xl) !important;
       }
       .protect-rights-main {
-    margin-top: 64px !important;
+    margin-top: var(--wp--preset--spacing--xl) !important;
   }
    .protect-rights-heading-group {
     gap: 16px !important;
@@ -335,7 +335,7 @@ margin-top: 64px !important;
    }
  .homepage-v2-faq-main{
     margin-top: 44px !important;
-    margin-bottom: 0px !important;
+    margin-bottom: 0 !important;
   }
     .about-calculations-grid{
     padding-top: 0 !important;

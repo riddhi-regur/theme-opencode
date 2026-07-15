@@ -7,8 +7,8 @@
  * Inserter: true
  */
 ?>
-<!-- wp:group {"className":"section-spacing-legal-challenges","style":{"spacing":{"margin":{"top":"64px","bottom":"64px"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group section-spacing-legal-challenges" style="margin-top:64px;margin-bottom:64px"><!-- wp:columns -->
+<!-- wp:group {"className":"section-spacing-legal-challenges","style":{"spacing":{"margin":{"top":"var:preset|spacing|xl","bottom":"var:preset|spacing|xl"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group section-spacing-legal-challenges" style="margin-top:var(--wp--preset--spacing--xl);margin-bottom:var(--wp--preset--spacing--xl)"><!-- wp:columns -->
     <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center"} -->
         <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"className":"legal-challenges-stack","style":{"spacing":{"blockGap":"var:preset|spacing|0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
             <div class="wp-block-group legal-challenges-stack"><!-- wp:heading {"textAlign":"center","level":2,"className":"challanges-heading","style":{"typography":{"fontWeight":"300"}}} -->

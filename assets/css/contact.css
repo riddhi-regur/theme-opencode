@@ -12,11 +12,11 @@
   }
 
   .contact-form-row{
-    padding: 0px 24px!important;
+    padding: 0 var(--wp--preset--spacing--md) !important;
   }
 
     .contact-form-row .wpcf7-form{
-    padding: 0px !important;
+    padding: 0 !important;
   }
 
     .contact-form-row .wpcf7-form p{
@@ -40,13 +40,13 @@
   }
 @media (max-width: 1024px) {
   .contact-heading {
-    padding-left: 100px !important;
-    padding-right: 100px !important;
+    padding-left: var(--wp--preset--spacing--3xl) !important;
+    padding-right: var(--wp--preset--spacing--3xl) !important;
   }
 
    .contact-paragraph {
-    padding-left: 100px !important;
-    padding-right: 100px !important;
+    padding-left: var(--wp--preset--spacing--3xl) !important;
+    padding-right: var(--wp--preset--spacing--3xl) !important;
   }
 }
 
@@ -96,11 +96,11 @@
 
 @media (max-width: 430px) {
   .contact-main {
-    padding-top: 64px !important;
+    padding-top: var(--wp--preset--spacing--xl) !important;
   }
   .consultation-main{
-    padding-top: 64px !important;
-    padding-bottom: 64px !important;
+    padding-top: var(--wp--preset--spacing--xl) !important;
+    padding-bottom: var(--wp--preset--spacing--xl) !important;
   }
 
 
@@ -110,8 +110,8 @@
   }
 
   .contact-paragraph {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
   .contact-heading-group {
@@ -120,7 +120,7 @@
 
   .contact-details{
     grid-template-columns: repeat(1, 1fr) !important;
-    padding-top: 64px !important;
+    padding-top: var(--wp--preset--spacing--xl) !important;
   }
 .contact-details-group{
     padding: 30px !important;
