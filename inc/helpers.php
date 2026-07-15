@@ -58,3 +58,16 @@ function lawfirmpro_trim_text($text = '', $length = 100, $suffix = '...')
 
     return substr($text, 0, $length) . $suffix;
 }
+
+/**
+ * Get a text/paragraph value from theme options with a fallback
+ *
+ * @param string $key     The option key.
+ * @param string $default Default fallback text.
+ * @return string
+ */
+function lawfirmpro_get_text($key, $default = '')
+{
+    $value = lawfirmpro_get_contact($key);
+    return !empty($value) ? $value : $default;
+}

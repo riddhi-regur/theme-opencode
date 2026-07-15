@@ -12,11 +12,11 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|lg","bottom":"var:preset|spacing|lg"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--lg);padding-bottom:var(--wp--preset--spacing--lg)"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
     <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","align":"wide","className":"about-heading ","style":{"typography":{"fontWeight":"800","lineHeight":"1.1"},"spacing":{"padding":{"right":"20px","left":"20px"}}}} -->
-        <h2 class="wp-block-heading alignwide about-heading" style="padding-right:20px;padding-left:20px;font-weight:800;line-height:1.1">How to Choose the Right Lawyer for Your Case</h2>
+        <h2 class="wp-block-heading alignwide about-heading" style="padding-right:20px;padding-left:20px;font-weight:800;line-height:1.1"><?php echo esc_html(lawfirmpro_get_heading('heading_choose_firm', 'How to Choose the Right Lawyer for Your Case')); ?></h2>
         <!-- /wp:heading -->
 
         <!-- wp:paragraph {"align":"wide","className":"about-paragraph ","style":{"typography":{"textAlign":"center"},"spacing":{"padding":{"right":"20px","left":"20px"}}},"fontFamily":"plus-jakarta-sans"} -->
-        <p class="has-text-align-center alignwide about-paragraph has-plus-jakarta-sans-font-family" style="padding-right:20px;padding-left:20px">Choosing the right solicitor is essential to achieving the best outcome for your case. Our experienced team provides honest, transparent advice to help you make informed decisions.</p>
+        <p class="has-text-align-center alignwide about-paragraph has-plus-jakarta-sans-font-family" style="padding-right:20px;padding-left:20px"><?php echo esc_html(lawfirmpro_get_text('text_choose_firm', 'Choosing the right solicitor is essential to achieving the best outcome for your case. Our experienced team provides honest, transparent advice to help you make informed decisions.')); ?></p>
         <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->

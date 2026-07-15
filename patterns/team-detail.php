@@ -17,11 +17,11 @@
                 <!-- wp:post-excerpt {"showMoreOnNewLine":false,"className":"team-details-paragraph","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","lineHeight":"1.5","letterSpacing":"0%"}},"textColor":"accent","fontFamily":"plus-jakarta-sans"} /-->
 
                 <!-- wp:paragraph {"className":"team-details-paragraph","style":{"spacing":{"padding":{"top":"18px","bottom":"18px"}},"typography":{"lineHeight":"1.5"}},"fontFamily":"plus-jakarta-sans"} -->
-                <p class="team-details-paragraph has-plus-jakarta-sans-font-family" style="padding-top:18px;padding-bottom:18px;line-height:1.5">Donec consectetur vulputate nulla id varius. Sed ornare ante volutpat, volutpat mauris eleifend, cursus nibh. Vivamus posuere fermentum lectus eget tempus. Duis fermentum tristique justo, quis tempor elit finibus et. Integer suscipit pulvinar volutpat. Nulla venenatis dui vitae ligula laoreet iaculis. Donec tristique sollicitudin quam, et malesuada ex vestibulum vel. Duis risus sem, congue nec vehicula porttitor, gravida ac mauris.</p>
+                <p class="team-details-paragraph has-plus-jakarta-sans-font-family" style="padding-top:18px;padding-bottom:18px;line-height:1.5"><?php echo esc_html(get_the_content()); ?></p>
                 <!-- /wp:paragraph -->
 
                 <!-- wp:paragraph {"className":"team-details-paragraph","style":{"typography":{"lineHeight":"1.5"}},"fontFamily":"plus-jakarta-sans"} -->
-                <p class="team-details-paragraph has-plus-jakarta-sans-font-family" style="line-height:1.5">Quisque id lorem risus. Curabitur id luctus quam rhoncus ultrices tortor sed volutpat arcu feugiat urabitur mattis vehicula ligula, non commodo massa auctor lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque eu sagittis dui.</p>
+                <p class="team-details-paragraph has-plus-jakarta-sans-font-family" style="line-height:1.5"><?php echo esc_html(get_the_excerpt()); ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->

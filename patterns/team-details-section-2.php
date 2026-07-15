@@ -18,7 +18,7 @@
                     <!-- /wp:paragraph -->
 
                     <!-- wp:heading {"className":"team-details-heading","style":{"typography":{"fontWeight":"800","lineHeight":"1.1"}}} -->
-                    <h2 class="wp-block-heading team-details-heading" style="font-weight:800;line-height:1.1">Education</h2>
+                    <h2 class="wp-block-heading team-details-heading" style="font-weight:800;line-height:1.1"><?php echo esc_html(lawfirmpro_get_label('label_education', 'Education')); ?></h2>
                     <!-- /wp:heading -->
                 </div>
                 <!-- /wp:group -->
@@ -35,7 +35,7 @@
                             <!-- /wp:heading -->
 
                             <!-- wp:paragraph {"className":"team-details-paragraph","style":{"typography":{"lineHeight":"1.5"},"spacing":{"margin":{"right":"20px"}}},"fontFamily":"plus-jakarta-sans"} -->
-                            <p class="team-details-paragraph has-plus-jakarta-sans-font-family" style="margin-right:20px;line-height:1.5">We pride ourselves on delivering practical, results-driven legal advice with a personal touch.</p>
+                            <p class="team-details-paragraph has-plus-jakarta-sans-font-family" style="margin-right:20px;line-height:1.5"><?php echo esc_html(get_the_content()); ?></p>
                             <!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->
@@ -57,7 +57,7 @@
                             <!-- /wp:heading -->
 
                             <!-- wp:paragraph {"className":"team-details-paragraph","style":{"typography":{"lineHeight":"1.5"},"spacing":{"margin":{"right":"20px"}}},"fontFamily":"plus-jakarta-sans"} -->
-                            <p class="team-details-paragraph has-plus-jakarta-sans-font-family" style="margin-right:20px;line-height:1.5">We pride ourselves on delivering practical, results-driven legal advice with a personal touch.</p>
+                            <p class="team-details-paragraph has-plus-jakarta-sans-font-family" style="margin-right:20px;line-height:1.5"><?php echo esc_html(get_the_content()); ?></p>
                             <!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->
@@ -79,7 +79,7 @@
                             <!-- /wp:heading -->
 
                             <!-- wp:paragraph {"className":"team-details-paragraph","style":{"typography":{"lineHeight":"1.5"},"spacing":{"margin":{"right":"20px"}}},"fontFamily":"plus-jakarta-sans"} -->
-                            <p class="team-details-paragraph has-plus-jakarta-sans-font-family" style="margin-right:20px;line-height:1.5">We pride ourselves on delivering practical, results-driven legal advice with a personal touch.</p>
+                            <p class="team-details-paragraph has-plus-jakarta-sans-font-family" style="margin-right:20px;line-height:1.5"><?php echo esc_html(get_the_content()); ?></p>
                             <!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->
@@ -97,7 +97,7 @@
                     <!-- /wp:paragraph -->
 
                     <!-- wp:heading {"className":"team-details-heading","style":{"typography":{"fontWeight":"800","lineHeight":"1.1"}},"textColor":"secondary"} -->
-                    <h2 class="wp-block-heading team-details-heading has-secondary-color has-text-color" style="font-weight:800;line-height:1.1"><strong>Career</strong></h2>
+                    <h2 class="wp-block-heading team-details-heading has-secondary-color has-text-color" style="font-weight:800;line-height:1.1"><strong><?php echo esc_html(lawfirmpro_get_label('label_career', 'Career')); ?></strong></h2>
                     <!-- /wp:heading -->
                 </div>
                 <!-- /wp:group -->
@@ -114,7 +114,7 @@
                             <!-- /wp:heading -->
 
                             <!-- wp:paragraph {"className":"team-details-paragraph","style":{"typography":{"lineHeight":"1.5"},"spacing":{"margin":{"right":"20px"}}},"fontFamily":"plus-jakarta-sans"} -->
-                            <p class="team-details-paragraph has-plus-jakarta-sans-font-family" style="margin-right:20px;line-height:1.5">We pride ourselves on delivering practical, results-driven legal advice with a personal touch.</p>
+                            <p class="team-details-paragraph has-plus-jakarta-sans-font-family" style="margin-right:20px;line-height:1.5"><?php echo esc_html(get_the_content()); ?></p>
                             <!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->
@@ -136,7 +136,7 @@
                             <!-- /wp:heading -->
 
                             <!-- wp:paragraph {"className":"team-details-paragraph","style":{"typography":{"lineHeight":"1.5"},"spacing":{"margin":{"right":"20px"}}},"fontFamily":"plus-jakarta-sans"} -->
-                            <p class="team-details-paragraph has-plus-jakarta-sans-font-family" style="margin-right:20px;line-height:1.5">We pride ourselves on delivering practical, results-driven legal advice with a personal touch.</p>
+                            <p class="team-details-paragraph has-plus-jakarta-sans-font-family" style="margin-right:20px;line-height:1.5"><?php echo esc_html(get_the_content()); ?></p>
                             <!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->
@@ -158,7 +158,7 @@
                             <!-- /wp:heading -->
 
                             <!-- wp:paragraph {"className":"team-details-paragraph","style":{"typography":{"lineHeight":"1.5"},"spacing":{"margin":{"right":"20px"}}},"fontFamily":"plus-jakarta-sans"} -->
-                            <p class="team-details-paragraph has-plus-jakarta-sans-font-family" style="margin-right:20px;line-height:1.5">We pride ourselves on delivering practical, results-driven legal advice with a personal touch.</p>
+                            <p class="team-details-paragraph has-plus-jakarta-sans-font-family" style="margin-right:20px;line-height:1.5"><?php echo esc_html(get_the_content()); ?></p>
                             <!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->

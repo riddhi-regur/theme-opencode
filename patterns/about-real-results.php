@@ -29,7 +29,7 @@
             <!-- /wp:group -->
 
             <!-- wp:paragraph {"className":"practice-area-paragraph","fontFamily":"plus-jakarta-sans"} -->
-            <p class="practice-area-paragraph has-plus-jakarta-sans-font-family">Our team brings together specialists across multiple areas of law, offering tailored legal solutions for individuals and businesses. We take time to understand your circumstances before developing practical strategies focused on achieving the best possible outcome.</p>
+            <p class="practice-area-paragraph has-plus-jakarta-sans-font-family"><?php echo esc_html(lawfirmpro_get_text('text_about_results', 'Our team brings together specialists across multiple areas of law, offering tailored legal solutions for individuals and businesses. We take time to understand your circumstances before developing practical strategies focused on achieving the best possible outcome.')); ?></p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:column -->

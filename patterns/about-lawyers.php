@@ -18,7 +18,7 @@
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"className":"practice-area-paragraph","style":{"spacing":{"margin":{"right":"var:preset|spacing|lg"}}},"fontFamily":"plus-jakarta-sans"} -->
-                <p class="practice-area-paragraph has-plus-jakarta-sans-font-family" style="margin-right:var(--wp--preset--spacing--lg)">Legal matters can be stressful, but you don't have to face them alone. From your first consultation to the final resolution, our solicitors provide clear communication, honest advice, and dedicated support throughout your legal journey.</p>
+                <p class="practice-area-paragraph has-plus-jakarta-sans-font-family" style="margin-right:var(--wp--preset--spacing--lg)"><?php echo esc_html(lawfirmpro_get_text('text_about_lawyers', 'Legal matters can be stressful, but you don\'t have to face them alone. From your first consultation to the final resolution, our solicitors provide clear communication, honest advice, and dedicated support throughout your legal journey.')); ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->

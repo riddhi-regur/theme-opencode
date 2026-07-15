@@ -9,11 +9,11 @@
  */
 ?>
 <!-- wp:heading {"className":"consultation-heading","style":{"typography":{"lineHeight":"1.1"}}} -->
-<h2 class="wp-block-heading consultation-heading" style="line-height:1.1">Book a Free Consultation</h2>
+<h2 class="wp-block-heading consultation-heading" style="line-height:1.1"><?php echo esc_html(lawfirmpro_get_heading('heading_consultation', 'Book a Free Consultation')); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"consultation-paragraph","style":{"typography":{"lineHeight":"1.2"},"spacing":{"padding":{"right":"20px"}}},"fontFamily":"plus-jakarta-sans"} -->
-<p class="consultation-paragraph has-text-color has-plus-jakarta-sans-font-family" style="padding-right:20px;line-height:1.2">Ready to discuss your legal needs? Contact us today for a free initial consultation with our experienced team.</p>
+<p class="consultation-paragraph has-text-color has-plus-jakarta-sans-font-family" style="padding-right:20px;line-height:1.2"><?php echo esc_html(lawfirmpro_get_text('text_consultation', 'Ready to discuss your legal needs? Contact us today for a free initial consultation with our experienced team.')); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|lg","top":"var:preset|spacing|lg"},"blockGap":"var:preset|spacing|0"}},"layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap"}} -->

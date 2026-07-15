@@ -37,15 +37,15 @@
         <div class="wp-block-columns blog-details-columns"><!-- wp:column {"width":"335px"} -->
             <div class="wp-block-column" style="flex-basis:100%"><!-- wp:list {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent"}}}},"textColor":"accent"} -->
                 <ul class="wp-block-list has-accent-color has-text-color has-link-color"><!-- wp:list-item {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","lineHeight":"1.5","letterSpacing":"0%"}},"textColor":"accent","fontFamily":"plus-jakarta-sans"} -->
-                    <li class="has-accent-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400;letter-spacing:0%;line-height:1.5"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">✓</mark></strong> Maecenas dignissim nisi convallis placerat</li>
+                    <li class="has-accent-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400;letter-spacing:0%;line-height:1.5"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">✓</mark></strong></li>
                     <!-- /wp:list-item -->
 
                     <!-- wp:list-item {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","lineHeight":"1.5","letterSpacing":"0%"}},"textColor":"accent","fontFamily":"plus-jakarta-sans"} -->
-                    <li class="has-accent-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400;letter-spacing:0%;line-height:1.5"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">✓</mark></strong> Quis sem cursus nullam efficitur nisl</li>
+                    <li class="has-accent-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400;letter-spacing:0%;line-height:1.5"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">✓</mark></strong></li>
                     <!-- /wp:list-item -->
 
                     <!-- wp:list-item {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","lineHeight":"1.5","letterSpacing":"0%"}},"textColor":"accent","fontFamily":"plus-jakarta-sans"} -->
-                    <li class="has-accent-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400;letter-spacing:0%;line-height:1.5"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">✓</mark></strong> Vivamus nisl consectetur quis scelerisque</li>
+                    <li class="has-accent-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400;letter-spacing:0%;line-height:1.5"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">✓</mark></strong></li>
                     <!-- /wp:list-item -->
                 </ul>
                 <!-- /wp:list -->
@@ -55,15 +55,15 @@
             <!-- wp:column {"width":"333px"} -->
             <div class="wp-block-column" style="flex-basis:100%"><!-- wp:list {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent"}}}},"textColor":"accent"} -->
                 <ul class="wp-block-list has-accent-color has-text-color has-link-color"><!-- wp:list-item {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","lineHeight":"1.5","letterSpacing":"0%"}},"textColor":"accent","fontFamily":"plus-jakarta-sans"} -->
-                    <li class="has-accent-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400;letter-spacing:0%;line-height:1.5"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">✓</mark></strong> Vestibul accumsan pulvinar felis dignissim</li>
+                    <li class="has-accent-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400;letter-spacing:0%;line-height:1.5"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">✓</mark></strong></li>
                     <!-- /wp:list-item -->
 
                     <!-- wp:list-item {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","lineHeight":"1.5","letterSpacing":"0%"}},"textColor":"accent","fontFamily":"plus-jakarta-sans"} -->
-                    <li class="has-accent-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400;letter-spacing:0%;line-height:1.5"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">✓</mark></strong> Tristique ligula lorem suscipit consectetur</li>
+                    <li class="has-accent-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400;letter-spacing:0%;line-height:1.5"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">✓</mark></strong></li>
                     <!-- /wp:list-item -->
 
                     <!-- wp:list-item {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","lineHeight":"1.5","letterSpacing":"0%"}},"textColor":"accent","fontFamily":"plus-jakarta-sans"} -->
-                    <li class="has-accent-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400;letter-spacing:0%;line-height:1.5"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">✓</mark></strong> Fusce ligula elementum fermentum quam</li>
+                    <li class="has-accent-color has-text-color has-link-color has-plus-jakarta-sans-font-family" style="font-size:16px;font-style:normal;font-weight:400;letter-spacing:0%;line-height:1.5"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">✓</mark></strong></li>
                     <!-- /wp:list-item -->
                 </ul>
                 <!-- /wp:list -->
@@ -84,7 +84,7 @@
 
         <!-- wp:column {"verticalAlignment":"center","width":"421px"} -->
         <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:100%"><!-- wp:heading {"className":"practice-area-heading","style":{"typography":{"fontSize":"40px","fontWeight":"800","lineHeight":"1.2"}}} -->
-            <h2 class="wp-block-heading practice-area-heading" style="font-size:40px;font-weight:800;line-height:1.2">Committed to Justice and Client Success</h2>
+            <h2 class="wp-block-heading practice-area-heading" style="font-size:40px;font-weight:800;line-height:1.2"><?php echo esc_html(lawfirmpro_get_heading('heading_blog_testimonial', 'Committed to Justice and Client Success')); ?></h2>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph {"className":"blog-detail-paragraph extra-para","style":{"typography":{"lineHeight":"1.5"}},"fontFamily":"plus-jakarta-sans"} -->
@@ -97,7 +97,7 @@
 
     <!-- wp:group {"className":"blog-detail-cover-heading","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"spacing":{"margin":{"top":"64px","bottom":"64px"},"padding":{"top":"40px","bottom":"40px","left":"20px","right":"20px"}}},"backgroundColor":"primary","textColor":"secondary","layout":{"type":"flex","orientation":"vertical"}} -->
     <div class="wp-block-group blog-detail-cover-heading has-secondary-color has-primary-background-color has-text-color has-background has-link-color" style="margin-top:64px;margin-bottom:64px;padding-top:40px;padding-right:20px;padding-bottom:40px;padding-left:20px"><!-- wp:heading {"className":"blog-black-heading","style":{"typography":{"fontSize":"32px","fontWeight":"800","lineHeight":"1.1"}},"textColor":"secondary"} -->
-        <h2 class="wp-block-heading blog-black-heading has-secondary-color has-text-color" style="font-size:32px;font-weight:800;line-height:1.1">“Strong legal representation isn’t just about winning cases - it’s about protecting your rights and securing your future.”</h2>
+        <h2 class="wp-block-heading blog-black-heading has-secondary-color has-text-color" style="font-size:32px;font-weight:800;line-height:1.1"><?php echo esc_html(lawfirmpro_get_heading('heading_blog_quote', '“Strong legal representation isn’t just about winning cases - it’s about protecting your rights and securing your future.”')); ?></h2>
         <!-- /wp:heading -->
     </div>
     <!-- /wp:group -->

@@ -15,7 +15,7 @@
             <!-- /wp:heading -->
 
             <!-- wp:paragraph {"align":"wide","className":"about-paragraph","style":{"typography":{"textAlign":"center","lineHeight":"1.5"}},"fontFamily":"plus-jakarta-sans"} -->
-            <p class="has-text-align-center alignwide about-paragraph has-plus-jakarta-sans-font-family" style="line-height:1.5">Whether you need immediate legal advice or want to discuss your options, our friendly team is here to help.</p>
+            <p class="has-text-align-center alignwide about-paragraph has-plus-jakarta-sans-font-family" style="line-height:1.5"><?php echo esc_html(lawfirmpro_get_text('text_about_contact', 'Whether you need immediate legal advice or want to discuss your options, our friendly team is here to help.')); ?></p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -24,7 +24,7 @@
         <div class="wp-block-columns"><!-- wp:column -->
             <div class="wp-block-column"><!-- wp:buttons {"className":"about-contact-btn","layout":{"type":"flex","justifyContent":"right"}} -->
                 <div class="wp-block-buttons about-contact-btn"><!-- wp:button {"backgroundColor":"secondary","textColor":"primary","className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"800","textTransform":"uppercase","lineHeight":"1.5","letterSpacing":"-0.1%"},"spacing":{"padding":{"left":"20px","right":"20px","top":"12px","bottom":"12px"}}},"fontFamily":"plus-jakarta-sans"} -->
-                    <div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-primary-color has-secondary-background-color has-text-color has-background has-link-color has-plus-jakarta-sans-font-family has-custom-font-size wp-element-button" href="<?php echo esc_url(lawfirmpro_get_page_url('contact_page_id', '/contact/')); ?>" style="padding-top:12px;padding-right:20px;padding-bottom:12px;padding-left:20px;font-size:16px;font-style:normal;font-weight:800;letter-spacing:-0.1%;line-height:1.5;text-transform:uppercase">request a quote ➔</a></div>
+                    <div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-primary-color has-secondary-background-color has-text-color has-background has-link-color has-plus-jakarta-sans-font-family has-custom-font-size wp-element-button" href="<?php echo esc_url(lawfirmpro_get_page_url('contact_page_id', '/contact/')); ?>" style="padding-top:12px;padding-right:20px;padding-bottom:12px;padding-left:20px;font-size:16px;font-style:normal;font-weight:800;letter-spacing:-0.1%;line-height:1.5;text-transform:uppercase"><?php echo esc_html(lawfirmpro_get_label('btn_request_quote', 'Request a Quote')); ?> ➔</a></div>
                     <!-- /wp:button -->
                 </div>
                 <!-- /wp:buttons -->

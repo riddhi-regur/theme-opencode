@@ -50,6 +50,7 @@ function lawfirmpro_theme_settings_page()
             <a href="?page=lawfirmpro-theme-settings&tab=stats" class="nav-tab <?php echo $active_tab === 'stats' ? 'nav-tab-active' : ''; ?>">Statistics</a>
             <a href="?page=lawfirmpro-theme-settings&tab=headings" class="nav-tab <?php echo $active_tab === 'headings' ? 'nav-tab-active' : ''; ?>">Headings</a>
             <a href="?page=lawfirmpro-theme-settings&tab=labels" class="nav-tab <?php echo $active_tab === 'labels' ? 'nav-tab-active' : ''; ?>">Labels</a>
+            <a href="?page=lawfirmpro-theme-settings&tab=bodytext" class="nav-tab <?php echo $active_tab === 'bodytext' ? 'nav-tab-active' : ''; ?>">Body Text</a>
         </nav>
 
         <form method="post" action="options.php">
@@ -278,6 +279,77 @@ function lawfirmpro_theme_settings_page()
                         <th>About Contact Heading</th>
                         <td><input type="text" class="regular-text" name="lawfirmpro_contact[heading_about_contact]" value="<?php echo esc_attr($contact['heading_about_contact'] ?? ''); ?>" placeholder="Speak to an Experienced Solicitor Today"></td>
                     </tr>
+                    <tr><th colspan="2"><h2>Home About Section</h2></th></tr>
+                    <tr>
+                        <th>Home About Heading 1</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[heading_home_about_1]" value="<?php echo esc_attr($contact['heading_home_about_1'] ?? ''); ?>" placeholder="Trusted by Clients"></td>
+                    </tr>
+                    <tr>
+                        <th>Home About Heading 2</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[heading_home_about_2]" value="<?php echo esc_attr($contact['heading_home_about_2'] ?? ''); ?>" placeholder="Across England & Wales"></td>
+                    </tr>
+                    <tr>
+                        <th>Home V2 About Heading</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[heading_home_v2_about]" value="<?php echo esc_attr($contact['heading_home_v2_about'] ?? ''); ?>" placeholder="Protecting Your Rights With Dedication"></td>
+                    </tr>
+                    <tr><th colspan="2"><h2>Consultation & Choose Firm</h2></th></tr>
+                    <tr>
+                        <th>Consultation Heading</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[heading_consultation]" value="<?php echo esc_attr($contact['heading_consultation'] ?? ''); ?>" placeholder="Book a Free Consultation"></td>
+                    </tr>
+                    <tr>
+                        <th>Choose Firm Heading</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[heading_choose_firm]" value="<?php echo esc_attr($contact['heading_choose_firm'] ?? ''); ?>" placeholder="How to Choose the Right Lawyer for Your Case"></td>
+                    </tr>
+                    <tr><th colspan="2"><h2>Service Detail Headings</h2></th></tr>
+                    <tr>
+                        <th>Feature 1 Heading</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[heading_sd_feature_1]" value="<?php echo esc_attr($contact['heading_sd_feature_1'] ?? ''); ?>" placeholder="Tailored Funding Options"></td>
+                    </tr>
+                    <tr>
+                        <th>Feature 2 Heading</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[heading_sd_feature_2]" value="<?php echo esc_attr($contact['heading_sd_feature_2'] ?? ''); ?>" placeholder="Seamless Process"></td>
+                    </tr>
+                    <tr>
+                        <th>Feature 3 Heading</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[heading_sd_feature_3]" value="<?php echo esc_attr($contact['heading_sd_feature_3'] ?? ''); ?>" placeholder="Diversified Portfolio"></td>
+                    </tr>
+                    <tr>
+                        <th>Solutions Heading</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[heading_sd_solutions]" value="<?php echo esc_attr($contact['heading_sd_solutions'] ?? ''); ?>" placeholder="Funding Solutions For Growing Businesses"></td>
+                    </tr>
+                    <tr>
+                        <th>Step 1 Heading</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[heading_sd_step_1]" value="<?php echo esc_attr($contact['heading_sd_step_1'] ?? ''); ?>" placeholder="Planning the case"></td>
+                    </tr>
+                    <tr>
+                        <th>Step 2 Heading</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[heading_sd_step_2]" value="<?php echo esc_attr($contact['heading_sd_step_2'] ?? ''); ?>" placeholder="Evaluate Situation"></td>
+                    </tr>
+                    <tr>
+                        <th>Step 3 Heading</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[heading_sd_step_3]" value="<?php echo esc_attr($contact['heading_sd_step_3'] ?? ''); ?>" placeholder="Initiate Court Case"></td>
+                    </tr>
+                    <tr>
+                        <th>Step 4 Heading</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[heading_sd_step_4]" value="<?php echo esc_attr($contact['heading_sd_step_4'] ?? ''); ?>" placeholder="Gather Information"></td>
+                    </tr>
+                    <tr>
+                        <th>Section 3 Heading</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[heading_sd_section3]" value="<?php echo esc_attr($contact['heading_sd_section3'] ?? ''); ?>" placeholder="Assets With Assurance Of Expert Guidance"></td>
+                    </tr>
+                    <tr>
+                        <th>Card 1 Heading</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[heading_sd_card_1]" value="<?php echo esc_attr($contact['heading_sd_card_1'] ?? ''); ?>" placeholder="Analysis Case"></td>
+                    </tr>
+                    <tr>
+                        <th>Card 2 Heading</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[heading_sd_card_2]" value="<?php echo esc_attr($contact['heading_sd_card_2'] ?? ''); ?>" placeholder="Information List"></td>
+                    </tr>
+                    <tr>
+                        <th>Card 3 Heading</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[heading_sd_card_3]" value="<?php echo esc_attr($contact['heading_sd_card_3'] ?? ''); ?>" placeholder="Documentation"></td>
+                    </tr>
                 </table>
 
             <?php elseif ($active_tab === 'labels') : ?>
@@ -306,6 +378,80 @@ function lawfirmpro_theme_settings_page()
                         <th>"Contact Info" label (footer)</th>
                         <td><input type="text" class="regular-text" name="lawfirmpro_contact[label_contact_info]" value="<?php echo esc_attr($contact['label_contact_info'] ?? ''); ?>" placeholder="Contact Info"></td>
                     </tr>
+                    <tr><th colspan="2"><h2>Pill Button Labels</h2></th></tr>
+                    <tr>
+                        <th>"Contact" pill label</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[label_contact]" value="<?php echo esc_attr($contact['label_contact'] ?? ''); ?>" placeholder="Contact"></td>
+                    </tr>
+                    <tr>
+                        <th>"About Us" pill label</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[label_about_us]" value="<?php echo esc_attr($contact['label_about_us'] ?? ''); ?>" placeholder="About Us"></td>
+                    </tr>
+                    <tr>
+                        <th>"Services" pill label</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[label_services]" value="<?php echo esc_attr($contact['label_services'] ?? ''); ?>" placeholder="Services"></td>
+                    </tr>
+                    <tr>
+                        <th>"Team" pill label</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[label_team]" value="<?php echo esc_attr($contact['label_team'] ?? ''); ?>" placeholder="Team"></td>
+                    </tr>
+                    <tr>
+                        <th>"Blog" pill label</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[label_blog]" value="<?php echo esc_attr($contact['label_blog'] ?? ''); ?>" placeholder="Blog"></td>
+                    </tr>
+                    <tr>
+                        <th>"Testimonials" pill label</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[label_testimonials]" value="<?php echo esc_attr($contact['label_testimonials'] ?? ''); ?>" placeholder="Testimonials"></td>
+                    </tr>
+                    <tr>
+                        <th>"FAQs" pill label</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[label_faqs]" value="<?php echo esc_attr($contact['label_faqs'] ?? ''); ?>" placeholder="FAQs"></td>
+                    </tr>
+                    <tr>
+                        <th>"Need Help?" pill label</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[label_need_help]" value="<?php echo esc_attr($contact['label_need_help'] ?? ''); ?>" placeholder="Need Help?"></td>
+                    </tr>
+                    <tr>
+                        <th>"Education" label</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[label_education]" value="<?php echo esc_attr($contact['label_education'] ?? ''); ?>" placeholder="Education"></td>
+                    </tr>
+                    <tr>
+                        <th>"Career" label</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[label_career]" value="<?php echo esc_attr($contact['label_career'] ?? ''); ?>" placeholder="Career"></td>
+                    </tr>
+                    <tr><th colspan="2"><h2>Button CTA Labels</h2></th></tr>
+                    <tr>
+                        <th>"Explore Services" button</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[btn_explore_services]" value="<?php echo esc_attr($contact['btn_explore_services'] ?? ''); ?>" placeholder="Explore Services ➔"></td>
+                    </tr>
+                    <tr>
+                        <th>"Request a Quote" button</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[btn_request_quote]" value="<?php echo esc_attr($contact['btn_request_quote'] ?? ''); ?>" placeholder="Request a Quote ➔"></td>
+                    </tr>
+                    <tr>
+                        <th>"Read More" button</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[btn_read_more]" value="<?php echo esc_attr($contact['btn_read_more'] ?? ''); ?>" placeholder="Read More ➔"></td>
+                    </tr>
+                    <tr>
+                        <th>"Learn More" button</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[btn_learn_more]" value="<?php echo esc_attr($contact['btn_learn_more'] ?? ''); ?>" placeholder="Learn More"></td>
+                    </tr>
+                    <tr>
+                        <th>"View All Services" button</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[btn_view_all_services]" value="<?php echo esc_attr($contact['btn_view_all_services'] ?? ''); ?>" placeholder="View All Services ➔"></td>
+                    </tr>
+                    <tr>
+                        <th>"Meet Our Team" button</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[btn_meet_team]" value="<?php echo esc_attr($contact['btn_meet_team'] ?? ''); ?>" placeholder="Meet Our Team ➔"></td>
+                    </tr>
+                    <tr>
+                        <th>"Our Articles" button</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[btn_our_articles]" value="<?php echo esc_attr($contact['btn_our_articles'] ?? ''); ?>" placeholder="Our Articles ➔"></td>
+                    </tr>
+                    <tr>
+                        <th>"View Service" button</th>
+                        <td><input type="text" class="regular-text" name="lawfirmpro_contact[btn_view_service]" value="<?php echo esc_attr($contact['btn_view_service'] ?? ''); ?>" placeholder="View Service ➔"></td>
+                    </tr>
                     <tr><th colspan="2"><h2>Paragraph Texts</h2></th></tr>
                     <tr>
                         <th>Footer About Text</th>
@@ -314,6 +460,120 @@ function lawfirmpro_theme_settings_page()
                     <tr>
                         <th>Choose Firm Text</th>
                         <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_choose_firm]" placeholder="How to Choose the Right Lawyer for Your Case"><?php echo esc_textarea($contact['text_choose_firm'] ?? ''); ?></textarea></td>
+                    </tr>
+                </table>
+
+            <?php elseif ($active_tab === 'bodytext') : ?>
+                <table class="form-table">
+                    <tr><th colspan="2"><h2>Home Version 1 Sections</h2></th></tr>
+                    <tr>
+                        <th>Home About Paragraph 1</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_home_about_p1]" placeholder="For over 25 years, we've helped individuals, families..."><?php echo esc_textarea($contact['text_home_about_p1'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>Home About Paragraph 2</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_home_about_p2]" placeholder="From first consultations to courtroom advocacy..."><?php echo esc_textarea($contact['text_home_about_p2'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>Practice Areas Subtext</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_practice_sub]" placeholder="Expert legal solutions tailored to protect your rights..."><?php echo esc_textarea($contact['text_practice_sub'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>Attorneys Subtext</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_attorneys_sub]" placeholder="Our team brings together specialists..."><?php echo esc_textarea($contact['text_attorneys_sub'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>Articles Subtext</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_articles_sub]" placeholder="Stay informed with the latest legal insights..."><?php echo esc_textarea($contact['text_articles_sub'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>Consultation Text</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_consultation]" placeholder="Ready to discuss your legal needs?..."><?php echo esc_textarea($contact['text_consultation'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr><th colspan="2"><h2>Home Version 2 Sections</h2></th></tr>
+                    <tr>
+                        <th>V2 About Paragraph 1</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_home_v2_about_p1]" placeholder="With over 25 years of experience..."><?php echo esc_textarea($contact['text_home_v2_about_p1'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>V2 About Paragraph 2</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_home_v2_about_p2]" placeholder="From conveyancing and family law..."><?php echo esc_textarea($contact['text_home_v2_about_p2'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>V2 Practice Areas Subtext</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_practice_sub_v2]" placeholder="Expert legal solutions..."><?php echo esc_textarea($contact['text_practice_sub_v2'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>V2 Attorneys Subtext</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_attorneys_sub_v2]" placeholder="Our experienced solicitors..."><?php echo esc_textarea($contact['text_attorneys_sub_v2'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>V2 Articles Subtext</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_articles_sub_v2]" placeholder="Stay informed with the latest legal insights..."><?php echo esc_textarea($contact['text_articles_sub_v2'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>Offers Subtext</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_offers_sub]" placeholder="How we can help you..."><?php echo esc_textarea($contact['text_offers_sub'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>V2 Offers Subtext</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_offers_sub_v2]" placeholder="How we can help you..."><?php echo esc_textarea($contact['text_offers_sub_v2'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr><th colspan="2"><h2>About Page</h2></th></tr>
+                    <tr>
+                        <th>About Hero Text</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_about_hero]" placeholder="For over 25 years, we've provided trusted legal advice..."><?php echo esc_textarea($contact['text_about_hero'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>About Contact Text</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_about_contact]" placeholder="Whether you need immediate legal advice..."><?php echo esc_textarea($contact['text_about_contact'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>About Lawyers Text</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_about_lawyers]" placeholder="Legal matters can be stressful..."><?php echo esc_textarea($contact['text_about_lawyers'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>About Results Text</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_about_results]" placeholder="Our team brings together specialists..."><?php echo esc_textarea($contact['text_about_results'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr><th colspan="2"><h2>Contact Page</h2></th></tr>
+                    <tr>
+                        <th>Contact Hero Text</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_contact_hero]" placeholder="Whether you need legal advice..."><?php echo esc_textarea($contact['text_contact_hero'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr><th colspan="2"><h2>Archive Pages</h2></th></tr>
+                    <tr>
+                        <th>Practice Areas Archive Text</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_practice_areas]" placeholder="From family law and criminal defence..."><?php echo esc_textarea($contact['text_practice_areas'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>Attorneys Archive Text</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_attorneys]" placeholder="Our experienced solicitors..."><?php echo esc_textarea($contact['text_attorneys'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>Articles Archive Text</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_articles]" placeholder="Stay informed with the latest legal insights..."><?php echo esc_textarea($contact['text_articles'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr><th colspan="2"><h2>Service Detail Sections</h2></th></tr>
+                    <tr>
+                        <th>Service Detail Intro</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_sd_intro]" placeholder="Our team brings together specialists..."><?php echo esc_textarea($contact['text_sd_intro'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>Feature Body Text</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_sd_body]" placeholder="We pride ourselves on delivering practical..."><?php echo esc_textarea($contact['text_sd_body'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>Step Body Text</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_sd_step_body]" placeholder="With decades of combined experience..."><?php echo esc_textarea($contact['text_sd_step_body'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>Section 3 Body Text</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_sd_section3_body]" placeholder="Our solicitors bring decades of combined experience..."><?php echo esc_textarea($contact['text_sd_section3_body'] ?? ''); ?></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>Card Body Text</th>
+                        <td><textarea rows="3" cols="50" name="lawfirmpro_contact[text_sd_card_body]" placeholder="Our team brings together specialists..."><?php echo esc_textarea($contact['text_sd_card_body'] ?? ''); ?></textarea></td>
                     </tr>
                 </table>
 
