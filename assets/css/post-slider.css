@@ -50,6 +50,7 @@
 
     /* JS sets flex-basis dynamically */
     flex-shrink: 0;
+    transform: translateZ(0);
 }
 
 /* ==========================================================================
@@ -64,12 +65,4 @@
     /* Prevent image dragging */
     pointer-events: none;
     -webkit-user-drag: none;
-}
-
-/* ==========================================================================
-   5. Optional: Smooth card rendering
-   ========================================================================== */
-
-.custom-post-slider .wp-block-post-template > * {
-    transform: translateZ(0);
 }

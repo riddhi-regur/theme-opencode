@@ -10,6 +10,7 @@ function lawfirmpro_theme_setup()
         'home-version-2' => 'Home Version 2',
         'about'          => 'About',
         'contact'        => 'Contact',
+        'blog'           => 'Blogs',
     );
 
     foreach ($pages as $slug => $title) {

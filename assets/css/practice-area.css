@@ -1,8 +1,3 @@
- /* .custom-posts-grid .wp-block-post-template {
-        display: grid !important;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-    } */
  /* Pagination Wrapper */
  .wp-block-query-pagination {
    display: flex;
@@ -67,7 +62,7 @@
 
  /* Left Arrow */
  .wp-block-query-pagination-previous::before {
-   content: "‹";
+   content: "\2039";
    font-size: 28px;
    line-height: 1;
    font-weight: 400;
@@ -77,7 +72,7 @@
 
  /* Right Arrow */
  .wp-block-query-pagination-next::before {
-   content: "›";
+   content: "\203A";
    font-size: 28px;
    line-height: 1;
    font-weight: 400;
@@ -92,45 +87,8 @@
    margin: 0 !important;
  }
 
- /* .service-details-column {
-   max-width: 491px !important;
- } */
-
  .service-detail-cover-img {
    max-width: 491px !important;
- }
-
- @media (max-width: 768px) {
-
-   .service-detail-right-image img {
-     height: 15px !important;
-     width: 15px !important;
-   }
-
-   .practice-area-homepage-post-image {
-     height: auto !important;
-   }
-
-   .practice-area-homepage-post-image img {
-     height: auto !important;
-   }
-
-   .custom-posts-grid .wp-block-post-template {
-     display: grid !important;
-     grid-template-columns: repeat(2, 1fr) !important;
-     gap: 20px;
-   }
-   .service-detail-cover-img {
-  max-width: 100% !important;
-}
- }
-
- @media (max-width: 430px) {
-
-   .custom-posts-grid .wp-block-post-template {
-     gap: 8px;
-   }
-
  }
 
  .practice-area-social-icons svg {
@@ -145,12 +103,6 @@
  .practice-areas-image img {
    height: 349px !important;
  }
-
- .practice-area-btn {
-   padding-top: 20px !important;
- }
-
-
 
  @media (max-width: 1024px) {
     .practice-areas-heading {
@@ -171,10 +123,32 @@
      width: 25px !important;
      height: 25px !important;
    }
-
  }
 
  @media (max-width: 768px) {
+   .service-detail-right-image img {
+     height: 15px !important;
+     width: 15px !important;
+   }
+
+   .practice-area-homepage-post-image {
+     height: auto !important;
+   }
+
+   .practice-area-homepage-post-image img {
+     height: auto !important;
+   }
+
+   .custom-posts-grid .wp-block-post-template {
+     display: grid !important;
+     grid-template-columns: repeat(2, 1fr) !important;
+     gap: 20px;
+   }
+
+   .service-detail-cover-img {
+     max-width: 100% !important;
+   }
+
    .practice-areas-heading {
      padding-left: 30px !important;
      padding-right: 30px !important;
@@ -211,43 +185,47 @@
      width: 10px !important;
      height: 10px !important;
    }
-   .service-detail-section3-heading{
-    font-size: 40px !important;
-  padding: 0 !important;
-}
-.service-detail-section3-paragraph{
-    font-size: 16px !important;
-  padding: 0 !important;
-}
-.service-detail-section2-heading{
-    font-size: 40px !important;
-  padding: 0 !important;
-}
-.service-detail-section2 .wp-block-cover__inner-container{
-  padding: 0 10px !important;
-}
-.service-detail-section2-column{
-  padding: 0 10px 9px !important;
-  align-self: flex-start !important;
-}
 
+   .service-detail-section3-heading {
+     font-size: 40px !important;
+     padding: 0 !important;
+   }
+
+   .service-detail-section3-paragraph {
+     font-size: 16px !important;
+     padding: 0 !important;
+   }
+
+   .service-detail-section2-heading {
+     font-size: 40px !important;
+     padding: 0 !important;
+   }
+
+   .service-detail-section2 .wp-block-cover__inner-container {
+     padding: 0 10px !important;
+   }
+
+   .service-detail-section2-column {
+     padding: 0 10px 9px !important;
+     align-self: flex-start !important;
+   }
  }
 
  @media (max-width: 430px) {
-    .practice-areas-main {
-      padding-top: var(--wp--preset--spacing--xl) !important;
-      padding-bottom: var(--wp--preset--spacing--xl) !important;
-    }
+   .practice-areas-main {
+     padding-top: var(--wp--preset--spacing--xl) !important;
+     padding-bottom: var(--wp--preset--spacing--xl) !important;
+   }
 
    .practice-areas-heading {
      padding-left: 50px !important;
      padding-right: 50px !important;
    }
 
-    .practice-areas-paragraph {
-      padding-left: 0 !important;
-      padding-right: 0 !important;
-    }
+   .practice-areas-paragraph {
+     padding-left: 0 !important;
+     padding-right: 0 !important;
+   }
 
    .practice-area-social-icons {
      gap: 10px !important;
@@ -299,6 +277,10 @@
      height: 10px !important;
    }
 
+   .custom-posts-grid .wp-block-post-template {
+     gap: 8px;
+   }
+
    .service-detail-featured-img {
      max-height: 296px !important;
    }
@@ -306,82 +288,98 @@
    .service-detail-featured-img img {
      max-height: 296px !important;
    }
-.service-details-section1{
- padding-top: var(--wp--preset--spacing--xl) !important;
- padding-bottom: var(--wp--preset--spacing--xl) !important;
-}
-.service-detail-section1-stack{
-  gap:8px !important;
-}
-.service-detail-section1-group{
-  margin-top: var(--wp--preset--spacing--sm) !important;
-}
-.service-detail-cover-img{
-   min-height: 384px !important;
-}
-.service-detail-section2{
-  padding: 50px 0 !important;
-}
 
+   .service-details-section1 {
+     padding-top: var(--wp--preset--spacing--xl) !important;
+     padding-bottom: var(--wp--preset--spacing--xl) !important;
+   }
 
-.service-detail-section3 {
-  padding-top: var(--wp--preset--spacing--xl) !important;
-  padding-bottom: 0 !important;
-  margin-top: 0 !important;
-}
-.service-detail-section3-stack {
-  gap: 16px !important;
-}
+   .service-detail-section1-stack {
+     gap: 8px !important;
+   }
 
+   .service-detail-section1-group {
+     margin-top: var(--wp--preset--spacing--sm) !important;
+   }
 
-.service-detail-section1-heading{
-  font-size: 40px !important;
-  padding-right: 0 !important;
-}
-.service-detail-section1-paragraph{
-  font-size: 16px !important;
-}
-.service-detail-section2-cover-img{
-  min-height: 108px !important;
-}
-.service-detail-section2-cover-img img{
-  object-position: top !important;
-}
-.service-detail-section2-grid{
-  margin-top: var(--wp--preset--spacing--md) !important;
-  padding: 0 5px !important;
-}
-.service-detail-section2-columns{
-  gap:19px !important;
-}
+   .service-detail-cover-img {
+     min-height: 384px !important;
+   }
 
-.service-detail-section2-icon{
-  width: 27px !important;
-  height: 27px !important;
-}
-.service-detail-section2-grid-stack{
-  margin-top: 5px !important;
-  gap:4px !important;
-}
-.service-detail-section2-paragraph{
-  font-size: 16px !important;
-}
-.service-detail-section2-subtitle{
-   font-size: 16px !important;
-}
-.service-detail-section3-columns{
-  gap: 16px !important;
-}
-.service-detail-section3-icons{
-  width: 51px !important;
-  height: 51px !important;
-}
-.service-detail-section3-columns-stack{
-  padding-top: 36px !important;
-  gap: 8px !important;
-}
-.service-detail-section3-subtitle{
-  padding-top: var(--wp--preset--spacing--md) !important;
-  font-size: 24px !important;
-}
+   .service-detail-section2 {
+     padding: 50px 0 !important;
+   }
+
+   .service-detail-section3 {
+     padding-top: var(--wp--preset--spacing--xl) !important;
+     padding-bottom: 0 !important;
+     margin-top: 0 !important;
+   }
+
+   .service-detail-section3-stack {
+     gap: 16px !important;
+   }
+
+   .service-detail-section1-heading {
+     font-size: 40px !important;
+     padding-right: 0 !important;
+   }
+
+   .service-detail-section1-paragraph {
+     font-size: 16px !important;
+   }
+
+   .service-detail-section2-cover-img {
+     min-height: 108px !important;
+   }
+
+   .service-detail-section2-cover-img img {
+     object-position: top !important;
+   }
+
+   .service-detail-section2-grid {
+     margin-top: var(--wp--preset--spacing--md) !important;
+     padding: 0 5px !important;
+   }
+
+   .service-detail-section2-columns {
+     gap: 19px !important;
+   }
+
+   .service-detail-section2-icon {
+     width: 27px !important;
+     height: 27px !important;
+   }
+
+   .service-detail-section2-grid-stack {
+     margin-top: 5px !important;
+     gap: 4px !important;
+   }
+
+   .service-detail-section2-paragraph {
+     font-size: 16px !important;
+   }
+
+   .service-detail-section2-subtitle {
+     font-size: 16px !important;
+   }
+
+   .service-detail-section3-columns {
+     gap: 16px !important;
+   }
+
+   .service-detail-section3-icons {
+     width: 51px !important;
+     height: 51px !important;
+   }
+
+   .service-detail-section3-columns-stack {
+     padding-top: 36px !important;
+     gap: 8px !important;
+   }
+
+   .service-detail-section3-subtitle {
+     padding-top: var(--wp--preset--spacing--md) !important;
+     font-size: 24px !important;
+   }
  }

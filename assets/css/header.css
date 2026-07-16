@@ -1,7 +1,4 @@
-.header1-menu {
-    justify-content: center;
-    align-items: center;
-}
+.header1-menu,
 .header-menu {
     justify-content: center;
     align-items: center;
@@ -48,7 +45,7 @@
         align-items: center;
         justify-content: left;
         flex-wrap: nowrap;
-        gap: 0px;
+        gap: 0;
     }
 
     .header-logo {

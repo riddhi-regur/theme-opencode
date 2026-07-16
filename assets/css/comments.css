@@ -1,36 +1,7 @@
-.wp-block-comments {
-    /* margin-top: 80px; */
-}
-
-.wp-block-comments-title {
-    /* font-size: 42px;
-	font-weight: 700; 
-	margin-bottom: 40px;*/
-}
-
 .wp-block-comment-template {
     list-style: none;
     margin: 0;
     padding: 0;
-}
-
-.wp-block-avatar img {
-    /* border-radius: 4px; */
-}
-
-.wp-block-comment-author-name {
-    /* font-size: 18px;
-	font-weight: 600; */
-}
-
-.wp-block-comment-date {
-    /* font-size: 14px;
-	color: #8f8f8f; */
-}
-
-.wp-block-comment-content {
-    /* margin-top: 12px;
-	line-height: 1.8; */
 }
 
 .comment-respond {

@@ -72,6 +72,9 @@ flex-direction: row;
   .protect-rights-cover img{
     max-height: 514px !important;
   }
+  .calculations-grid{
+    border-top: none !important;
+  }
     @media (max-width: 1024px) {
 .about-heading{
     padding-left: 30px !important;
@@ -240,13 +243,11 @@ flex-direction: row;
   .request-a-quote-btn{
      min-width: 344px !important;
   }
-  
+
   .legal-challenges-stack{
      min-width: 360px !important;
   }
-  .section-spacing-offers{
-     margin-top: 111px !important;
-  }
+
   .custom-posts-spacing{
     margin-top: 33px !important;
   }
@@ -307,9 +308,7 @@ margin-top: var(--wp--preset--spacing--xl) !important;
     object-position: top !important;
       max-height: 350px !important;
   }
-  .section-spacing-calculations-v2{
-    margin-top: 0 !important;
-  }
+
     .homepage-practice-areas-post-image {
      max-height: 223px !important;
    }
@@ -337,10 +336,7 @@ margin-top: var(--wp--preset--spacing--xl) !important;
     margin-top: 44px !important;
     margin-bottom: 0 !important;
   }
-    .about-calculations-grid{
-    padding-top: 0 !important;
-     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+
   .about-main-img img{
     min-height: 322px !important;
   }
@@ -349,8 +345,6 @@ margin-top: var(--wp--preset--spacing--xl) !important;
   }
 .faq-cover-column {
     overflow: visible !important;
-}
-.faq-cover-column {
     position: relative;
 }
 

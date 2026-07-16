@@ -3,10 +3,7 @@
   height: 29px !important;
 }
 
-.attorneys-image {
-  height: 349px !important;
-}
-
+.attorneys-image,
 .attorneys-image img {
   height: 349px !important;
 }
@@ -18,7 +15,7 @@
 .team-details-grid {
     /* display: grid;
     grid-template-columns: repeat(auto-fill, 217px); */
-    gap:0px !important;
+    gap: 0 !important;
     padding-left: 20px !important;
 }
 
