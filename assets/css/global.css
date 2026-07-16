@@ -24,13 +24,28 @@ img {
   transition: all 0.3s ease;
 }
 
-.wp-block-button.is-style-fill
-  .wp-block-button__link.has-secondary-background-color:hover {
-  background-color: transparent !important;
+.white-background .wp-block-button__link:hover {
+  background: #fff !important;
+  color: #000 !important;
+  border: 2px solid #000 !important;
 }
 
-.wp-block-button.is-style-fill .wp-block-button__link:hover {
-  background-color: #fff !important;
+.black-background .wp-block-button__link:hover {
+  background: #000 !important;
+  color: #fff !important;
+  border: 2px solid #fff !important;
+}
+
+.transparent-text-black .wp-block-button__link:hover {
+  background: transparent !important;
+  color: #000 !important;
+  border: 2px solid #000 !important;
+}
+
+.transparent-text-white .wp-block-button__link:hover {
+  background: transparent !important;
+  color: #fff !important;
+  border: 2px solid #fff !important;
 }
 
 .frosted-card {

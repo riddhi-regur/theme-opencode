@@ -45,7 +45,7 @@
 .offers-stack {
   max-width: 256px !important;
 }
-.offers-request-a-quote-btn {
+.offers-transparent-text-white {
   min-width: 254px !important;
 }
 .protect-rights-img {
@@ -88,6 +88,7 @@
   .hero-content-heading {
     font-size: 48px !important;
     text-align: center !important;
+    line-height: 56px !important;
   }
 
   .hero1-content-heading {
@@ -98,6 +99,7 @@
 
   .challanges-heading {
     font-size: 40px !important;
+    line-height: 48px !important;
   }
   .challenges-paragraph {
     font-size: 16px !important;
@@ -152,9 +154,6 @@
   .column-gap {
     gap: 8px 8px;
   }
-  .legal-challenge-hero {
-    min-height: 511px !important;
-  }
 
   .offers-stack {
     max-width: 220px !important;
@@ -206,17 +205,6 @@
   }
   .section-spacing-legal-challenges {
     margin-top: var(--wp--preset--spacing--xl) !important;
-  }
-  .legal-challenge-hero {
-    min-height: 255px !important;
-    min-width: 168px !important;
-  }
-  .legal-challenges-images img {
-    min-height: auto !important;
-  }
-
-  .legal-challenges-stack {
-    min-width: 360px !important;
   }
 
   .custom-posts-spacing {

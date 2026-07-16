@@ -50,7 +50,7 @@
         },
         {
           "slug": "3xl",
-          "size": "100px",
+          "size": "104px",
           "name": "3XL"
         },
         {
@@ -84,64 +84,62 @@
           "name": "White",
           "color": "#FFFFFF"
         },
-         {
+        {
           "slug": "accent-2",
           "name": "Line Separator",
           "color": "#CECECE"
         },
-         {
+        {
           "slug": "accent-3",
           "name": "Card boarder",
           "color": "#2F2F2F"
         },
-         {
+        {
           "slug": "accent-4",
           "name": "Card background",
           "color": "#191919"
-        }
-        ,
-         {
+        },
+        {
           "slug": "accent-5",
           "name": "FAQ background",
           "color": "#F6F6F6"
-        }  ,
-         {
+        },
+        {
           "slug": "accent-9",
           "name": "FAQ border",
           "color": "#3B3B3B"
-        }  
-         ,
-         {
+        },
+        {
           "slug": "accent-6",
           "name": "Contact border",
           "color": "#8F8F8F"
-        } ,
-         {
+        },
+        {
           "slug": "accent-7",
           "name": "tag",
           "color": "#BCBCBC"
         },
-         {
+        {
           "slug": "accent-8",
           "name": "header separator",
           "color": "#EBEBEB"
         },
-         {
+        {
           "slug": "accent-10",
           "name": "Faq paragraph",
           "color": "#393939"
         },
-         {
+        {
           "slug": "accent-11",
           "name": "Tag border",
           "color": "#afafaf"
         },
-         {
+        {
           "slug": "accent-12",
           "name": "Gold",
           "color": "#FBC618"
         },
-         {
+        {
           "slug": "accent-13",
           "name": "Orange",
           "color": "#FD8813"
@@ -151,12 +149,12 @@
         {
           "name": "Black and white",
           "slug": "midnight-glow",
-          "colors": [ "#FFFFFF", "#000000" ]
+          "colors": ["#FFFFFF", "#000000"]
         },
         {
           "name": "Dark Grayscale",
           "slug": "dark-grayscale",
-          "colors": [ "#333333", "#666666" ]
+          "colors": ["#333333", "#666666"]
         }
       ]
     },
@@ -164,35 +162,35 @@
     "typography": {
       "fluid": true,
       "fontFamilies": [
-				{
-					"fontFamily": "\"Plus Jakarta Sans\", sans-serif",
-					"name": "Plus Jakarta Sans",
-					"slug": "plus-jakarta-sans",
-					"fontFace": [
-						{
-							"fontFamily": "Plus Jakarta Sans",
-							"fontWeight": "100 900",
-							"fontStyle": "normal",
-							"src": [
-								"file:./assets/fonts/PlusJakartaSans-VariableFont_wght.woff2"
-							]
-						},
-						{
-							"fontFamily": "Plus Jakarta Sans",
-							"fontWeight": "100 900",
-							"fontStyle": "italic",
-							"src": [
-								"file:./assets/fonts/PlusJakartaSans-Italic-VariableFont_wght.woff2"
-							]
-						}
-					]
-				},
-				{
-					"fontFamily": "\"Mulish\", sans-serif",
-					"name": "Mulish",
-					"slug": "mulish"
-				}
-			],
+        {
+          "fontFamily": "\"Plus Jakarta Sans\", sans-serif",
+          "name": "Plus Jakarta Sans",
+          "slug": "plus-jakarta-sans",
+          "fontFace": [
+            {
+              "fontFamily": "Plus Jakarta Sans",
+              "fontWeight": "100 900",
+              "fontStyle": "normal",
+              "src": [
+                "file:./assets/fonts/PlusJakartaSans-VariableFont_wght.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Plus Jakarta Sans",
+              "fontWeight": "100 900",
+              "fontStyle": "italic",
+              "src": [
+                "file:./assets/fonts/PlusJakartaSans-Italic-VariableFont_wght.woff2"
+              ]
+            }
+          ]
+        },
+        {
+          "fontFamily": "\"Mulish\", sans-serif",
+          "name": "Mulish",
+          "slug": "mulish"
+        }
+      ],
 
       "fontSizes": [
         {
@@ -228,7 +226,7 @@
       "background": "#FFFFFF",
       "text": "#000000"
     },
-     "spacing": {
+    "spacing": {
       "blockGap": "var:preset|spacing|xs",
       "padding": {
         "left": "clamp(16px, 4vw, 35px)",
@@ -242,7 +240,7 @@
     },
 
     "elements": {
-       "heading": {
+      "heading": {
         "color": {
           "text": "var(--wp--preset--color--primary)"
         },
@@ -339,10 +337,18 @@
   },
   "templateParts": [
     { "name": "header", "title": "Header", "area": "header" },
-    { "name": "header-version-2", "title": "Header Version 2", "area": "header" },
+    {
+      "name": "header-version-2",
+      "title": "Header Version 2",
+      "area": "header"
+    },
     { "name": "footer", "title": "Footer", "area": "footer" },
     { "name": "comments", "title": "Comments", "area": "uncategorized" },
-    { "name": "navigation-overlay", "title": "Navigation Overlay", "area": "uncategorized" }
+    {
+      "name": "navigation-overlay",
+      "title": "Navigation Overlay",
+      "area": "uncategorized"
+    }
   ],
   "customTemplates": [
     {
