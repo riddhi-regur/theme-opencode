@@ -1,35 +1,51 @@
 # ============================================================
 #  Lawfirmpro Theme — Build Script
 #  Creates a distributable zip at D:\Lawfirmpro.zip
-#  Structure inside zip: theme/ (containing all theme files)
+#  Structure inside zip: Theme/ (containing all theme files)
 # ============================================================
 
 $ErrorActionPreference = 'Stop'
 
 $sourceDir   = "C:\Users\Riddhi Bhatt\Desktop\Theme"
 $outputZip   = "D:\Lawfirmpro.zip"
-$stagingRoot = "$env:TEMP\Lawfirmpro-build"
+$stagingRoot = Join-Path ([System.IO.Path]::GetTempPath()) "Lawfirmpro-build"
 
 # ── Clean staging area ──────────────────────────────────────
 if (Test-Path $stagingRoot) {
     Remove-Item $stagingRoot -Recurse -Force
 }
 
-# ── Create theme/ subfolder and copy (exclude .git) ────────
-$stagingTheme = Join-Path $stagingRoot "theme"
+# ── Create Theme/ subfolder and copy (exclude .git) ────────
+$stagingTheme = Join-Path $stagingRoot "Theme"
 New-Item -ItemType Directory -Path $stagingTheme -Force | Out-Null
 
-Get-ChildItem $sourceDir -Exclude ".git", "node_modules", ".gitignore" |
+Get-ChildItem $sourceDir -Exclude ".git", "node_modules", ".gitignore", "build-theme.ps1" |
     ForEach-Object {
         Copy-Item $_.FullName -Destination $stagingTheme -Recurse -Force
     }
 
-# ── Create zip ──────────────────────────────────────────────
+# ── Create zip (files only — no directory entries) ──────────
 if (Test-Path $outputZip) {
     Remove-Item $outputZip -Force
 }
 
-Compress-Archive -Path "$stagingRoot\*" -DestinationPath $outputZip -Force
+$files = Get-ChildItem $stagingRoot -Recurse -File
+$tempZip = "$stagingRoot.zip"
+
+Add-Type -AssemblyName System.IO.Compression
+Add-Type -AssemblyName System.IO.Compression.FileSystem
+
+$archive = [System.IO.Compression.ZipFile]::Open($tempZip, 'Create')
+try {
+    foreach ($file in $files) {
+        $entryName = $file.FullName.Substring($stagingRoot.Length + 1).Replace('\', '/')
+        [System.IO.Compression.ZipFileExtensions]::CreateEntryFromFile($archive, $file.FullName, $entryName) | Out-Null
+    }
+} finally {
+    $archive.Dispose()
+}
+
+Move-Item $tempZip $outputZip -Force
 
 # ── Report ──────────────────────────────────────────────────
 $size = [math]::Round((Get-Item $outputZip).Length / 1MB, 1)
