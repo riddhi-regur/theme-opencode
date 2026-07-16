@@ -1,377 +1,348 @@
-  .testimonial-location {
+.testimonial-location {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
 
-      font-family: 'Plus Jakarta Sans';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 12px;
-      line-height: 15px;
-      text-transform: uppercase;
+  color: #464646;
+}
 
-      color: #464646;
+.testimonial-stars {
+  display: flex;
+  flex-direction: row;
+  color: #fbc618;
+  width: 17px;
+  height: 16px;
+}
 
+.testimonial-location-v2 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
 
-  }
+  color: #464646;
+}
 
-  .testimonial-stars {
-      display: flex;
-      flex-direction: row;
-      color: #FBC618;
-      width: 17px;
-      height: 16px;
+.testimonial-stars-v2 {
+  display: flex;
+  flex-direction: row;
+  color: #fd8813;
+  justify-content: center;
+}
 
-  }
-
-    .testimonial-location-v2 {
-
-      font-family: 'Plus Jakarta Sans';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 12px;
-      line-height: 15px;
-      text-transform: uppercase;
-
-      color: #464646;
-
-
-  }
-
-  .testimonial-stars-v2 {
-display: flex;
-flex-direction: row;
-      color: #FD8813;
-     justify-content: center;
-
-  }
-  
-  .explore-services-btn{
-    min-width: 237px !important;
-  }
-  .request-a-quote-btn{
-     min-width: 237px !important;
-  }
-  .read-more-btn{
-     min-width: 162px !important;
-  }
-  .arrow-image img{
-    width: 40px !important;
-    height: 40px !important;
-  }
-  .offers-main{
-    padding-bottom: 104px !important;
-  }
-  .offers-stack{
-    max-width: 256px !important;
-  }
-  .offers-request-a-quote-btn{
-    min-width: 254px !important;
-  }
-  .protect-rights-img {
-    display: flex !important;
-    justify-content: center !important;
-  }
-  .protect-rights-cover img{
-    max-height: 514px !important;
-  }
-  .calculations-grid{
-    border-top: none !important;
-  }
-    @media (max-width: 1024px) {
-.about-heading{
+.arrow-image img {
+  width: 40px !important;
+  height: 40px !important;
+}
+.offers-main {
+  padding-bottom: 104px !important;
+}
+.offers-stack {
+  max-width: 256px !important;
+}
+.offers-request-a-quote-btn {
+  min-width: 254px !important;
+}
+.protect-rights-img {
+  display: flex !important;
+  justify-content: center !important;
+}
+.protect-rights-cover img {
+  max-height: 514px !important;
+}
+.calculations-grid {
+  border-top: none !important;
+}
+@media (max-width: 1024px) {
+  .about-heading {
     padding-left: 30px !important;
     padding-right: 30px !important;
   }
-  .about-paragraph{
-   padding-left: 30px !important;
+  .about-paragraph {
+    padding-left: 30px !important;
     padding-right: 30px !important;
- }
-    }
-  
+  }
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+  .hero-cover .wp-block-cover__image-background {
+    display: none;
+  }
 
-      .hero-cover .wp-block-cover__image-background {
-          display: none;
-      }
+  .hero-cover {
+    background-image: url("../images/hero-mobile.png") !important;
+    background-size: cover;
+    background-position: center;
+  }
 
-      .hero-cover {
-          background-image: url('../images/hero-mobile.png') !important;
-          background-size: cover;
-          background-position: center;
-      }
+  .wp-block-group.hero-content-stack {
+    align-items: center !important;
+    padding-right: 0 !important;
+  }
 
-      .wp-block-group.hero-content-stack {
-          align-items: center !important;
-          padding-right: 0 !important;
-      }
+  .hero-content-heading {
+    font-size: 48px !important;
+    text-align: center !important;
+  }
 
-      .hero-content-heading {
-          font-size: 48px !important;
-          text-align: center !important;
-      }
+  .hero1-content-heading {
+    font-size: 40px !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
 
-      .hero1-content-heading {
-          font-size: 40px !important;
-          padding-right: 0 !important;
-           padding-left: 0 !important;
-      }
+  .challanges-heading {
+    font-size: 40px !important;
+  }
+  .challenges-paragraph {
+    font-size: 16px !important;
+  }
 
-      .challanges-heading {
-          font-size: 40px !important;
-      }
-      .challenges-paragraph{
-        font-size: 16px !important;
-      }
+  .offers-heading {
+    font-size: 40px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 
-      .offers-heading {
-          font-size: 40px !important;
-          padding-left: 0 !important;
-          padding-right: 0 !important;
-      }
+  .offers-paragraph {
+    padding: 0 !important;
+    font-size: 16px !important;
+  }
 
-      .offers-paragraph {
-          padding: 0 !important;
-           font-size: 16px !important;
-      }
+  .calculations-heading {
+    font-size: 40px !important;
+  }
 
-      .calculations-heading {
-          font-size: 40px !important;
-      }
+  .testimonial-heading {
+    font-size: 40px !important;
+  }
 
-      .testimonial-heading {
-          font-size: 40px !important;
-      }
+  .testimonial-post-text {
+    font-size: 16px !important;
+  }
 
-      .testimonial-post-text {
-          font-size: 16px !important;
-      }
+  .faq-heading {
+    font-size: 40px !important;
+  }
 
-      .faq-heading {
-          font-size: 40px !important;
-      }
+  .article-heading {
+    font-size: 40px !important;
+  }
 
-      .article-heading {
-          font-size: 40px !important;
-      }
+  .article-title {
+    font-size: 16px !important;
+  }
 
-      .article-title {
-          font-size: 16px !important;
-      }
+  .contact-form {
+    order: 1 !important;
+  }
 
-      .contact-form {
-          order: 1 !important;
-      }
+  .contact-map {
+    order: 2 !important;
+  }
 
-      .contact-map {
-          order: 2 !important;
-      }
+  .about-contact {
+    justify-content: center !important;
+  }
+  .column-gap {
+    gap: 8px 8px;
+  }
+  .legal-challenge-hero {
+    min-height: 511px !important;
+  }
 
-      .about-contact {
-          justify-content: center !important;
-      }
-        .column-gap{
-        gap: 8px 8px;
-      }
-      .legal-challenge-hero{
-       min-height: 511px  !important;
-      }
-      /* .legal-challenges-images img{
-        min-width: 348px  !important;
-        
-      } */
-      .offers-stack{
+  .offers-stack {
     max-width: 220px !important;
   }
-       .offers-cover-img{
+  .offers-cover-img {
     min-height: 350px !important;
   }
   .protect-rights-heading {
     padding-left: 30px !important;
     padding-right: 30px !important;
   }
-  .about-heading{
+  .about-heading {
     padding-left: 30px !important;
     padding-right: 30px !important;
   }
- .about-paragraph{
-   padding-left: 30px !important;
+  .about-paragraph {
+    padding-left: 30px !important;
     padding-right: 30px !important;
- }
- .about-contact-btn{
-  justify-content: center !important;
- }
- .faq-column{
-    padding-top:60px !important
   }
-  .about-testimonial{
+  .about-contact-btn {
+    justify-content: center !important;
+  }
+  .faq-column {
+    padding-top: 60px !important;
+  }
+  .about-testimonial {
     margin-top: var(--wp--preset--spacing--md) !important;
   }
-  .about-faq{
+  .about-faq {
     margin-top: var(--wp--preset--spacing--xl) !important;
   }
-
+}
+@media (max-width: 430px) {
+  .hero-cover {
+    padding-top: 90px !important;
   }
-   @media (max-width: 430px) {
-
-     .wp-block-group.hero-content-stack {
-          padding-top: var(--wp--preset--spacing--2xl) !important;
-          padding-right: 0 !important;
-          align-items: flex-start !important;
-      }
-      .hero1-content-stack {
-        padding-top: 133px !important;
-          padding-right: 0 !important;
-          align-items: flex-start !important;
-      }
-
-       .hero-content-heading {
-          text-align: left !important;
-      }
-      .section-spacing-legal-challenges{
-        margin-top: var(--wp--preset--spacing--xl) !important;
-      }
-      .legal-challenge-hero{
-        min-height: 255px  !important;
-          min-width: 168px  !important;
-      }
-   .legal-challenges-images img{
-         min-height: auto !important;
-      }
-
-.explore-services-btn{
-    min-width: 344px !important;
+  .wp-block-group.hero-content-stack {
+    padding-right: 0 !important;
+    align-items: flex-start !important;
   }
-  .request-a-quote-btn{
-     min-width: 344px !important;
+  .hero1-content-stack {
+    padding-top: 133px !important;
+    padding-right: 0 !important;
+    align-items: flex-start !important;
   }
 
-  .legal-challenges-stack{
-     min-width: 360px !important;
+  .hero-content-heading {
+    text-align: left !important;
+  }
+  .section-spacing-legal-challenges {
+    margin-top: var(--wp--preset--spacing--xl) !important;
+  }
+  .legal-challenge-hero {
+    min-height: 255px !important;
+    min-width: 168px !important;
+  }
+  .legal-challenges-images img {
+    min-height: auto !important;
   }
 
-  .custom-posts-spacing{
+  .legal-challenges-stack {
+    min-width: 360px !important;
+  }
+
+  .custom-posts-spacing {
     margin-top: 33px !important;
   }
-   .arrow-image img{
+  .arrow-image img {
     width: 35px !important;
     height: 35px !important;
   }
-  .offers-stack{
+  .offers-stack {
     max-width: 207px !important;
   }
-  .offers-cover-img{
+  .offers-cover-img {
     min-height: 394px !important;
   }
-  .section-spacing-calculations{
-margin-top: var(--wp--preset--spacing--xl) !important;
+  .section-spacing-calculations {
+    margin-top: var(--wp--preset--spacing--xl) !important;
   }
-  .calculations-grid{
+  .calculations-grid {
     padding: var(--wp--preset--spacing--lg) 0;
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-  
-  .faq-column{
-    padding-top:60px !important
+
+  .faq-column {
+    padding-top: 60px !important;
   }
-   .faq-heading {
-         padding-right: var(--wp--preset--spacing--3xl) !important;
-      }
-      .faq-img img{
-        height: 435px !important;
-      }
-      .faq-img{
-        min-height: 435px !important;
-      }
-      .blogs-main-homepage{
-        padding-bottom: var(--wp--preset--spacing--xl) !important;
-      }
-      .protect-rights-main {
+  .faq-heading {
+    padding-right: var(--wp--preset--spacing--3xl) !important;
+  }
+  .faq-img img {
+    height: 435px !important;
+  }
+  .faq-img {
+    min-height: 435px !important;
+  }
+  .blogs-main-homepage {
+    padding-bottom: var(--wp--preset--spacing--xl) !important;
+  }
+  .protect-rights-main {
     margin-top: var(--wp--preset--spacing--xl) !important;
   }
-   .protect-rights-heading-group {
+  .protect-rights-heading-group {
     gap: 16px !important;
   }
-    .protect-rights-heading {
+  .protect-rights-heading {
     padding-left: 50px !important;
     padding-right: 50px !important;
   }
   .protect-rights-main .wp-block-columns {
-    gap:39px !important;
+    gap: 39px !important;
   }
-  .protect-rights-cover{
+  .protect-rights-cover {
     align-items: flex-start !important;
-     min-height: 350px !important;
-  }
-  .protect-rights-cover img{
     min-height: 350px !important;
   }
-  .protect-rights-img img{
+  .protect-rights-cover img {
+    min-height: 350px !important;
+  }
+  .protect-rights-img img {
     object-position: top !important;
-      max-height: 350px !important;
+    max-height: 350px !important;
   }
 
-    .homepage-practice-areas-post-image {
-     max-height: 223px !important;
-   }
+  .homepage-practice-areas-post-image {
+    max-height: 223px !important;
+  }
 
-   .homepage-practice-areas-post-image img {
-     max-height: 223px !important;
-   }
-   .homepage-v2-practice-areas-post-image{
-      max-height: 322px !important;
-   }
-   .homepage-v2-practice-areas-post-image img{
-      max-height: 322px !important;
-   }
-   .blogs-post-image-homepage{
-       min-height: 179px  !important;
-          min-width: 302px  !important;
-   }
-   .homepage-v2-offer-img{
-     max-height: 349px !important;
-   }
-   .homepage-v2-offer-img img{
-     max-height: 349px !important;
-   }
- .homepage-v2-faq-main{
+  .homepage-practice-areas-post-image img {
+    max-height: 223px !important;
+  }
+  .homepage-v2-practice-areas-post-image {
+    max-height: 322px !important;
+  }
+  .homepage-v2-practice-areas-post-image img {
+    max-height: 322px !important;
+  }
+  .blogs-post-image-homepage {
+    min-height: 179px !important;
+    min-width: 302px !important;
+  }
+  .homepage-v2-offer-img {
+    max-height: 349px !important;
+  }
+  .homepage-v2-offer-img img {
+    max-height: 349px !important;
+  }
+  .homepage-v2-faq-main {
     margin-top: 44px !important;
     margin-bottom: 0 !important;
   }
 
-  .about-main-img img{
+  .about-main-img img {
     min-height: 322px !important;
   }
-  .about-contact-number{
+  .about-contact-number {
     font-size: 18px !important;
   }
-.faq-cover-column {
+  .faq-cover-column {
     overflow: visible !important;
     position: relative;
-}
+  }
 
-.faq-img {
+  .faq-img {
     margin: 0;
     /* width: calc(50vw + 80%); */
     margin-right: calc(50% - 50vw);
-     margin-left: calc(50% - 50vw);
-}
+    margin-left: calc(50% - 50vw);
+  }
 
-.faq-img img {
+  .faq-img img {
     display: block;
     width: 100%;
     object-fit: cover;
+  }
 }
-   }
 
 /* Hero section wrapper — header overlaps hero cover block */
 .hero-section-wrapper {
-    position: relative;
+  position: relative;
 }
 .hero-section-wrapper > header,
 .hero-section-wrapper > div > header,
 .hero-section-wrapper > .wp-block-template-part {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
 }

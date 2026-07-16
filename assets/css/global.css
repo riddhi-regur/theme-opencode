@@ -21,218 +21,185 @@ img {
 }
 
 .wp-block-button__link {
-    transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
-.wp-block-button.is-style-fill .wp-block-button__link.has-primary-background-color {
-    border: 2px solid #fff;
+.wp-block-button.is-style-fill
+  .wp-block-button__link.has-secondary-background-color:hover {
+  background-color: transparent !important;
 }
 
-.wp-block-button.is-style-fill .wp-block-button__link.has-primary-background-color:hover {
-    background-color: #fff !important;
-    color: #000 !important;
-    border-color: #000 !important;
+.wp-block-button.is-style-fill .wp-block-button__link:hover {
+  background-color: #fff !important;
 }
-
-.wp-block-button.is-style-fill .wp-block-button__link.has-secondary-background-color {
-    border: 2px solid #000;
-}
-
-.wp-block-button.is-style-fill .wp-block-button__link.has-secondary-background-color:hover {
-    background-color: #000 !important;
-    color: #fff !important;
-    border-color: #fff !important;
-}
-
-.wp-block-button.is-style-outline .wp-block-button__link:hover {
-    background-color: transparent !important;
-    color: #000 !important;
-    border-color: #000 !important;
-}
-
 
 .frosted-card {
-  background: rgba(0, 0, 0, 0.4); 
-  backdrop-filter: blur(10px);    
-  -webkit-backdrop-filter: blur(10px); 
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .testimonial-card {
-    background: #fff;
-    border: 1px solid #ececec;
-    box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.03);
+  background: #fff;
+  border: 1px solid #ececec;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.03);
 }
 .cf7-row {
-    display: flex;
-    gap:24px !important;
+  display: flex;
+  gap: 24px !important;
 }
 
 .cf7-col {
-    flex: 1;
-    max-width: 259px !important;
+  flex: 1;
+  max-width: 259px !important;
 }
 
-.cf7-col p{
-  margin-top:10px !important
+.cf7-col p {
+  margin-top: 10px !important;
 }
 
 .cf7-col .wpcf7-form-control {
-    width: 100% !important;
-    max-width: 100% !important;
-    box-sizing: border-box;
-    
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box;
 }
 
 .wpcf7-form-control-wrap {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
-.footer-location p{
-    max-width: 220px !important;
+.footer-location p {
+  max-width: 220px !important;
 }
 
 @media (max-width: 430px) {
-    .footer-paragraph{
-        padding-right: var(--wp--preset--spacing--md) !important;
-    }
-    .cf7-row {
-        flex-direction: column;
-        gap: 0 !important;
-    }
-    .cf7-col {
-        max-width: 297px !important;
-    }
-      .cf7-col {
-        margin-top: 0 !important;
-    }
-    .wpcf7-form label ,
-.wpforms-container .wpforms-field-label {
-
-font-size: 16px !important;
-line-height: 24px !important;
-
-
-}
-.wpforms-container input {
-
-font-size: 16px !important;
-line-height: 24px !important;
-
-
-
-
-}
+  .button-gaps {
+    flex-direction: column !important;
+  }
+  .footer-paragraph {
+    padding-right: var(--wp--preset--spacing--md) !important;
+  }
+  .cf7-row {
+    flex-direction: column;
+    gap: 0 !important;
+  }
+  .cf7-col {
+    max-width: 297px !important;
+  }
+  .cf7-col {
+    margin-top: 0 !important;
+  }
+  .wpcf7-form label,
+  .wpforms-container .wpforms-field-label {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+  .wpforms-container input {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
 }
 
 .wpcf7-form input[type="text"],
 .wpcf7-form input[type="email"],
-.wpcf7-form input[type="tel"]{
-    width: 100% !important;
-    max-width: 100% !important;
-    box-sizing: border-box;
-    border: none !important;
-    border-bottom: 2px solid #393939 !important;
-    background: transparent !important;
-    padding: var(--wp--preset--spacing--xs) var(--wp--preset--spacing--sm) !important;
-    color: #000000 !important;
+.wpcf7-form input[type="tel"] {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box;
+  border: none !important;
+  border-bottom: 2px solid #393939 !important;
+  background: transparent !important;
+  padding: var(--wp--preset--spacing--xs) var(--wp--preset--spacing--sm) !important;
+  color: #000000 !important;
 }
 
 /* Remove all borders except the bottom underline */
 .wpforms-container input[type="text"],
 .wpforms-container input[type="email"],
 .wpforms-container input[type="tel"] {
-    border: none !important;
-    border-bottom: 1.5px solid #000000 !important;
-    border-radius: 0 !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    background-color: transparent !important;
-    box-shadow: none !important;
+  border: none !important;
+  border-bottom: 1.5px solid #000000 !important;
+  border-radius: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
 }
 
 .wpcf7-form-control:focus,
 .wpcf7-form-control:focus-visible {
-    outline: none !important;
-    box-shadow: none !important;
-    border-color: inherit !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: inherit !important;
 }
 
-.wpcf7-form label ,
+.wpcf7-form label,
 .wpforms-container .wpforms-field-label {
-font-style: normal !important;
-font-weight: 400 !important;
-font-size: 18px !important;
-line-height: 34px !important;
-letter-spacing: 0.01em !important;
-color: #000000 !important;
-
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 34px !important;
+  letter-spacing: 0.01em !important;
+  color: #000000 !important;
 }
 /* Style the placeholder text color */
 .wpforms-container input {
-font-style: normal !important;
-font-weight: 600 !important;
-font-size: 18px !important;
-line-height: 34px !important;
-letter-spacing: 0.01em !important;
-color: #000000 !important;
-
-
-
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  line-height: 34px !important;
+  letter-spacing: 0.01em !important;
+  color: #000000 !important;
 }
 
 /* Make the submit button full-width, black, and rectangular */
 .wpforms-container .wpforms-submit-container {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: var(--wp--preset--spacing--sm) var(--wp--preset--spacing--xl) !important;
+  gap: 8px !important;
 
-display: flex !important;
-flex-direction: row !important;
-justify-content: center   !important;
-align-items: center !important;
-padding: var(--wp--preset--spacing--sm) var(--wp--preset--spacing--xl) !important;
-gap: 8px !important;
-
-background: #000000 !important;
-
+  background: #000000 !important;
 }
 
 .wpforms-container button.wpforms-submit {
-
-font-style: normal !important;
-font-weight: 800 !important;
-font-size: 16px !important;
-line-height: 20px !important;
-text-transform: uppercase !important;
-background: #000000 !important;
-color: #FFFFFF !important;
-border: none !important;
-
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  text-transform: uppercase !important;
+  background: #000000 !important;
+  color: #ffffff !important;
+  border: none !important;
 }
 
-.wpcf7-submit{
-
-font-style: normal !important;
-font-weight: 800 !important;
-font-size: 16px !important;
-line-height: 20px !important;
-text-transform: uppercase !important;
-color: #FFFFFF !important;
-border: none !important;
-display: flex !important;
-flex-direction: row !important;
-justify-content: center   !important;
-align-items: center !important;
-padding: var(--wp--preset--spacing--sm) var(--wp--preset--spacing--xl) !important;
-gap: 8px !important;
-width: 100% !important;
-background: #000000 !important;
-margin-top: var(--wp--preset--spacing--sm) !important;
+.wpcf7-submit {
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  text-transform: uppercase !important;
+  color: #ffffff !important;
+  border: none !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: var(--wp--preset--spacing--sm) var(--wp--preset--spacing--xl) !important;
+  gap: 8px !important;
+  width: 100% !important;
+  background: #000000 !important;
+  margin-top: var(--wp--preset--spacing--sm) !important;
 }
 
 .wpcf7-submit:hover,
 .wpforms-container button.wpforms-submit:hover {
-    background-color: #fff !important;
-    color: #000 !important;
+  background-color: #fff !important;
+  color: #000 !important;
 }
 
 .wp-block-comment-template > li:last-child .wp-block-separator {
-    display: none;
+  display: none;
 }
