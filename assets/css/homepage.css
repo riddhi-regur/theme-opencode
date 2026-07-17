@@ -55,9 +55,7 @@
 .protect-rights-cover img {
   max-height: 514px !important;
 }
-.calculations-grid {
-  border-top: none !important;
-}
+
 @media (max-width: 1024px) {
   .about-heading {
     padding-left: 30px !important;
@@ -270,6 +268,7 @@
 
   .homepage-practice-areas-post-image {
     max-height: 223px !important;
+    width: 100% !important;
   }
 
   .homepage-practice-areas-post-image img {
@@ -333,4 +332,9 @@
   left: 0;
   right: 0;
   z-index: 10;
+}
+@media (max-width: 200px) {
+  .calculations-grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 }
