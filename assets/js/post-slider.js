@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
 		const track = slider.querySelector('.wp-block-post-template');
 		if (!track) return;
 
-		// Convert grid to flex slider
 		track.style.display = 'flex';
 		track.style.willChange = 'transform';
 
@@ -12,22 +11,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
 		let isDragging = false;
 		let startX = 0;
+		let startY = 0;
 		let currentTranslate = 0;
 		let prevTranslate = 0;
 		let animationId = null;
 		let currentIndex = 0;
 		let preventClick = false;
+		let directionLocked = false;
+		let isHorizontal = false;
 
 		const DRAG_THRESHOLD = 50;
 
 		function getColumns() {
-			if (window.innerWidth <= 767) return 1.1;
-			if (window.innerWidth <= 991) return 2.1;
-
-			const gridCols = getComputedStyle(track).gridTemplateColumns;
-			const cols = gridCols.match(/repeat\((\d+),/)?.[1];
-
-			return cols || 3;
+			if (window.innerWidth < 430) return 1;
+			if (window.innerWidth < 768) return 2;
+			return 3;
 		}
 
 		function getGap() {
@@ -62,6 +60,10 @@ document.addEventListener('DOMContentLoaded', () => {
 			return e.type.includes('mouse') ? e.pageX : e.touches[0].clientX;
 		}
 
+		function getPositionY(e) {
+			return e.type.includes('mouse') ? e.pageY : e.touches[0].clientY;
+		}
+
 		function setSliderPosition() {
 			track.style.transform = `translateX(${currentTranslate}px)`;
 		}
@@ -86,8 +88,11 @@ document.addEventListener('DOMContentLoaded', () => {
 		function dragStart(e) {
 			isDragging = true;
 			preventClick = false;
+			directionLocked = false;
+			isHorizontal = false;
 
 			startX = getPositionX(e);
+			startY = getPositionY(e);
 
 			track.style.transition = 'none';
 
@@ -98,13 +103,30 @@ document.addEventListener('DOMContentLoaded', () => {
 			if (!isDragging) return;
 
 			const currentX = getPositionX(e);
-			const moved = currentX - startX;
+			const currentY = getPositionY(e);
+			const movedX = currentX - startX;
+			const movedY = currentY - startY;
 
-			if (Math.abs(moved) > 5) {
+			if (!directionLocked) {
+				if (Math.abs(movedX) > 10 || Math.abs(movedY) > 10) {
+					directionLocked = true;
+					isHorizontal = Math.abs(movedX) > Math.abs(movedY);
+				}
+			}
+
+			if (!isHorizontal) {
+				isDragging = false;
+				cancelAnimationFrame(animationId);
+				return;
+			}
+
+			e.preventDefault();
+
+			if (Math.abs(movedX) > 5) {
 				preventClick = true;
 			}
 
-			currentTranslate = prevTranslate + moved;
+			currentTranslate = prevTranslate + movedX;
 
 			const maxTranslate = -(getMaxIndex() * getSlideWidth());
 
@@ -117,11 +139,14 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 
 		function dragEnd() {
-			if (!isDragging) return;
+			if (!isDragging && !isHorizontal) return;
 
+			const wasDragging = isDragging;
 			isDragging = false;
 
 			cancelAnimationFrame(animationId);
+
+			if (!wasDragging) return;
 
 			const movedBy = currentTranslate - prevTranslate;
 
@@ -156,7 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		});
 
 		slider.addEventListener('touchmove', dragMove, {
-			passive: true,
+			passive: false,
 		});
 
 		window.addEventListener('touchend', dragEnd);

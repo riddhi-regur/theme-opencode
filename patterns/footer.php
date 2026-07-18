@@ -11,8 +11,8 @@
     <div class="wp-block-columns" style="padding-top:var(--wp--preset--spacing--lg);padding-bottom:var(--wp--preset--spacing--lg)"><!-- wp:column -->
         <div class="wp-block-column"><!-- wp:site-logo {"width":178} /-->
 
-            <!-- wp:paragraph {"className":"footer-paragraph","textColor":"secondary","style":{"typography":{"fontWeight":"500","lineHeight":"1.5"},"layout":{"selfStretch":"fixed","flexSize":""},"spacing":{"padding":{"right":"20px"}}},"fontFamily":"plus-jakarta-sans"} -->
-            <p class="footer-paragraph has-secondary-color has-text-color has-plus-jakarta-sans-font-family" style="padding-right:20px;font-weight:500;line-height:1.5"><?php echo esc_html(lawfirmpro_get_heading('text_footer_about', 'Our experienced lawyers provide clear, effective legal solutions tailored to your needs.')); ?></p>
+            <!-- wp:paragraph {"className":"footer-paragraph","textColor":"secondary","style":{"typography":{"fontWeight":"500","lineHeight":"1.5"},"layout":{"selfStretch":"fixed","flexSize":""},"spacing":{"padding":{"right":"var:preset|spacing|sm"}}},"fontFamily":"plus-jakarta-sans"} -->
+            <p class="footer-paragraph has-secondary-color has-text-color has-plus-jakarta-sans-font-family" style="padding-right:var(--wp--preset--spacing--sm);font-weight:500;line-height:1.5"><?php echo esc_html(lawfirmpro_get_heading('text_footer_about', 'Our experienced lawyers provide clear, effective legal solutions tailored to your needs.')); ?></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:shortcode -->
@@ -32,10 +32,10 @@
         <!-- /wp:column -->
 
         <!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:columns {"className":"footer-links-contact"} -->
+        <div class="wp-block-column"><!-- wp:columns {"className":"footer-links-contact","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|md"}}}} -->
             <div class="wp-block-columns footer-links-contact"><!-- wp:column -->
-                <div class="wp-block-column"><!-- wp:paragraph {"textColor":"secondary","style":{"typography":{"fontSize":"24px","fontWeight":"700","lineHeight":"1","textAlign":"left"}},"fontFamily":"plus-jakarta-sans"} -->
-                    <p class="has-text-align-left has-secondary-color has-text-color has-plus-jakarta-sans-font-family" style="font-size:24px;font-weight:700;line-height:1"><?php echo esc_html(lawfirmpro_get_label('label_quick_links', 'Quick links')); ?></p>
+                <div class="wp-block-column"><!-- wp:paragraph {"textColor":"secondary","style":{"typography":{"fontSize":"clamp(20px, 2vw, 24px)","fontWeight":"700","lineHeight":"1","textAlign":"left"}},"fontFamily":"plus-jakarta-sans"} -->
+                    <p class="has-text-align-left has-secondary-color has-text-color has-plus-jakarta-sans-font-family" style="font-size:clamp(20px, 2vw, 24px);font-weight:700;line-height:1"><?php echo esc_html(lawfirmpro_get_label('label_quick_links', 'Quick links')); ?></p>
                     <!-- /wp:paragraph -->
 
                     <?php
@@ -47,8 +47,8 @@
                 <!-- /wp:column -->
 
                 <!-- wp:column -->
-                <div class="wp-block-column"><!-- wp:paragraph {"textColor":"secondary","style":{"typography":{"fontSize":"24px","fontWeight":"700","lineHeight":"1","textAlign":"left"}},"fontFamily":"plus-jakarta-sans"} -->
-                    <p class="has-text-align-left has-secondary-color has-text-color has-plus-jakarta-sans-font-family" style="font-size:24px;font-weight:700;line-height:1"><?php echo esc_html(lawfirmpro_get_label('label_contact_info', 'Contact Info')); ?></p>
+                <div class="wp-block-column"><!-- wp:paragraph {"textColor":"secondary","style":{"typography":{"fontSize":"clamp(20px, 2vw, 24px)","fontWeight":"700","lineHeight":"1","textAlign":"left"}},"fontFamily":"plus-jakarta-sans"} -->
+                    <p class="has-text-align-left has-secondary-color has-text-color has-plus-jakarta-sans-font-family" style="font-size:clamp(20px, 2vw, 24px);font-weight:700;line-height:1"><?php echo esc_html(lawfirmpro_get_label('label_contact_info', 'Contact Info')); ?></p>
                     <!-- /wp:paragraph -->
 
                     <!-- wp:group {"textColor":"secondary","style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"500"}},"fontFamily":"plus-jakarta-sans","layout":{"type":"flex","orientation":"vertical"}} -->

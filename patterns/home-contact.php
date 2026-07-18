@@ -11,16 +11,16 @@
 <!-- wp:group {"className":"consultation-main","layout":{"type":"constrained","justifyContent":"center"}} -->
 <div class="wp-block-group consultation-main"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|0","left":"var:preset|spacing|0"}}}} -->
     <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"","style":{"spacing":{"padding":{"right":"20px"},"blockGap":"16px"}},"layout":{"type":"default"}} -->
-        <div class="wp-block-column is-vertically-aligned-center" style="padding-right:20px">        <!-- wp:heading {"className":"consultation-heading","style":{"typography":{"textAlign":"left","lineHeight":"1.1"}}} -->
+        <div class="wp-block-column is-vertically-aligned-center" style="padding-right:var(--wp--preset--spacing--sm)">        <!-- wp:heading {"className":"consultation-heading","style":{"typography":{"textAlign":"left","lineHeight":"1.1"}}} -->
             <h2 class="wp-block-heading has-text-align-left consultation-heading" style="line-height:1.1"><?php echo esc_html(lawfirmpro_get_heading('heading_consultation', 'Book a Free Consultation')); ?></h2>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph {"className":"consultation-paragraph","style":{"typography":{"lineHeight":"1.2"},"spacing":{"padding":{"right":"20px"}}},"fontFamily":"plus-jakarta-sans"} -->
-            <p class="consultation-paragraph has-text-color has-plus-jakarta-sans-font-family" style="padding-right:20px;line-height:1.2"><?php echo esc_html(lawfirmpro_get_text('text_consultation', 'Ready to discuss your legal needs? Contact us today for a free initial consultation with our experienced team.')); ?></p>
+            <p class="consultation-paragraph has-text-color has-plus-jakarta-sans-font-family" style="padding-right:var(--wp--preset--spacing--sm);line-height:1.2"><?php echo esc_html(lawfirmpro_get_text('text_consultation', 'Ready to discuss your legal needs? Contact us today for a free initial consultation with our experienced team.')); ?></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:group {"style":{"spacing":{"padding":{"right":"50px","top":"48px"},"blockGap":"var:preset|spacing|0"}},"layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap"}} -->
-            <div class="wp-block-group" style="padding-top:48px;padding-right:50px"><!-- wp:group {"style":{"border":{"width":"1px","color":"#8F8F8F"},"dimensions":{"minHeight":"0px"},"layout":{"selfStretch":"fit","flexSize":""},"spacing":{"padding":{"top":"14px","bottom":"14px","left":"var:preset|spacing|md","right":"var:preset|spacing|md"},"blockGap":"10px"}},"borderColor":"accent-6","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+            <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--lg);padding-right:var(--wp--preset--spacing--lg)"><!-- wp:group {"style":{"border":{"width":"1px","color":"#8F8F8F"},"dimensions":{"minHeight":"0px"},"layout":{"selfStretch":"fit","flexSize":""},"spacing":{"padding":{"top":"14px","bottom":"14px","left":"var:preset|spacing|md","right":"var:preset|spacing|md"},"blockGap":"10px"}},"borderColor":"accent-6","layout":{"type":"flex","flexWrap":"nowrap"}} -->
                 <div class="wp-block-group has-border-color has-accent-6-border-color" style="border-color:#8F8F8F;border-width:1px;min-height:0px;padding-top:14px;padding-right:var(--wp--preset--spacing--md);padding-bottom:14px;padding-left:var(--wp--preset--spacing--md)"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|midnight-glow"},"layout":{"selfStretch":"fixed","flexSize":"24px"}}} -->
                     <figure class="wp-block-image size-full"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/call-header.png')); ?>" alt="" class="" /></figure>
                     <!-- /wp:image -->

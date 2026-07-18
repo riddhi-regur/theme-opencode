@@ -8,14 +8,14 @@
  * Inserter: true
  */
 ?>
-<!-- wp:group {"align":"wide","className":"blog-detail-main","style":{"spacing":{"padding":{"top":"var:preset|spacing|xl","left":"20px","right":"20px"},"blockGap":"56px"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignwide blog-detail-main" style="padding-top:var(--wp--preset--spacing--xl);padding-right:20px;padding-left:20px"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
-    <div class="wp-block-group"><!-- wp:heading {"align":"wide","className":"blog-detail-heading ","style":{"typography":{"fontWeight":"800","lineHeight":"1.1"},"layout":{"selfStretch":"fit","flexSize":null},"spacing":{"padding":{"right":"20px","left":"20px"}}}} -->
-        <h2 class="wp-block-heading alignwide blog-detail-heading" style="padding-right:20px;padding-left:20px;font-weight:800;line-height:1.1">Essential Legal Guidance Before Taking Action</h2>
+<!-- wp:group {"align":"wide","className":"blog-detail-main","style":{"spacing":{"padding":{"top":"var:preset|spacing|xl","left":"var:preset|spacing|sm","right":"var:preset|spacing|sm"},"blockGap":"56px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide blog-detail-main" style="padding-top:var(--wp--preset--spacing--xl);padding-right:var(--wp--preset--spacing--sm);padding-left:var(--wp--preset--spacing--sm)"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
+    <div class="wp-block-group"><!-- wp:heading {"align":"wide","className":"blog-detail-heading ","style":{"typography":{"fontWeight":"800","lineHeight":"1.1"},"layout":{"selfStretch":"fit","flexSize":null},"spacing":{"padding":{"right":"var:preset|spacing|sm","left":"var:preset|spacing|sm"}}}} -->
+        <h2 class="wp-block-heading alignwide blog-detail-heading" style="padding-right:var(--wp--preset--spacing--sm);padding-left:var(--wp--preset--spacing--sm);font-weight:800;line-height:1.1">Essential Legal Guidance Before Taking Action</h2>
         <!-- /wp:heading -->
 
-        <!-- wp:paragraph {"align":"wide","className":"blog-detail-paragraph","style":{"typography":{"textAlign":"center","fontWeight":"500","lineHeight":"1.5"},"spacing":{"padding":{"right":"20px","left":"20px"}}},"fontFamily":"plus-jakarta-sans"} -->
-        <p class="has-text-align-center alignwide blog-detail-paragraph has-plus-jakarta-sans-font-family" style="padding-right:20px;padding-left:20px;font-weight:500;line-height:1.5">Staying informed about legal developments is essential for making sound decisions. Our blog provides expert analysis on recent changes in legislation, landmark cases, and practical guidance to help you navigate the legal landscape with confidence.</p>
+        <!-- wp:paragraph {"align":"wide","className":"blog-detail-paragraph","style":{"typography":{"textAlign":"center","fontWeight":"500","lineHeight":"1.5"},"spacing":{"padding":{"right":"var:preset|spacing|sm","left":"var:preset|spacing|sm"}}},"fontFamily":"plus-jakarta-sans"} -->
+        <p class="has-text-align-center alignwide blog-detail-paragraph has-plus-jakarta-sans-font-family" style="padding-right:var(--wp--preset--spacing--sm);padding-left:var(--wp--preset--spacing--sm);font-weight:500;line-height:1.5">Staying informed about legal developments is essential for making sound decisions. Our blog provides expert analysis on recent changes in legislation, landmark cases, and practical guidance to help you navigate the legal landscape with confidence.</p>
         <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
@@ -95,26 +95,26 @@
     </div>
     <!-- /wp:columns -->
 
-    <!-- wp:group {"className":"blog-detail-cover-heading","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"spacing":{"margin":{"top":"64px","bottom":"64px"},"padding":{"top":"40px","bottom":"40px","left":"20px","right":"20px"}}},"backgroundColor":"primary","textColor":"secondary","layout":{"type":"flex","orientation":"vertical"}} -->
-    <div class="wp-block-group blog-detail-cover-heading has-secondary-color has-primary-background-color has-text-color has-background has-link-color" style="margin-top:64px;margin-bottom:64px;padding-top:40px;padding-right:20px;padding-bottom:40px;padding-left:20px"><!-- wp:heading {"className":"blog-black-heading","style":{"typography":{"fontSize":"32px","fontWeight":"800","lineHeight":"1.1"}},"textColor":"secondary"} -->
+    <!-- wp:group {"className":"blog-detail-cover-heading","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"spacing":{"margin":{"top":"var:preset|spacing|xl","bottom":"var:preset|spacing|xl"},"padding":{"top":"40px","bottom":"40px","left":"var:preset|spacing|sm","right":"var:preset|spacing|sm"}}},"backgroundColor":"primary","textColor":"secondary","layout":{"type":"flex","orientation":"vertical"}} -->
+    <div class="wp-block-group blog-detail-cover-heading has-secondary-color has-primary-background-color has-text-color has-background has-link-color" style="margin-top:var(--wp--preset--spacing--xl);margin-bottom:var(--wp--preset--spacing--xl);padding-top:40px;padding-right:var(--wp--preset--spacing--sm);padding-bottom:40px;padding-left:var(--wp--preset--spacing--sm)"><!-- wp:heading {"className":"blog-black-heading","style":{"typography":{"fontSize":"32px","fontWeight":"800","lineHeight":"1.1"}},"textColor":"secondary"} -->
         <h2 class="wp-block-heading blog-black-heading has-secondary-color has-text-color" style="font-size:32px;font-weight:800;line-height:1.1"><?php echo esc_html(lawfirmpro_get_heading('heading_blog_quote', '“Strong legal representation isn’t just about winning cases - it’s about protecting your rights and securing your future.”')); ?></h2>
         <!-- /wp:heading -->
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:columns {"isStackedOnMobile":false,"style":{"spacing":{"blockGap":{"left":"8px"}}}} -->
+    <!-- wp:columns {"isStackedOnMobile":true,"style":{"spacing":{"blockGap":{"left":"8px"}}}} -->
     <div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column -->
         <div class="wp-block-column"><!-- wp:group {"className":"blog-detail-column-stack","style":{"layout":{"selfStretch":"fit","flexSize":""},"spacing":{"blockGap":"16px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left","flexWrap":"wrap"}} -->
             <div class="wp-block-group blog-detail-column-stack"><!-- wp:image {"width":"700px","height":"408px","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"blog-detail-img","style":{"layout":{"selfStretch":"fit","flexSize":null}}} -->
                 <figure class="wp-block-image size-full is-resized blog-detail-img"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/appereance.png')); ?>" alt="" class="" style="object-fit:cover;width:700px;height:408px" /></figure>
                 <!-- /wp:image -->
 
-                <!-- wp:heading {"className":"blog-detail-paragraph","style":{"typography":{"fontWeight":"800","fontSize":"32px","lineHeight":"1.2"},"spacing":{"padding":{"right":"20px","top":"18px"}}}} -->
-                <h2 class="wp-block-heading blog-detail-paragraph" style="padding-top:18px;padding-right:20px;font-size:32px;font-weight:800;line-height:1.2">How to Prepare for Your First Court Appearance</h2>
+                <!-- wp:heading {"className":"blog-detail-paragraph","style":{"typography":{"fontWeight":"800","fontSize":"32px","lineHeight":"1.2"},"spacing":{"padding":{"right":"var:preset|spacing|sm","top":"18px"}}}} -->
+                <h2 class="wp-block-heading blog-detail-paragraph" style="padding-top:18px;padding-right:var(--wp--preset--spacing--sm);font-size:32px;font-weight:800;line-height:1.2">How to Prepare for Your First Court Appearance</h2>
                 <!-- /wp:heading -->
 
-                <!-- wp:paragraph {"className":"blog-detail-paragraph","style":{"typography":{"lineHeight":"1.5"},"spacing":{"padding":{"right":"20px"}}},"fontFamily":"plus-jakarta-sans"} -->
-                <p class="blog-detail-paragraph has-plus-jakarta-sans-font-family" style="padding-right:20px;line-height:1.5">Being well-prepared for court is vital to the success of your case. Our solicitors guide you through every step of the process, ensuring you understand what to expect and feel confident on the day of your hearing.</p>
+                <!-- wp:paragraph {"className":"blog-detail-paragraph","style":{"typography":{"lineHeight":"1.5"},"spacing":{"padding":{"right":"var:preset|spacing|sm"}}},"fontFamily":"plus-jakarta-sans"} -->
+                <p class="blog-detail-paragraph has-plus-jakarta-sans-font-family" style="padding-right:var(--wp--preset--spacing--sm);line-height:1.5">Being well-prepared for court is vital to the success of your case. Our solicitors guide you through every step of the process, ensuring you understand what to expect and feel confident on the day of your hearing.</p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -127,8 +127,8 @@
                 <figure class="wp-block-image alignleft size-full is-resized blog-detail-img"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/personal-injuryclaim.png')); ?>" alt="" class="" style="object-fit:cover;width:700px;height:408px" /></figure>
                 <!-- /wp:image -->
 
-                <!-- wp:heading {"className":"blog-detail-paragraph","style":{"typography":{"fontWeight":"800","fontSize":"32px","lineHeight":"1.2"},"spacing":{"padding":{"top":"18px","right":"20px"}}}} -->
-                <h2 class="wp-block-heading blog-detail-paragraph" style="padding-top:18px;padding-right:20px;font-size:32px;font-weight:800;line-height:1.2">What to Expect During a Personal Injury Claim</h2>
+                <!-- wp:heading {"className":"blog-detail-paragraph","style":{"typography":{"fontWeight":"800","fontSize":"32px","lineHeight":"1.2"},"spacing":{"padding":{"top":"18px","right":"var:preset|spacing|sm"}}}} -->
+                <h2 class="wp-block-heading blog-detail-paragraph" style="padding-top:18px;padding-right:var(--wp--preset--spacing--sm);font-size:32px;font-weight:800;line-height:1.2">What to Expect During a Personal Injury Claim</h2>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"className":"blog-detail-paragraph","style":{"typography":{"lineHeight":"1.5"},"spacing":{"padding":{"right":"40px"}}},"fontFamily":"plus-jakarta-sans"} -->

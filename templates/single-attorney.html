@@ -7,18 +7,18 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
-<!-- wp:group {"className":"attorney-heading-group","style":{"spacing":{"blockGap":"21px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
-<div class="wp-block-group attorney-heading-group"><!-- wp:heading {"textAlign":"center","className":"attorneys-heading","style":{"typography":{"fontWeight":"800","lineHeight":"1.1","fontSize":"56px"},"spacing":{"padding":{"right":"20px","left":"20px"}}}} -->
-<h2 class="wp-block-heading attorneys-heading" style="padding-right:20px;padding-left:20px;font-size:56px;font-weight:800;line-height:1.1"><?php echo esc_html(lawfirmpro_get_heading('heading_attorneys', 'Meet Our Experienced Attorneys')); ?></h2>
+<!-- wp:group {"className":"attorney-heading-group","style":{"spacing":{"blockGap":"var:preset|spacing|sm"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
+<div class="wp-block-group attorney-heading-group"><!-- wp:heading {"textAlign":"center","className":"attorneys-heading","style":{"typography":{"fontWeight":"800","lineHeight":"1.1","fontSize":"clamp(32px, 5vw, 56px)"},"spacing":{"padding":{"right":"var:preset|spacing|sm","left":"var:preset|spacing|sm"}}}} -->
+<h2 class="wp-block-heading attorneys-heading" style="padding-right:var(--wp--preset--spacing--sm);padding-left:var(--wp--preset--spacing--sm);font-size:clamp(32px, 5vw, 56px);font-weight:800;line-height:1.1"><?php echo esc_html(lawfirmpro_get_heading('heading_attorneys', 'Meet Our Experienced Attorneys')); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"attorneys-paragraph","style":{"typography":{"fontWeight":"500","lineHeight":"1.5","textAlign":"center"},"layout":{"selfStretch":"fit"},"spacing":{"padding":{"right":"20px","left":"20px"}}},"fontFamily":"plus-jakarta-sans"} -->
-<p class="has-text-align-center attorneys-paragraph has-text-color has-plus-jakarta-sans-font-family" style="padding-right:20px;padding-left:20px;font-weight:500;line-height:1.5"><?php echo esc_html(lawfirmpro_get_text('text_attorneys', 'Our experienced solicitors are committed to providing expert legal advice tailored to your individual needs. Get to know the team behind your success.')); ?></p>
+<!-- wp:paragraph {"className":"attorneys-paragraph","style":{"typography":{"fontWeight":"500","lineHeight":"1.5","textAlign":"center"},"layout":{"selfStretch":"fit"},"spacing":{"padding":{"right":"var:preset|spacing|sm","left":"var:preset|spacing|sm"}}},"fontFamily":"plus-jakarta-sans"} -->
+<p class="has-text-align-center attorneys-paragraph has-text-color has-plus-jakarta-sans-font-family" style="padding-right:var(--wp--preset--spacing--sm);padding-left:var(--wp--preset--spacing--sm);font-weight:500;line-height:1.5"><?php echo esc_html(lawfirmpro_get_text('text_attorneys', 'Our experienced solicitors are committed to providing expert legal advice tailored to your individual needs. Get to know the team behind your success.')); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"blockVisibility":{"viewport":{"desktop":false,"tablet":false,"mobile":false}}},"className":"custom-posts-grid attorney-posts-grid","style":{"spacing":{"margin":{"top":"48px","bottom":"48px"},"padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0","left":"var:preset|spacing|0","right":"var:preset|spacing|0"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group custom-posts-grid attorney-posts-grid" style="margin-top:48px;margin-bottom:48px;padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0)"><!-- wp:query {"queryId":78,"query":{"perPage":9,"pages":0,"offset":0,"postType":"attorney","order":"asc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[]},"metadata":{"categories":["posts"],"patternName":"core/query-grid-posts","name":"Grid"}} -->
+<!-- wp:group {"metadata":{"blockVisibility":{"viewport":{"desktop":false,"tablet":false,"mobile":false}}},"className":"custom-posts-grid attorney-posts-grid","style":{"spacing":{"margin":{"top":"var:preset|spacing|lg","bottom":"var:preset|spacing|lg"},"padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0","left":"var:preset|spacing|0","right":"var:preset|spacing|0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group custom-posts-grid attorney-posts-grid" style="margin-top:var(--wp--preset--spacing--lg);margin-bottom:var(--wp--preset--spacing--lg);padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0)"><!-- wp:query {"queryId":78,"query":{"perPage":9,"pages":0,"offset":0,"postType":"attorney","order":"asc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[]},"metadata":{"categories":["posts"],"patternName":"core/query-grid-posts","name":"Grid"}} -->
 <div class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"21px"}},"layout":{"type":"grid","columnCount":3}} -->
 <!-- wp:group {"className":"attorney-posts-group","style":{"spacing":{"blockGap":"var:preset|spacing|md","margin":{"bottom":"51px"}}},"layout":{"inherit":false}} -->
 <div class="wp-block-group attorney-posts-group" style="margin-bottom:51px"><!-- wp:post-featured-image {"height":"430px","className":"attorneys-post-image"} /-->
@@ -58,9 +58,9 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
-<!-- wp:group {"metadata":{"blockVisibility":{"viewport":{"desktop":false,"tablet":false,"mobile":false}}},"className":"attorney-heading-group","style":{"spacing":{"blockGap":"21px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
-<div class="wp-block-group attorney-heading-group"><!-- wp:heading {"textAlign":"center","className":"attorneys-heading","style":{"typography":{"fontWeight":"800","lineHeight":"1.1","fontSize":"56px"},"spacing":{"padding":{"right":"20px","left":"20px"}}}} -->
-<h2 class="wp-block-heading attorneys-heading" style="padding-right:20px;padding-left:20px;font-size:56px;font-weight:800;line-height:1.1"><?php echo esc_html(lawfirmpro_get_heading('heading_attorneys', 'Meet Our Experienced Attorneys')); ?></h2>
+<!-- wp:group {"metadata":{"blockVisibility":{"viewport":{"desktop":false,"tablet":false,"mobile":false}}},"className":"attorney-heading-group","style":{"spacing":{"blockGap":"var:preset|spacing|sm"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
+<div class="wp-block-group attorney-heading-group"><!-- wp:heading {"textAlign":"center","className":"attorneys-heading","style":{"typography":{"fontWeight":"800","lineHeight":"1.1","fontSize":"clamp(32px, 5vw, 56px)"},"spacing":{"padding":{"right":"var:preset|spacing|sm","left":"var:preset|spacing|sm"}}}} -->
+<h2 class="wp-block-heading attorneys-heading" style="padding-right:var(--wp--preset--spacing--sm);padding-left:var(--wp--preset--spacing--sm);font-size:clamp(32px, 5vw, 56px);font-weight:800;line-height:1.1"><?php echo esc_html(lawfirmpro_get_heading('heading_attorneys', 'Meet Our Experienced Attorneys')); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"attorneys-paragraph","style":{"typography":{"fontWeight":"500","lineHeight":"1.5","textAlign":"center"},"layout":{"selfStretch":"fit"},"spacing":{"padding":{"right":"20px","left":"20px"}}},"fontFamily":"plus-jakarta-sans"} -->

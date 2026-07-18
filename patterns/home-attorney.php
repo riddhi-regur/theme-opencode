@@ -15,19 +15,19 @@
     </div>
     <!-- /wp:buttons -->
 
-    <!-- wp:group {"className":"attorney-heading-group","style":{"spacing":{"blockGap":"21px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
+    <!-- wp:group {"className":"attorney-heading-group","style":{"spacing":{"blockGap":"var:preset|spacing|sm"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
     <div class="wp-block-group attorney-heading-group"><!-- wp:heading {"className":"attorneys-heading"} -->
         <h2 class="wp-block-heading has-text-align-center attorneys-heading"><?php echo esc_html(lawfirmpro_get_heading('heading_attorneys', 'Meet Our Experienced Attorneys')); ?></h2>
         <!-- /wp:heading -->
 
         <!-- wp:paragraph {"metadata":{"blockVisibility":{"viewport":{"desktop":false,"tablet":false,"mobile":false}}},"className":"attorneys-paragraph","style":{"typography":{"textAlign":"center","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|accent"}}},"spacing":{"padding":{"right":"20px","left":"20px"}}},"fontFamily":"plus-jakarta-sans"} -->
-        <p class="has-text-align-center attorneys-paragraph has-plus-jakarta-sans-font-family" style="padding-right:20px;padding-left:20px;font-weight:500"><?php echo esc_html(lawfirmpro_get_text('text_attorneys_sub', 'Our team brings together specialists across multiple areas of law, offering tailored legal solutions for individuals and businesses.')); ?></p>
+        <p class="has-text-align-center attorneys-paragraph has-plus-jakarta-sans-font-family" style="padding-right:var(--wp--preset--spacing--sm);padding-left:var(--wp--preset--spacing--sm);font-weight:500"><?php echo esc_html(lawfirmpro_get_text('text_attorneys_sub', 'Our team brings together specialists across multiple areas of law, offering tailored legal solutions for individuals and businesses.')); ?></p>
         <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:group {"className":"custom-posts-grid attorney-posts-grid custom-post-slider","style":{"spacing":{"margin":{"top":"48px","bottom":"48px"},"padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0","left":"var:preset|spacing|0","right":"var:preset|spacing|0"}}},"layout":{"type":"default"}} -->
-    <div class="wp-block-group custom-posts-grid attorney-posts-grid custom-post-slider" style="margin-top:48px;margin-bottom:48px;padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0)"><!-- wp:query {"queryId":78,"query":{"perPage":100,"pages":0,"offset":0,"postType":"attorney","order":"asc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[]},"metadata":{"categories":["posts"],"patternName":"core/query-grid-posts","name":"Grid"}} -->
+    <!-- wp:group {"className":"custom-posts-grid attorney-posts-grid custom-post-slider","style":{"spacing":{"margin":{"top":"var:preset|spacing|lg","bottom":"var:preset|spacing|lg"},"padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0","left":"var:preset|spacing|0","right":"var:preset|spacing|0"}}},"layout":{"type":"default"}} -->
+    <div class="wp-block-group custom-posts-grid attorney-posts-grid custom-post-slider" style="margin-top:var(--wp--preset--spacing--lg);margin-bottom:var(--wp--preset--spacing--lg);padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0)"><!-- wp:query {"queryId":78,"query":{"perPage":100,"pages":0,"offset":0,"postType":"attorney","order":"asc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[]},"metadata":{"categories":["posts"],"patternName":"core/query-grid-posts","name":"Grid"}} -->
         <div class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"21px"}},"layout":{"type":"grid","columnCount":3}} -->
             <!-- wp:group {"className":"attorney-posts-group","style":{"spacing":{"blockGap":"var:preset|spacing|md","margin":{"bottom":"var:preset|spacing|0"}}},"layout":{"inherit":false}} -->
             <div class="wp-block-group attorney-posts-group" style="margin-bottom:var(--wp--preset--spacing--0)"><!-- wp:post-featured-image {"height":"447px","className":"attorney-pattern-img"} /-->

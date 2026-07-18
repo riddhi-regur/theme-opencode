@@ -15,13 +15,13 @@
     </div>
     <!-- /wp:buttons -->
 
-    <!-- wp:group {"className":"contact-heading-group","style":{"spacing":{"blockGap":"21px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
-    <div class="wp-block-group contact-heading-group"><!-- wp:heading {"textAlign":"center","className":"contact-heading","style":{"typography":{"fontWeight":"800","lineHeight":"1.1","fontSize":"56px"},"spacing":{"padding":{"right":"20px","left":"20px"}}}} -->
-        <h2 class="wp-block-heading contact-heading" style="padding-right:20px;padding-left:20px;font-size:56px;font-weight:800;line-height:1.1"><?php echo esc_html(lawfirmpro_get_heading('heading_contact_hero', 'Speak With Our Legal Experts')); ?></h2>
+    <!-- wp:group {"className":"contact-heading-group","style":{"spacing":{"blockGap":"var:preset|spacing|sm"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
+    <div class="wp-block-group contact-heading-group"><!-- wp:heading {"textAlign":"center","className":"contact-heading","style":{"typography":{"fontWeight":"800","lineHeight":"1.1","fontSize":"clamp(32px, 5vw, 56px)"},"spacing":{"padding":{"right":"var:preset|spacing|sm","left":"var:preset|spacing|sm"}}}} -->
+        <h2 class="wp-block-heading contact-heading" style="padding-right:var(--wp--preset--spacing--sm);padding-left:var(--wp--preset--spacing--sm);font-size:clamp(32px, 5vw, 56px);font-weight:800;line-height:1.1"><?php echo esc_html(lawfirmpro_get_heading('heading_contact_hero', 'Speak With Our Legal Experts')); ?></h2>
         <!-- /wp:heading -->
 
-        <!-- wp:paragraph {"className":"contact-paragraph","style":{"typography":{"fontWeight":"500","lineHeight":"1.5","textAlign":"center"},"layout":{"selfStretch":"fit","flexSize":null},"spacing":{"padding":{"right":"20px","left":"20px"}}},"fontFamily":"plus-jakarta-sans"} -->
-        <p class="has-text-align-center contact-paragraph has-plus-jakarta-sans-font-family" style="padding-right:20px;padding-left:20px;font-weight:500;line-height:1.5"><?php echo esc_html(lawfirmpro_get_text('text_contact_hero', 'Whether you need legal advice, want to schedule a consultation, or have questions about our services. Get in touch today for clear, practical legal guidance.')); ?></p>
+        <!-- wp:paragraph {"className":"contact-paragraph","style":{"typography":{"fontWeight":"500","lineHeight":"1.5","textAlign":"center"},"layout":{"selfStretch":"fit","flexSize":null},"spacing":{"padding":{"right":"var:preset|spacing|sm","left":"var:preset|spacing|sm"}}},"fontFamily":"plus-jakarta-sans"} -->
+        <p class="has-text-align-center contact-paragraph has-plus-jakarta-sans-font-family" style="padding-right:var(--wp--preset--spacing--sm);padding-left:var(--wp--preset--spacing--sm);font-weight:500;line-height:1.5"><?php echo esc_html(lawfirmpro_get_text('text_contact_hero', 'Whether you need legal advice, want to schedule a consultation, or have questions about our services. Get in touch today for clear, practical legal guidance.')); ?></p>
         <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->

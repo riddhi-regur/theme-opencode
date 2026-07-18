@@ -1,49 +1,52 @@
+/* ==========================================================================
+   FAQ — Mobile First
+   ========================================================================== */
+
+/* Base (mobile) */
 .faq-title {
-    cursor: pointer;
-    position: relative;
-    padding-right: 50px;
-    font-size: 20px; 
+  cursor: pointer;
+  position: relative;
+  padding-right: 28px;
+  font-size: 15px;
 }
 
 .faq-content {
-    display: none;
-    color: #393939;
-    font-size: 16px; 
+  display: none;
+  color: var(--wp--preset--color--accent-10);
+  font-size: var(--wp--preset--font-size--small);
+  line-height: 1.5;
 }
 
-.faq-item.active{
-    border-color: #393939 !important;
+.faq-item.active {
+  border-color: var(--wp--preset--color--accent-10) !important;
 }
 
 .lawfirmpro-faq-item.active .faq-content,
 .faq-item.active .faq-content {
-    display: block;
+  display: block;
 }
 
-@media (max-width: 1024px) {
+/* Large phone (430px+) */
+@media (min-width: 430px) {
   .faq-title {
-    font-size: 18px;
-    padding-right: var(--wp--preset--spacing--lg);
-  }
-}
-
-@media (max-width: 768px) {
-  .faq-title {
-    font-size: 16px;
+    font-size: var(--wp--preset--font-size--medium);
     padding-right: 32px;
   }
+
   .faq-content {
-    font-size: 14px;
+    font-size: var(--wp--preset--font-size--small);
+    line-height: 1.5;
   }
 }
 
-@media (max-width: 430px) {
+/* Desktop (768px+) */
+@media (min-width: 768px) {
   .faq-title {
-    font-size: 15px;
-    padding-right: 28px;
+    font-size: var(--wp--preset--font-size--medium);
+    padding-right: var(--wp--preset--spacing--lg);
   }
+
   .faq-content {
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: var(--wp--preset--font-size--medium);
   }
 }

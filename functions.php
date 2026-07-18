@@ -103,7 +103,6 @@ add_action('after_setup_theme', 'lawfirmpro_setup');
 function lawfirmpro_scripts()
 {
 	wp_enqueue_style('lawfirmpro-style', get_stylesheet_uri(), array(), LAWFIRMPRO_VERSION);
-	wp_enqueue_script('lawfirmpro-script', get_template_directory_uri() . '/js/script.min.js', array(), LAWFIRMPRO_VERSION, true);
 }
 add_action('wp_enqueue_scripts', 'lawfirmpro_scripts');
 
@@ -156,7 +155,7 @@ add_filter('register_block_type_args', 'lawfirmpro_modify_heading_levels', 10, 2
 
 function lawfirmpro_enqueue_block_assets()
 {
-	wp_enqueue_style('tw-styles', get_template_directory_uri() . '/dist/output.css', array(), LAWFIRMPRO_VERSION);
+	// Tailwind output.css removed — using individual CSS files via inc/enqueue.php
 }
 add_action('enqueue_block_assets', 'lawfirmpro_enqueue_block_assets');
 function lawfirmpro_cf7_form()

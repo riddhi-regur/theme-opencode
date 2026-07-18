@@ -1,68 +1,62 @@
 /* ==========================================================================
-   1. Main Slider Container
+   Post Slider — Mobile First
    ========================================================================== */
 
+/* Base (mobile) */
 .custom-post-slider {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    /* padding: 30px 0; */
-    box-sizing: border-box;
-
-    cursor: grab;
-
-    user-select: none;
-    -webkit-user-select: none;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .custom-post-slider:active {
-    cursor: grabbing;
+  cursor: grabbing;
 }
-
-/* ==========================================================================
-   2. Slider Track
-   ========================================================================== */
 
 .custom-post-slider .wp-block-post-template {
-    display: flex !important;
-    flex-wrap: nowrap !important;
-
-    margin: 0 !important;
-    padding: 0 !important;
-
-    list-style: none !important;
-
-    width: 100%;
-    will-change: transform;
-
-    /* Keep Gutenberg's gap if set */
-    overflow: visible;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: stretch !important;
+  margin: 0 !important;
+  padding: 0 var(--wp--preset--spacing--sm) !important;
+  list-style: none !important;
+  width: 100%;
+  will-change: transform;
+  overflow: visible;
 }
-
-/* ==========================================================================
-   3. Slider Items
-   Widths are controlled by JavaScript
-   ========================================================================== */
 
 .custom-post-slider .wp-block-post-template > * {
-    box-sizing: border-box;
-    min-width: 0;
-
-    /* JS sets flex-basis dynamically */
-    flex-shrink: 0;
-    transform: translateZ(0);
+  box-sizing: border-box;
+  min-width: 0;
+  flex-shrink: 0;
+  display: flex !important;
+  flex-direction: column !important;
+  transform: translateZ(0);
 }
 
-/* ==========================================================================
-   4. Images
-   ========================================================================== */
+.custom-post-slider .wp-block-post-template > * img {
+  width: 100% !important;
+  height: 239px !important;
+  max-height: 239px !important;
+  object-fit: cover !important;
+  display: block;
+  pointer-events: none;
+  -webkit-user-drag: none;
+}
 
-.custom-post-slider img {
-    width: 100%;
-    height: auto;
-    display: block;
+/* Desktop (768px+) */
+@media (min-width: 768px) {
+  .custom-post-slider .wp-block-post-template {
+    padding: 0 !important;
+    grid-template-columns: unset !important;
+  }
 
-    /* Prevent image dragging */
-    pointer-events: none;
-    -webkit-user-drag: none;
+  .custom-post-slider .wp-block-post-template > * img {
+    height: 239px !important;
+    max-height: 239px !important;
+  }
 }

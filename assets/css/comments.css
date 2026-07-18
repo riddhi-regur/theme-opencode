@@ -1,127 +1,133 @@
+/* ==========================================================================
+   Comments — Mobile First
+   ========================================================================== */
+
+/* Base (mobile) */
 .wp-block-comment-template {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .comment-respond {
-    background: #f5f5f5;
-    padding: 36px 58px 44px 30px;
-    margin-top: 49px;
+  background: #f5f5f5;
+  padding: 20px;
+  margin-top: 49px;
 }
 
 .lawyer-comment-title {
-    margin-bottom: 18px;
-    font-family: var(--wp--preset--font-family--plus-jakarta-sans) !important;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
+  margin-bottom: var(--wp--preset--spacing--sm);
+  font-family: var(--wp--preset--font-family--plus-jakarta-sans) !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--wp--preset--font-size--large);
+  line-height: 32px;
 }
 
 .lawyer-comment-form {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--wp--preset--spacing--sm);
 }
 
-.comment-form-comment label,.comment-form-author label,
+.comment-form-comment label,
+.comment-form-author label,
 .comment-form-email label,
-.comment-form-contact label{
-     font-family: var(--wp--preset--font-family--plus-jakarta-sans) !important;
-font-weight: 400;
-font-size: 18px;
-line-height: 100%;
-letter-spacing: 0%;
-margin-bottom: 6px;
-   
+.comment-form-contact label {
+  font-family: var(--wp--preset--font-family--plus-jakarta-sans) !important;
+  font-weight: 400;
+  font-size: var(--wp--preset--font-size--medium);
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 6px;
 }
-.comment-form-comment{
-    width: 100%;
+
+.comment-form-comment {
+  width: 100%;
 }
 
 .comment-form-comment textarea {
-    width: 100%;
-    height: 144px;
-    padding: var(--wp--preset--spacing--sm);
-    border: 1px solid #ddd;
-    background: #fff;
+  width: 100%;
+  height: 103px !important;
+  padding: var(--wp--preset--spacing--sm);
+  border: 1px solid #ddd;
+  background: var(--wp--preset--color--secondary);
 }
 
 .comment-form-author,
 .comment-form-email,
 .comment-form-contact {
-    flex: 1;
-    min-width: 220px;
+  flex: 100%;
+  width: 100%;
+  min-width: 220px;
 }
 
 .comment-form-author input,
 .comment-form-email input,
 .comment-form-contact input {
-    width: 100%;
-    height: 52px;
-    padding: 0 15px;
-    border: 1px solid #ddd;
-    background: #fff;
+  width: 100%;
+  height: 52px;
+  padding: 0 15px;
+  border: 1px solid #ddd;
+  background: var(--wp--preset--color--secondary);
 }
 
 .form-submit {
-    width: 100%;
-    margin-top: 10px;
+  width: 100%;
+  margin-top: 10px;
 }
 
 .form-submit .submit {
-    background: #000;
-    color: #fff;
-    border: none;
-    padding: 16px 28px;
-    font-size: 14px;
-    font-weight: 600;
-    text-transform: uppercase;
-    cursor: pointer;
+  background: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--secondary);
+  border: none;
+  padding: var(--wp--preset--spacing--sm) var(--wp--preset--spacing--md) !important;
+  font-size: var(--wp--preset--font-size--small);
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
-@media (max-width: 768px) {
-
-    .wp-block-comments {
-    padding: 0 !important;
-}
-
-    .comment-form-author,
-    .comment-form-email,
-    .comment-form-contact {
-        width: 100%;
-        flex: 100%;
-    }
-
-    .comment-respond {
-        padding: 25px;
-    }
-}
-@media (max-width: 430px) {
-    .form-submit .submit {
-   
-    padding: var(--wp--preset--spacing--sm) var(--wp--preset--spacing--md) !important;
-
-}
- .comment-respond {
-        padding: 20px;
-    }
-    .lawyer-comment-title {
-    margin-bottom: var(--wp--preset--spacing--sm);
-}
-
-.lawyer-comment-form {
-    gap: 16px;
-}
-.comment-form-comment textarea {
-    height: 103px !important;
-}
-}
+/* Very small screens */
 @media (max-width: 330px) {
-    .form-submit .submit {
-   
-    padding: 16px 44px !important;
-
+  .form-submit .submit {
+    padding: var(--wp--preset--spacing--sm) 44px !important;
+  }
 }
+
+/* Tablet+ (430px+) */
+@media (min-width: 430px) {
+  .wp-block-comments {
+    padding: 0 !important;
+  }
+
+  .comment-form-author,
+  .comment-form-email,
+  .comment-form-contact {
+    width: 100%;
+    flex: 100%;
+  }
+
+  .comment-respond {
+    padding: var(--wp--preset--spacing--md);
+  }
+}
+
+/* Desktop (768px+) */
+@media (min-width: 768px) {
+  .comment-respond {
+    background: #f5f5f5;
+    padding: 36px 58px 44px 30px;
+  }
+
+  .form-submit .submit {
+    padding: var(--wp--preset--spacing--sm) var(--wp--preset--spacing--md) !important;
+  }
+
+  .comment-form-author,
+  .comment-form-email,
+  .comment-form-contact {
+    flex: 1;
+    min-width: 220px;
+  }
 }

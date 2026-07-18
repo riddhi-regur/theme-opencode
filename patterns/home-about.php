@@ -29,8 +29,8 @@
             <p class="challenges-paragraph has-accent-color has-text-color has-link-color"><?php echo esc_html(lawfirmpro_get_text('text_home_about_p2', 'From first consultations to courtroom advocacy, our solicitors are known for professionalism, integrity, and achieving the best possible outcomes for every client.')); ?></p>
             <!-- /wp:paragraph -->
 
-            <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"40px","bottom":"40px"}}}} -->
-            <div class="wp-block-buttons" style="margin-top:40px;margin-bottom:40px"><!-- wp:button {"className":"transparent-text-black","style":{"typography":{"fontStyle":"normal","fontWeight":"800","fontSize":"16px","lineHeight":"1","letterSpacing":"0px","textTransform":"uppercase"}},"fontFamily":"plus-jakarta-sans"} -->
+            <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|lg","bottom":"var:preset|spacing|lg"}}}} -->
+            <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--lg);margin-bottom:var(--wp--preset--spacing--lg)"><!-- wp:button {"className":"transparent-text-black","style":{"typography":{"fontStyle":"normal","fontWeight":"800","fontSize":"16px","lineHeight":"1","letterSpacing":"0px","textTransform":"uppercase"}},"fontFamily":"plus-jakarta-sans"} -->
                 <div class="wp-block-button transparent-text-black"><a class="wp-block-button__link has-plus-jakarta-sans-font-family has-custom-font-size wp-element-button" href="<?php echo esc_url(lawfirmpro_get_page_url('about_page_id', '/about/')); ?>" style="font-size:16px;font-style:normal;font-weight:800;letter-spacing:0px;line-height:1;text-transform:uppercase"><?php echo esc_html(lawfirmpro_get_label('btn_read_more', 'Read More')); ?> ➔</a></div>
                 <!-- /wp:button -->
             </div>
@@ -39,8 +39,8 @@
         <!-- /wp:column -->
 
         <!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:columns {"isStackedOnMobile":false,"className":"column-gap","style":{"spacing":{"blockGap":{"left":"13px"}}}} -->
-            <div class="wp-block-columns is-not-stacked-on-mobile column-gap"><!-- wp:column -->
+        <div class="wp-block-column"><!-- wp:columns {"isStackedOnMobile":true,"className":"column-gap","style":{"spacing":{"blockGap":{"left":"13px"}}}} -->
+            <div class="wp-block-columns has-medium-gutter column-gap"><!-- wp:column -->
                 <div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url(get_theme_file_uri('assets/images/legal-challanges-1.png')); ?>","dimRatio":0,"isUserOverlayColor":true,"minHeight":100,"minHeightUnit":"%","sizeSlug":"full","className":"legal-challenge-hero","style":{"spacing":{"padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0","left":"var:preset|spacing|0","right":"var:preset|spacing|0"},"margin":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0"}}},"layout":{"type":"default"}} -->
                     <div class="wp-block-cover legal-challenge-hero" style="margin-top:var(--wp--preset--spacing--0);margin-bottom:var(--wp--preset--spacing--0);padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0);min-height:100%"><img class="wp-block-cover__image-background size-full" alt="" src="<?php echo esc_url(get_theme_file_uri('assets/images/legal-challanges-1.png')); ?>" data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span>
                         <div class="wp-block-cover__inner-container"><!-- wp:paragraph {"placeholder":"Write title…","style":{"typography":{"textAlign":"center"}}} -->

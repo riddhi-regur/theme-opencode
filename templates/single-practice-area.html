@@ -7,11 +7,11 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
-<!-- wp:group {"className":"practice-area-heading-group","style":{"spacing":{"blockGap":"21px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
-<div class="wp-block-group practice-area-heading-group"><!-- wp:post-title {"textAlign":"center","className":"practice-areas-heading","style":{"typography":{"fontSize":"56px","fontStyle":"normal","fontWeight":"800","lineHeight":"1.1","letterSpacing":"0%"},"spacing":{"padding":{"right":"20px","left":"20px"}}},"fontFamily":"plus-jakarta-sans"} /-->
+<!-- wp:group {"className":"practice-area-heading-group","style":{"spacing":{"blockGap":"var:preset|spacing|sm"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
+<div class="wp-block-group practice-area-heading-group"><!-- wp:post-title {"textAlign":"center","className":"practice-areas-heading","style":{"typography":{"fontSize":"clamp(32px, 5vw, 56px)","fontStyle":"normal","fontWeight":"800","lineHeight":"1.1","letterSpacing":"0%"},"spacing":{"padding":{"right":"var:preset|spacing|sm","left":"var:preset|spacing|sm"}}},"fontFamily":"plus-jakarta-sans"} /-->
 
-<!-- wp:paragraph {"className":"practice-areas-paragraph","style":{"typography":{"fontWeight":"500","lineHeight":"1.5","textAlign":"center"},"layout":{"selfStretch":"fit"},"spacing":{"padding":{"right":"20px","left":"20px"}}},"fontFamily":"plus-jakarta-sans"} -->
-<p class="has-text-align-center practice-areas-paragraph has-text-color has-plus-jakarta-sans-font-family" style="padding-right:20px;padding-left:20px;font-weight:500;line-height:1.5"><?php echo esc_html(lawfirmpro_get_text('text_practice_sub', 'We provide expert legal services tailored to your needs, delivering trusted advice and strong representation across a wide range of practice areas.')); ?></p>
+<!-- wp:paragraph {"className":"practice-areas-paragraph","style":{"typography":{"fontWeight":"500","lineHeight":"1.5","textAlign":"center"},"layout":{"selfStretch":"fit"},"spacing":{"padding":{"right":"var:preset|spacing|sm","left":"var:preset|spacing|sm"}}},"fontFamily":"plus-jakarta-sans"} -->
+<p class="has-text-align-center practice-areas-paragraph has-text-color has-plus-jakarta-sans-font-family" style="padding-right:var(--wp--preset--spacing--sm);padding-left:var(--wp--preset--spacing--sm);font-weight:500;line-height:1.5"><?php echo esc_html(lawfirmpro_get_text('text_practice_sub', 'We provide expert legal services tailored to your needs, delivering trusted advice and strong representation across a wide range of practice areas.')); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -51,10 +51,10 @@
 
 <!-- wp:post-content /-->
 
-<!-- wp:group {"metadata":{"categories":["featured"],"patternName":"lawfirmpro/contact","name":"Contact"},"className":"consultation-main","style":{"spacing":{"padding":{"bottom":"64px"}}},"layout":{"type":"constrained","justifyContent":"center"}} -->
-<div class="wp-block-group consultation-main" style="padding-bottom:64px"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|0","left":"var:preset|spacing|0"}}}} -->
-<div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"","style":{"spacing":{"padding":{"right":"20px"},"blockGap":"16px"}},"layout":{"type":"default"}} -->
-<div class="wp-block-column is-vertically-aligned-center" style="padding-right:20px"><!-- wp:heading {"className":"consultation-heading","style":{"typography":{"lineHeight":"1.1"}}} -->
+<!-- wp:group {"metadata":{"categories":["featured"],"patternName":"lawfirmpro/contact","name":"Contact"},"className":"consultation-main","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|xl"}}},"layout":{"type":"constrained","justifyContent":"center"}} -->
+<div class="wp-block-group consultation-main" style="padding-bottom:var(--wp--preset--spacing--xl)"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|0","left":"var:preset|spacing|0"}}}} -->
+<div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"","style":{"spacing":{"padding":{"right":"var:preset|spacing|sm"},"blockGap":"var:preset|spacing|sm"}},"layout":{"type":"default"}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="padding-right:var(--wp--preset--spacing--sm)"><!-- wp:heading {"className":"consultation-heading","style":{"typography":{"lineHeight":"1.1"}}} -->
 <h2 class="wp-block-heading consultation-heading" style="line-height:1.1"><?php echo esc_html(lawfirmpro_get_heading('heading_consultation', 'Book a Free Consultation')); ?></h2>
 <!-- /wp:heading -->
 
