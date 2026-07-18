@@ -104,6 +104,8 @@ function lawfirmpro_attorney_social_cb($post)
     echo '<tr><th>LinkedIn URL</th><td><input type="url" name="_attorney_linkedin" value="' . esc_attr($linkedin) . '" class="regular-text" placeholder="https://linkedin.com/..."></td></tr>';
     echo '</table>';
 }
+
+function lawfirmpro_save_attorney_meta($post_id)
 {
     if (!isset($_POST['lawfirmpro_attorney_meta_nonce']) || !wp_verify_nonce($_POST['lawfirmpro_attorney_meta_nonce'], 'lawfirmpro_attorney_meta')) {
         return;

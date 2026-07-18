@@ -91,7 +91,7 @@ function lawfirmpro_save_testimonial_fields_data($post_id)
         update_post_meta($post_id, '_testimonial_rating', sanitize_text_field($_POST['testimonial_rating']));
     }
 }
-add_action('save_post', 'lawfirmpro_save_testimonial_fields_data');
+add_action('save_post_testimonial', 'lawfirmpro_save_testimonial_fields_data');
 
 /**
  * Testimonial Meta Shortcode

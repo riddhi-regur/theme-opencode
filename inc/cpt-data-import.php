@@ -6,11 +6,16 @@ if (!defined('ABSPATH')) {
 
 /**
  * Import CPT data from live site on theme activation.
- * Hooked to after_switch_theme with priority 20 (runs after activation.php page creation).
- * Idempotent: checks if posts exist before creating.
+ * Hooked to init (ensures CPTs are registered before querying).
+ * Uses an option flag for idempotency instead of relying on get_posts
+ * which can return empty for unregistered post types.
  */
 function lawfirmpro_import_cpt_data()
 {
+    if (get_option('lawfirmpro_cpt_data_imported')) {
+        return;
+    }
+
     lawfirmpro_import_practice_areas();
     lawfirmpro_import_attorneys();
     lawfirmpro_import_testimonials();
@@ -20,8 +25,10 @@ function lawfirmpro_import_cpt_data()
     lawfirmpro_import_about_firm();
     lawfirmpro_set_default_options();
     lawfirmpro_set_all_featured_images();
+
+    update_option('lawfirmpro_cpt_data_imported', true);
 }
-add_action('after_switch_theme', 'lawfirmpro_import_cpt_data', 20);
+add_action('init', 'lawfirmpro_import_cpt_data');
 
 /**
  * Set a featured image for a post from a bundled theme image.
