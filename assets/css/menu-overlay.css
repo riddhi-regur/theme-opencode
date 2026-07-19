@@ -7,6 +7,7 @@
   display: flex !important;
   flex-direction: column !important;
   gap: 0 !important;
+  width: 100%;
 }
 
 .wp-block-navigation__overlay-container .wp-block-navigation-item {
@@ -34,7 +35,8 @@
   margin-left: auto;
 }
 
-.wp-block-navigation__overlay-container .wp-block-navigation__submenu-container {
+.wp-block-navigation__overlay-container
+  .wp-block-navigation__submenu-container {
   position: static !important;
   width: 100% !important;
   display: block !important;
@@ -42,16 +44,19 @@
   background: transparent !important;
   border: 0 !important;
   box-shadow: none !important;
-  padding: 15px 0 0 20px !important;
   margin: 0 !important;
 }
 
-.wp-block-navigation__overlay-container .wp-block-navigation__submenu-container .wp-block-navigation-item {
+.wp-block-navigation__overlay-container
+  .wp-block-navigation__submenu-container
+  .wp-block-navigation-item {
   border: 0 !important;
-  padding: 10px 0 !important;
+  padding: 0 !important;
 }
 
-.wp-block-navigation__overlay-container .wp-block-navigation__submenu-container .wp-block-navigation-item__content {
+.wp-block-navigation__overlay-container
+  .wp-block-navigation__submenu-container
+  .wp-block-navigation-item__content {
   font-size: var(--wp--preset--font-size--medium);
   font-weight: 400;
   text-transform: none;
@@ -64,7 +69,9 @@
     font-size: var(--wp--preset--font-size--medium);
   }
 
-  .wp-block-navigation__overlay-container .wp-block-navigation__submenu-container .wp-block-navigation-item__content {
+  .wp-block-navigation__overlay-container
+    .wp-block-navigation__submenu-container
+    .wp-block-navigation-item__content {
     font-size: var(--wp--preset--font-size--medium);
   }
 }
@@ -75,11 +82,14 @@
     font-size: var(--wp--preset--font-size--medium);
   }
 
-  .wp-block-navigation__overlay-container .wp-block-navigation__submenu-container {
+  .wp-block-navigation__overlay-container
+    .wp-block-navigation__submenu-container {
     padding-left: var(--wp--preset--spacing--lg) !important;
   }
 
-  .wp-block-navigation__overlay-container .wp-block-navigation__submenu-container .wp-block-navigation-item__content {
+  .wp-block-navigation__overlay-container
+    .wp-block-navigation__submenu-container
+    .wp-block-navigation-item__content {
     font-size: var(--wp--preset--font-size--medium);
   }
 }
