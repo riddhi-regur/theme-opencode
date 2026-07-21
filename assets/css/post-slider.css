@@ -40,8 +40,8 @@
 
 .custom-post-slider .wp-block-post-template > * img {
   width: 100% !important;
-  height: 239px !important;
-  max-height: 239px !important;
+  /* height: 239px !important;
+  max-height: 239px !important; */
   object-fit: cover !important;
   display: block;
   pointer-events: none;
@@ -55,8 +55,8 @@
     grid-template-columns: unset !important;
   }
 
-  .custom-post-slider .wp-block-post-template > * img {
+  /* .custom-post-slider .wp-block-post-template > * img {
     height: 239px !important;
     max-height: 239px !important;
-  }
+  } */
 }

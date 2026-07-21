@@ -22,7 +22,7 @@
         <!-- /wp:heading -->
 
         <!-- wp:paragraph {"metadata":{"blockVisibility":{"viewport":{"desktop":false,"tablet":false,"mobile":false}}},"className":"offers-paragraph","style":{"typography":{"fontWeight":"500","lineHeight":"1.5","textAlign":"center"},"layout":{"selfStretch":"fit","flexSize":null},"spacing":{"padding":{"right":"20px","left":"20px"}}},"fontFamily":"plus-jakarta-sans"} -->
-        <p class="has-text-align-center offers-paragraph has-text-color has-plus-jakarta-sans-font-family" style="padding-right:20px;padding-left:20px;font-weight:500;line-height:1.5"><?php echo esc_html(lawfirmpro_get_text('text_offers_sub_v2', 'How we can help you with your legal needs. Our experienced team is ready to assist you with personalized legal solutions.')); ?></p>
+        <p class="has-text-align-center offers-paragraph has-text-color has-plus-jakarta-sans-font-family" style="padding-right:20px;padding-left:20px;font-weight:500;line-height:1.5"><?php echo esc_html(lawfirmpro_get_text('text_offers_sub_v2', 'Our specialist legal teams provide expert advice across a wide range of personal and business legal services. Our experienced team is ready to assist you with personalized legal solutions.')); ?></p>
         <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->

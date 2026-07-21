@@ -7,16 +7,16 @@
  * Inserter: true
  */
 ?>
-<!-- wp:group {"className":"section-spacing-legal-challenges","style":{"spacing":{"margin":{"top":"var:preset|spacing|3xl","bottom":"var:preset|spacing|3xl"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group section-spacing-legal-challenges" style="margin-top:var(--wp--preset--spacing--3-xl);margin-bottom:var(--wp--preset--spacing--3-xl)"><!-- wp:columns -->
+<!-- wp:group {"className":"section-spacing-top","layout":{"type":"constrained"}} -->
+<div class="wp-block-group section-spacing-top"><!-- wp:columns -->
     <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center"} -->
         <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-            <div class="wp-block-group"><!-- wp:heading {"level":2,"className":"challanges-heading","style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} -->
-                <h2 class="wp-block-heading challanges-heading" style="font-style:normal;font-weight:300"><?php echo esc_html(lawfirmpro_get_heading('heading_home_about_1', 'Trusted by Clients')); ?></h2>
+            <div class="wp-block-group"><!-- wp:heading {"level":2,"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} -->
+                <h2 class="wp-block-heading " style="font-style:normal;font-weight:300"><?php echo esc_html(lawfirmpro_get_heading('heading_home_about_1', 'Trusted by Clients')); ?></h2>
                 <!-- /wp:heading -->
 
-                <!-- wp:heading {"className":"challanges-heading","style":{"spacing":{"margin":{"top":"0px"}}}} -->
-                <h2 class="wp-block-heading challanges-heading" style="margin-top:0px"><?php echo esc_html(lawfirmpro_get_heading('heading_home_about_2', 'Across England & Wales')); ?></h2>
+                <!-- wp:heading {"style":{"spacing":{"margin":{"top":"0px"}}}} -->
+                <h2 class="wp-block-heading " style="margin-top:0px"><?php echo esc_html(lawfirmpro_get_heading('heading_home_about_2', 'Across England & Wales')); ?></h2>
                 <!-- /wp:heading -->
             </div>
             <!-- /wp:group -->
