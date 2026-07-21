@@ -34,6 +34,9 @@ header {
   header {
     overflow: visible;
   }
+  .header-menu {
+    order: 2;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 630px) {
