@@ -262,9 +262,9 @@
     padding: 0 20px !important;
   }
 
-  .calculations-heading {
+  /* .calculations-heading {
     font-size: var(--wp--preset--font-size--x-large) !important;
-  }
+  } */
 
   .testimonial-heading {
     font-size: var(--wp--preset--font-size--x-large) !important;
@@ -331,6 +331,10 @@
   .offers-cover-img {
     min-height: 450px !important;
   }
+  .calculations-grid {
+    padding: var(--wp--preset--spacing--lg) 0;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
 
 /* Desktop (768px+) */
@@ -384,5 +388,6 @@
 @media (max-width: 200px) {
   .calculations-grid {
     grid-template-columns: repeat(1, minmax(0, 1fr));
+    overflow: hidden;
   }
 }
