@@ -29,9 +29,9 @@
             <p class="challenges-paragraph has-accent-color has-text-color has-link-color"><?php echo esc_html(lawfirmpro_get_text('text_home_about_p2', 'From first consultations to courtroom advocacy, our solicitors are known for professionalism, integrity, and achieving the best possible outcomes for every client.')); ?></p>
             <!-- /wp:paragraph -->
 
-            <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|lg","bottom":"var:preset|spacing|lg"}}}} -->
-            <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--lg);margin-bottom:var(--wp--preset--spacing--lg)"><!-- wp:button {"className":"transparent-text-black","style":{"typography":{"fontStyle":"normal","fontWeight":"800","fontSize":"16px","lineHeight":"1","letterSpacing":"0px","textTransform":"uppercase"}},"fontFamily":"plus-jakarta-sans"} -->
-                <div class="wp-block-button transparent-text-black"><a class="wp-block-button__link has-plus-jakarta-sans-font-family has-custom-font-size wp-element-button" href="<?php echo esc_url(lawfirmpro_get_page_url('about_page_id', '/about/')); ?>" style="font-size:16px;font-style:normal;font-weight:800;letter-spacing:0px;line-height:1;text-transform:uppercase"><?php echo esc_html(lawfirmpro_get_label('btn_read_more', 'Read More')); ?> ➔</a></div>
+            <!-- wp:buttons {"className":"button-gaps","style":{"spacing":{"blockGap":"16px","padding":{"top":"var:preset|spacing|lg","bottom":"var:preset|spacing|lg"}}},"layout":{"type":"flex","justifyContent":"left","flexWrap":"nowrap"}} -->
+            <div class="wp-block-buttons button-gaps" style="padding-top:var(--wp--preset--spacing--lg);padding-bottom:var(--wp--preset--spacing--lg)"><!-- wp:button {"className":"transparent-text-black is-style-fill","style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"800","lineHeight":"1","letterSpacing":"0px","textTransform":"uppercase"}},"fontFamily":"plus-jakarta-sans"} -->
+                <div class="wp-block-button transparent-text-black is-style-fill"><a class="wp-block-button__link has-plus-jakarta-sans-font-family has-custom-font-size wp-element-button" href="<?php echo esc_url(lawfirmpro_get_page_url('about_page_id', '/about/')); ?>" style="font-size:16px;font-style:normal;font-weight:800;letter-spacing:0px;line-height:1;text-transform:uppercase"><?php echo esc_html(lawfirmpro_get_label('btn_read_more', 'Read More')); ?> ➔</a></div>
                 <!-- /wp:button -->
             </div>
             <!-- /wp:buttons -->

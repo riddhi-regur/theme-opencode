@@ -107,7 +107,7 @@
 }
 
 /* Mobile sections */
-.section-spacing-legal-challenges {
+.section-spacing-top {
   margin-top: var(--wp--preset--spacing--xl) !important;
 }
 
@@ -264,9 +264,9 @@
     line-height: 48px !important;
   }
 
-  .challenges-paragraph {
+  /* .challenges-paragraph {
     font-size: var(--wp--preset--font-size--medium) !important;
-  }
+  } */
 
   .offers-heading {
     font-size: var(--wp--preset--font-size--x-large) !important;
@@ -359,6 +359,10 @@
 @media (min-width: 768px) {
   .hero-cover .wp-block-cover__image-background {
     display: block;
+  }
+
+  .section-spacing-top {
+    margin-top: var(--wp--preset--spacing--3-xl) !important;
   }
 
   .hero-cover {
