@@ -168,11 +168,6 @@
   padding-right: 15px !important;
 }
 
-.practice-areas-post-paragraph {
-  font-size: var(--wp--preset--font-size--medium) !important;
-  padding-right: 5px !important;
-}
-
 .practice-area-icons svg {
   width: 10px !important;
   height: 10px !important;
@@ -302,10 +297,6 @@
   }
 
   .practice-areas-post-tile {
-    font-size: var(--wp--preset--font-size--medium) !important;
-  }
-
-  .practice-areas-post-paragraph {
     font-size: var(--wp--preset--font-size--medium) !important;
   }
 

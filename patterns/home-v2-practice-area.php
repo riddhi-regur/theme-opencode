@@ -35,7 +35,7 @@
                 <!-- wp:group {"className":"practice-area-data-group","style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
                 <div class="wp-block-group practice-area-data-group"><!-- wp:post-title {"textAlign":"left","isLink":true,"className":"practice-areas-post-tile","style":{"typography":{"fontStyle":"normal","fontWeight":"700","letterSpacing":"0%","lineHeight":"1.3","fontSize":"24px"}},"fontFamily":"plus-jakarta-sans"} /-->
 
-                    <!-- wp:post-excerpt {"textAlign":"left","showMoreOnNewLine":false,"excerptLength":46,"className":"practice-areas-post-paragraph","style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","letterSpacing":"0%","lineHeight":"1.5"},"spacing":{"padding":{"right":"10px"}}},"fontFamily":"plus-jakarta-sans"} /-->
+                    <!-- wp:post-excerpt {"textAlign":"left","showMoreOnNewLine":false,"excerptLength":46,"style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","letterSpacing":"0%","lineHeight":"1.5"},"spacing":{"padding":{"right":"10px"}}},"fontFamily":"plus-jakarta-sans"} /-->
 
                     <!-- wp:paragraph {"className":"button-link","style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"800","textTransform":"uppercase"},"spacing":{"padding":{"top":"var:preset|spacing|md","bottom":"40px"}}},"fontFamily":"plus-jakarta-sans"} -->
                     <p class="button-link has-plus-jakarta-sans-font-family" style="padding-top:var(--wp--preset--spacing--md);padding-bottom:40px;font-size:16px;font-style:normal;font-weight:800;text-transform:uppercase"><?php echo esc_html(lawfirmpro_get_label('btn_view_service', 'View Service')); ?> ➔</p>
