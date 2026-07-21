@@ -115,16 +115,11 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+  justify-content: space-between;
 }
 
 .button-link {
   margin-top: auto;
-}
-
-/* Mobile base */
-.practice-areas-main {
-  padding-top: var(--wp--preset--spacing--xl) !important;
-  padding-bottom: var(--wp--preset--spacing--xl) !important;
 }
 
 .practice-areas-heading {
@@ -152,6 +147,7 @@
 
 .practice-area-heading-group {
   gap: var(--wp--preset--spacing--sm) !important;
+  overflow: hidden !important;
 }
 
 .practice-area-posts-grid {

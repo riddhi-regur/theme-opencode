@@ -8,8 +8,8 @@
  * Inserter: true
  */
 ?>
-<!-- wp:group {"className":"practice-areas-main","style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group practice-areas-main"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:group {"className":"section-spacing-top","style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group section-spacing-top"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
     <div class="wp-block-buttons"><!-- wp:button {"textColor":"accent-7","className":"is-style-outline","style":{"typography":{"textAlign":"center","fontSize":"16px","fontStyle":"normal","fontWeight":"600","lineHeight":"1.5","letterSpacing":"0%"},"elements":{"link":{"color":{"text":"var:preset|color|accent-7"}}},"border":{"width":"1px","color":"#afafaf","radius":{"topLeft":"300px","topRight":"300px","bottomLeft":"300px","bottomRight":"300px"}},"spacing":{"padding":{"top":"var:preset|spacing|xs","bottom":"var:preset|spacing|xs","left":"24px","right":"24px"}}},"fontFamily":"plus-jakarta-sans"} -->
         <div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-accent-7-color has-text-color has-link-color has-border-color has-plus-jakarta-sans-font-family has-text-align-center has-custom-font-size wp-element-button" style="border-color:#afafaf;border-width:1px;border-top-left-radius:300px;border-top-right-radius:300px;border-bottom-left-radius:300px;border-bottom-right-radius:300px;padding-top:var(--wp--preset--spacing--xs);padding-right:24px;padding-bottom:var(--wp--preset--spacing--xs);padding-left:24px;font-size:16px;font-style:normal;font-weight:600;letter-spacing:0%;line-height:1.5"><?php echo esc_html(lawfirmpro_get_label('label_services', 'Services')); ?></a></div>
         <!-- /wp:button -->
@@ -17,7 +17,7 @@
     <!-- /wp:buttons -->
 
     <!-- wp:group {"className":"practice-area-heading-group","style":{"spacing":{"blockGap":"var:preset|spacing|sm"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
-    <div class="wp-block-group practice-area-heading-group">        <!-- wp:heading {"textAlign":"center","className":"practice-areas-heading","style":{"typography":{"fontWeight":"800","lineHeight":"1.1","fontSize":"clamp(32px, 5vw, 56px)"},"spacing":{"padding":{"right":"var:preset|spacing|sm","left":"var:preset|spacing|sm"}}}} -->
+    <div class="wp-block-group practice-area-heading-group"> <!-- wp:heading {"textAlign":"center","className":"practice-areas-heading","style":{"typography":{"fontWeight":"800","lineHeight":"1.1","fontSize":"clamp(32px, 5vw, 56px)"},"spacing":{"padding":{"right":"var:preset|spacing|sm","left":"var:preset|spacing|sm"}}}} -->
         <h2 class="wp-block-heading practice-areas-heading" style="padding-right:var(--wp--preset--spacing--sm);padding-left:var(--wp--preset--spacing--sm);font-size:clamp(32px, 5vw, 56px);font-weight:800;line-height:1.1"><?php echo esc_html(lawfirmpro_get_heading('heading_practice', 'Expert Legal Services You Can Trust')); ?></h2>
         <!-- /wp:heading -->
 

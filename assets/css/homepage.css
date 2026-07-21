@@ -115,10 +115,6 @@
   margin-top: 33px !important;
 }
 
-.section-spacing-calculations {
-  margin-top: var(--wp--preset--spacing--xl) !important;
-}
-
 .calculations-grid {
   padding: var(--wp--preset--spacing--lg) 0;
   grid-template-columns: repeat(2, minmax(0, 1fr));
