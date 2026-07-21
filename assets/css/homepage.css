@@ -329,9 +329,6 @@
   .faq-img {
     margin: auto !important;
   }
-  .faq-column {
-    padding-right: 34px !important;
-  }
 }
 
 /* Desktop (768px+) */
@@ -386,6 +383,9 @@
   }
   .offers-cover-img {
     min-height: 478px !important;
+  }
+  .faq-column {
+    padding-right: 34px !important;
   }
 }
 

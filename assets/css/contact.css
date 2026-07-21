@@ -43,11 +43,6 @@
   color: lightgrey !important;
 }
 
-.consultation-main {
-  padding-top: var(--wp--preset--spacing--xl) !important;
-  padding-bottom: var(--wp--preset--spacing--xl) !important;
-}
-
 .contact-main {
   padding-top: var(--wp--preset--spacing--xl) !important;
 }
@@ -85,10 +80,6 @@
 
 .contact-form-row .wpcf7-form p {
   margin-top: 0 !important;
-}
-
-.consultation-main .wp-block-columns {
-  gap: var(--wp--preset--spacing--md) !important;
 }
 
 .contact-form-stack {
@@ -145,11 +136,6 @@
   .contact-paragraph {
     padding-left: var(--wp--preset--spacing--3xl) !important;
     padding-right: var(--wp--preset--spacing--3xl) !important;
-  }
-
-  .consultation-main {
-    padding-top: var(--wp--preset--spacing--3xl) !important;
-    padding-bottom: var(--wp--preset--spacing--3xl) !important;
   }
 }
 
