@@ -12,7 +12,12 @@ header {
   border-radius: 50%;
 }
 
+.header-menu {
+  order: 3;
+}
+
 .header-contact {
+  order: 2;
   margin-left: auto !important;
   margin-right: 5px !important;
 }

@@ -97,16 +97,13 @@
 .wp-block-group.hero-content-stack {
   padding-right: 0 !important;
   align-items: flex-start !important;
+  padding-top: 0 !important;
 }
 
 .hero1-content-stack {
   padding-top: 133px !important;
   padding-right: 0 !important;
   align-items: flex-start !important;
-}
-
-.hero-content-heading {
-  text-align: left !important;
 }
 
 /* Mobile sections */
@@ -372,12 +369,11 @@
   .wp-block-group.hero-content-stack {
     align-items: flex-start !important;
     padding-right: var(--wp--preset--spacing--3xl) !important;
+    padding-top: 80px !important;
   }
 
   .hero-content-heading {
-    font-size: var(--wp--preset--font-size--x-large) !important;
     text-align: left !important;
-    line-height: var(--wp--preset--spacing--xl) !important;
   }
 
   .about-heading {
