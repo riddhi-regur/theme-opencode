@@ -16,8 +16,8 @@
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:group {"className":"custom-posts-grid custom-post-slider","layout":{"type":"default"}} -->
-    <div class="wp-block-group custom-posts-grid custom-post-slider"><!-- wp:query {"queryId":78,"query":{"perPage":100,"pages":0,"offset":0,"postType":"testimonial","order":"asc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[]},"metadata":{"categories":["posts"],"patternName":"core/query-grid-posts","name":"Grid"}} -->
+    <!-- wp:group {"className":"custom-posts-grid custom-post-slider","style":{"spacing":{"padding":{"bottom":"5px"}}},"layout":{"type":"default"}} -->
+    <div class="wp-block-group custom-posts-grid custom-post-slider" style="padding-bottom:5px"><!-- wp:query {"queryId":78,"query":{"perPage":100,"pages":0,"offset":0,"postType":"testimonial","order":"asc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[]},"metadata":{"categories":["posts"],"patternName":"core/query-grid-posts","name":"Grid"}} -->
         <div class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"grid","columnCount":3}} -->
             <!-- wp:group {"className":"testimonial-card","style":{"spacing":{"padding":{"top":"var:preset|spacing|md","bottom":"44px","left":"var:preset|spacing|md","right":"var:preset|spacing|md"},"blockGap":"21px"},"border":{"width":"1px","color":"#EBEBEB","radius":{"topLeft":"8px","topRight":"8px","bottomLeft":"8px","bottomRight":"8px"}}},"layout":{"inherit":false}} -->
             <div class="wp-block-group testimonial-card has-border-color" style="border-color:#EBEBEB;border-width:1px;border-top-left-radius:8px;border-top-right-radius:8px;border-bottom-left-radius:8px;border-bottom-right-radius:8px;padding-top:var(--wp--preset--spacing--md);padding-right:var(--wp--preset--spacing--md);padding-bottom:44px;padding-left:var(--wp--preset--spacing--md)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"center"}} -->

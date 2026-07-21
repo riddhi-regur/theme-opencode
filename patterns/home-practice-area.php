@@ -7,8 +7,8 @@
  * Inserter: true
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"blockGap":"10px","padding":{"top":"var:preset|spacing|xl"}},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"backgroundColor":"primary","textColor":"secondary","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-secondary-color has-primary-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--xl)"><!-- wp:group {"className":"practice-area-heading-group","style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"10px","padding":{"top":"var:preset|spacing|xl","bottom":"var:preset|spacing|xl"}},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"backgroundColor":"primary","textColor":"secondary","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-secondary-color has-primary-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--xl);padding-bottom:var(--wp--preset--spacing--xl)"><!-- wp:group {"className":"practice-area-heading-group","style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
     <div class="wp-block-group practice-area-heading-group"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"typography":{"textAlign":"center"}},"textColor":"secondary"} -->
         <h2 class="wp-block-heading has-text-align-center has-secondary-color has-text-color has-link-color"><?php echo esc_html(lawfirmpro_get_heading('heading_practice', 'Our Expertise Practice Areas')); ?></h2>
         <!-- /wp:heading -->
