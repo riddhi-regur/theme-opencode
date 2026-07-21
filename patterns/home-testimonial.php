@@ -8,8 +8,8 @@
  * Inserter: true
  */
 ?>
-<!-- wp:group {"className":"section-spacing-top","layout":{"type":"constrained"}} -->
-<div class="wp-block-group section-spacing-top"><!-- wp:group {"className":"stack-overflow","style":{"spacing":{"margin":{"bottom":"40px"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
+<!-- wp:group {"className":"section-spacing-top section-spacing-bottom","layout":{"type":"constrained"}} -->
+<div class="wp-block-group section-spacing-top section-spacing-bottom"><!-- wp:group {"className":"stack-overflow","style":{"spacing":{"margin":{"bottom":"40px"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
     <div class="wp-block-group stack-overflow" style="margin-bottom:40px"><!-- wp:heading {"style":{"typography":{"textAlign":"center"}}} -->
         <h2 class="wp-block-heading has-text-align-center"><?php echo esc_html(lawfirmpro_get_heading('heading_testimonials', 'Real Stories from Real Clients')); ?></h2>
         <!-- /wp:heading -->

@@ -106,6 +106,9 @@
 .section-spacing-top {
   margin-top: var(--wp--preset--spacing--xl) !important;
 }
+.section-spacing-bottom {
+  margin-bottom: var(--wp--preset--spacing--xl) !important;
+}
 
 .stack-overflow {
   overflow: hidden;
@@ -126,10 +129,6 @@
 
 .faq-img {
   min-height: 435px !important;
-}
-
-.blogs-main-homepage {
-  padding-bottom: var(--wp--preset--spacing--xl) !important;
 }
 
 .protect-rights-main {
@@ -346,6 +345,9 @@
 
   .section-spacing-top {
     margin-top: var(--wp--preset--spacing--3-xl) !important;
+  }
+  .section-spacing-bottom {
+    margin-bottom: var(--wp--preset--spacing--3-xl) !important;
   }
 
   .paragraph-padding {
