@@ -331,12 +331,22 @@
     padding: var(--wp--preset--spacing--lg) 0;
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
+  .faq-img {
+    margin: auto !important;
+  }
 }
 
 /* Desktop (768px+) */
 @media (min-width: 768px) {
   .hero-cover .wp-block-cover__image-background {
     display: block;
+  }
+  .faq-img img {
+    height: 727px !important;
+  }
+
+  .faq-img {
+    min-height: 727px !important;
   }
 
   .section-spacing-top {
