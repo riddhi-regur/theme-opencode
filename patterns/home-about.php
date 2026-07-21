@@ -39,7 +39,7 @@
         <!-- /wp:column -->
 
         <!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:columns {"isStackedOnMobile":true,"className":"column-gap","style":{"spacing":{"blockGap":{"left":"13px"}}}} -->
+        <div class="wp-block-column"><!-- wp:columns {"isStackedOnMobile":false,"className":"column-gap","style":{"spacing":{"blockGap":{"left":"13px"}}}} -->
             <div class="wp-block-columns has-medium-gutter column-gap"><!-- wp:column -->
                 <div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url(get_theme_file_uri('assets/images/legal-challanges-1.png')); ?>","dimRatio":0,"isUserOverlayColor":true,"minHeight":100,"minHeightUnit":"%","sizeSlug":"full","className":"legal-challenge-hero","style":{"spacing":{"padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0","left":"var:preset|spacing|0","right":"var:preset|spacing|0"},"margin":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0"}}},"layout":{"type":"default"}} -->
                     <div class="wp-block-cover legal-challenge-hero" style="margin-top:var(--wp--preset--spacing--0);margin-bottom:var(--wp--preset--spacing--0);padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0);min-height:100%"><img class="wp-block-cover__image-background size-full" alt="" src="<?php echo esc_url(get_theme_file_uri('assets/images/legal-challanges-1.png')); ?>" data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span>
