@@ -80,6 +80,10 @@
   padding-top: 90px !important;
 }
 
+.hero-v2-cover {
+  padding-top: 90px !important;
+}
+
 .hero-cover .wp-block-cover__image-background {
   display: none;
 }
@@ -234,6 +238,10 @@
     padding-top: var(--wp--preset--spacing--xl) !important;
   }
 
+  .hero-v2-cover {
+    padding-top: var(--wp--preset--spacing--xl) !important;
+  }
+
   .wp-block-group.hero-content-stack {
     align-items: center !important;
   }
@@ -356,6 +364,10 @@
 
   .hero-cover {
     background-image: none !important;
+    padding-top: var(--wp--preset--spacing--3xl) !important;
+  }
+
+  .hero-v2-cover {
     padding-top: var(--wp--preset--spacing--3xl) !important;
   }
 
