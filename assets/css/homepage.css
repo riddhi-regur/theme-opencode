@@ -120,14 +120,6 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.faq-column {
-  padding-top: 60px !important;
-}
-
-.faq-heading {
-  padding-right: var(--wp--preset--spacing--3xl) !important;
-}
-
 .faq-img img {
   height: 435px !important;
 }
@@ -233,6 +225,9 @@
 .offers-cover-img {
   min-height: 394px !important;
 }
+.faq-column {
+  padding-top: 60px !important;
+}
 
 /* Large phone (430px+) */
 @media (min-width: 430px) {
@@ -271,7 +266,7 @@
   }
 
   .faq-heading {
-    font-size: var(--wp--preset--font-size--x-large) !important;
+    padding-right: var(--wp--preset--spacing--2-xl) !important;
   }
 
   .article-heading {
@@ -333,6 +328,9 @@
   }
   .faq-img {
     margin: auto !important;
+  }
+  .faq-column {
+    padding-right: 34px !important;
   }
 }
 

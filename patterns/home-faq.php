@@ -8,11 +8,11 @@
  * Inserter: true
  */
 ?>
-<!-- wp:group {"className":"section-spacing-top","backgroundColor":"accent-5","layout":{"type":"constrained"}} -->
-<div class="wp-block-group section-spacing-top has-accent-5-background-color has-background"><!-- wp:columns {"style":{"spacing":{"padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0","left":"var:preset|spacing|0","right":"var:preset|spacing|0"},"margin":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0"}}}} -->
+<!-- wp:group {"className":"section-spacing-top","style":{"spacing":{"padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0"},"margin":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0"}}},"backgroundColor":"accent-5","layout":{"type":"constrained"}} -->
+<div class="wp-block-group section-spacing-top has-accent-5-background-color has-background" style="margin-top:var(--wp--preset--spacing--0);margin-bottom:var(--wp--preset--spacing--0);padding-top:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0)"><!-- wp:columns {"style":{"spacing":{"padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0","left":"var:preset|spacing|0","right":"var:preset|spacing|0"},"margin":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0"}}}} -->
     <div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--0);margin-bottom:var(--wp--preset--spacing--0);padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0)"><!-- wp:column {"verticalAlignment":"center","className":"faq-column","layout":{"type":"constrained"}} -->
-        <div class="wp-block-column is-vertically-aligned-center faq-column"><!-- wp:heading {"className":"faq-heading","style":{"spacing":{"padding":{"bottom":"20px"}},"typography":{"textAlign":"left"}}} -->
-            <h2 class="wp-block-heading has-text-align-left faq-heading" style="padding-bottom:20px"><?php echo esc_html(lawfirmpro_get_heading('heading_faq', 'Frequently Asked Questions')); ?></h2>
+        <div class="wp-block-column is-vertically-aligned-center faq-column"><!-- wp:heading {"className":"faq-heading","style":{"typography":{"textAlign":"left"},"spacing":{"padding":{"bottom":"var:preset|spacing|lg"}}}} -->
+            <h2 class="wp-block-heading has-text-align-left faq-heading" style="padding-bottom:var(--wp--preset--spacing--lg)"><?php echo esc_html(lawfirmpro_get_heading('heading_faq', 'Frequently Asked Questions')); ?></h2>
             <!-- /wp:heading -->
 
             <!-- wp:group {"layout":{"type":"default"}} -->
@@ -20,7 +20,7 @@
                 <div class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|xs"}}} -->
                     <!-- wp:group {"className":"faq-item active","style":{"border":{"radius":{"topLeft":"6px","topRight":"6px","bottomLeft":"6px","bottomRight":"6px"},"width":"1px"},"spacing":{"padding":{"top":"20px","bottom":"20px","left":"20px","right":"20px"},"blockGap":"var:preset|spacing|0"}},"borderColor":"accent-9","layout":{"type":"default"}} -->
                     <div class="wp-block-group faq-item active has-border-color has-accent-9-border-color" style="border-width:1px;border-top-left-radius:6px;border-top-right-radius:6px;border-bottom-left-radius:6px;border-bottom-right-radius:6px;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:group {"className":"faq-header","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-                        <div class="wp-block-group faq-header"><!-- wp:post-title {"style":{"typography":{"fontSize":"20px","fontWeight":"500","lineHeight":"28px"}},"fontFamily":"mulish"} /-->
+                        <div class="wp-block-group faq-header"><!-- wp:post-title {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} /-->
 
                             <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"lawfirmpro-faq-item faq-icon","style":{"layout":{"selfStretch":"fixed","flexSize":"22px"}}} -->
                             <figure class="wp-block-image size-full lawfirmpro-faq-item faq-icon"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/Group.png')); ?>" alt="" /></figure>
