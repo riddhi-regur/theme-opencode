@@ -1,200 +1,169 @@
-document.addEventListener('DOMContentLoaded', () => {
-	document.querySelectorAll('.custom-post-slider').forEach((slider) => {
-		const track = slider.querySelector('.wp-block-post-template');
-		if (!track) return;
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".custom-post-slider").forEach((slider) => {
+    const track = slider.querySelector(".wp-block-post-template");
+    if (!track) return;
 
-		track.style.display = 'flex';
-		track.style.willChange = 'transform';
+    track.style.display = "flex";
+    track.style.willChange = "transform";
 
-		const slides = [...track.children];
-		if (!slides.length) return;
+    const slides = [...track.children];
+    if (!slides.length) return;
 
-		let isDragging = false;
-		let startX = 0;
-		let startY = 0;
-		let currentTranslate = 0;
-		let prevTranslate = 0;
-		let animationId = null;
-		let currentIndex = 0;
-		let preventClick = false;
-		let directionLocked = false;
-		let isHorizontal = false;
+    let isDragging = false;
+    let startX = 0;
+    let currentTranslate = 0;
+    let prevTranslate = 0;
+    let animationId;
+    let currentIndex = 0;
+    let preventClick = false;
 
-		const DRAG_THRESHOLD = 50;
+    const DRAG_THRESHOLD = 50;
 
-		function getColumns() {
-			if (window.innerWidth < 430) return 1;
-			if (window.innerWidth < 768) return 2;
-			return 3;
-		}
+    function getColumns() {
+      // Mobile
+      if (window.innerWidth < 430) return 1.1;
 
-		function getGap() {
-			return parseFloat(getComputedStyle(track).gap) || 0;
-		}
+      // Tablet
+      if (window.innerWidth < 768) return 2.1;
 
-		function applyWidths() {
-			const columns = getColumns();
-			const gap = getGap();
+      // Desktop - Gutenberg columns class
+      const columnClass = [...track.classList].find((cls) =>
+        cls.startsWith("columns-"),
+      );
 
-			slides.forEach((slide) => {
-				slide.style.flex = `0 0 calc((100% - ${
-					(columns - 1) * gap
-				}px) / ${columns})`;
+      return columnClass
+        ? parseInt(columnClass.replace("columns-", ""), 10)
+        : 3;
+    }
 
-				slide.style.boxSizing = 'border-box';
-			});
-		}
+    function getGap() {
+      return parseFloat(getComputedStyle(track).gap) || 0;
+    }
 
-		function getSlideWidth() {
-			const columns = getColumns();
-			const gap = getGap();
+    function applyWidths() {
+      const columns = getColumns();
+      const gap = getGap();
 
-			return (track.clientWidth - gap * (columns - 1)) / columns + gap;
-		}
+      const width = `calc((100% - ${(columns - 1) * gap}px) / ${columns})`;
 
-		function getMaxIndex() {
-			return Math.max(0, slides.length - getColumns());
-		}
+      slides.forEach((slide) => {
+        slide.style.flex = `0 0 ${width}`;
+      });
+    }
 
-		function getPositionX(e) {
-			return e.type.includes('mouse') ? e.pageX : e.touches[0].clientX;
-		}
+    function getSlideWidth() {
+      const columns = getColumns();
+      const gap = getGap();
 
-		function getPositionY(e) {
-			return e.type.includes('mouse') ? e.pageY : e.touches[0].clientY;
-		}
+      return (track.clientWidth - gap * (columns - 1)) / columns + gap;
+    }
 
-		function setSliderPosition() {
-			track.style.transform = `translateX(${currentTranslate}px)`;
-		}
+    function getMaxIndex() {
+      return Math.max(0, slides.length - Math.ceil(getColumns()));
+    }
 
-		function animation() {
-			setSliderPosition();
+    function setPosition() {
+      track.style.transform = `translateX(${currentTranslate}px)`;
+    }
 
-			if (isDragging) {
-				animationId = requestAnimationFrame(animation);
-			}
-		}
+    function animation() {
+      setPosition();
 
-		function setPositionByIndex() {
-			currentTranslate = -(currentIndex * getSlideWidth());
-			prevTranslate = currentTranslate;
+      if (isDragging) {
+        animationId = requestAnimationFrame(animation);
+      }
+    }
 
-			track.style.transition =
-				'transform 0.4s cubic-bezier(0.25,1,0.5,1)';
-			setSliderPosition();
-		}
+    function updatePosition() {
+      currentTranslate = -(currentIndex * getSlideWidth());
+      prevTranslate = currentTranslate;
 
-		function dragStart(e) {
-			isDragging = true;
-			preventClick = false;
-			directionLocked = false;
-			isHorizontal = false;
+      track.style.transition = "transform .35s ease";
+      setPosition();
+    }
 
-			startX = getPositionX(e);
-			startY = getPositionY(e);
+    function getPointerX(e) {
+      return e.type.startsWith("mouse") ? e.pageX : e.touches[0].clientX;
+    }
 
-			track.style.transition = 'none';
+    function dragStart(e) {
+      isDragging = true;
+      preventClick = false;
 
-			animationId = requestAnimationFrame(animation);
-		}
+      startX = getPointerX(e);
 
-		function dragMove(e) {
-			if (!isDragging) return;
+      track.style.transition = "none";
 
-			const currentX = getPositionX(e);
-			const currentY = getPositionY(e);
-			const movedX = currentX - startX;
-			const movedY = currentY - startY;
+      animationId = requestAnimationFrame(animation);
+    }
 
-			if (!directionLocked) {
-				if (Math.abs(movedX) > 10 || Math.abs(movedY) > 10) {
-					directionLocked = true;
-					isHorizontal = Math.abs(movedX) > Math.abs(movedY);
-				}
-			}
+    function dragMove(e) {
+      if (!isDragging) return;
 
-			if (!isHorizontal) {
-				isDragging = false;
-				cancelAnimationFrame(animationId);
-				return;
-			}
+      const moved = getPointerX(e) - startX;
 
-			e.preventDefault();
+      if (Math.abs(moved) > 5) {
+        preventClick = true;
+      }
 
-			if (Math.abs(movedX) > 5) {
-				preventClick = true;
-			}
+      currentTranslate = prevTranslate + moved;
 
-			currentTranslate = prevTranslate + movedX;
+      const maxTranslate = -(getMaxIndex() * getSlideWidth());
 
-			const maxTranslate = -(getMaxIndex() * getSlideWidth());
+      if (currentTranslate > 0) {
+        currentTranslate *= 0.3;
+      } else if (currentTranslate < maxTranslate) {
+        currentTranslate =
+          maxTranslate + (currentTranslate - maxTranslate) * 0.3;
+      }
+    }
 
-			if (currentTranslate > 0) {
-				currentTranslate *= 0.3;
-			} else if (currentTranslate < maxTranslate) {
-				currentTranslate =
-					maxTranslate + (currentTranslate - maxTranslate) * 0.3;
-			}
-		}
+    function dragEnd() {
+      if (!isDragging) return;
 
-		function dragEnd() {
-			if (!isDragging && !isHorizontal) return;
+      isDragging = false;
 
-			const wasDragging = isDragging;
-			isDragging = false;
+      cancelAnimationFrame(animationId);
 
-			cancelAnimationFrame(animationId);
+      const moved = currentTranslate - prevTranslate;
 
-			if (!wasDragging) return;
+      if (moved < -DRAG_THRESHOLD && currentIndex < getMaxIndex()) {
+        currentIndex++;
+      }
 
-			const movedBy = currentTranslate - prevTranslate;
+      if (moved > DRAG_THRESHOLD && currentIndex > 0) {
+        currentIndex--;
+      }
 
-			if (movedBy < -DRAG_THRESHOLD && currentIndex < getMaxIndex()) {
-				currentIndex++;
-			}
+      updatePosition();
+    }
 
-			if (movedBy > DRAG_THRESHOLD && currentIndex > 0) {
-				currentIndex--;
-			}
+    slider.addEventListener(
+      "click",
+      (e) => {
+        if (preventClick) {
+          e.preventDefault();
+          e.stopPropagation();
+        }
+      },
+      true,
+    );
 
-			setPositionByIndex();
-		}
+    slider.addEventListener("mousedown", dragStart);
+    slider.addEventListener("mousemove", dragMove);
+    window.addEventListener("mouseup", dragEnd);
 
-		slider.addEventListener(
-			'click',
-			(e) => {
-				if (preventClick) {
-					e.preventDefault();
-					e.stopPropagation();
-				}
-			},
-			true
-		);
+    slider.addEventListener("touchstart", dragStart, { passive: true });
+    slider.addEventListener("touchmove", dragMove, { passive: false });
+    window.addEventListener("touchend", dragEnd);
 
-		slider.addEventListener('mousedown', dragStart);
-		slider.addEventListener('mousemove', dragMove);
-		window.addEventListener('mouseup', dragEnd);
+    window.addEventListener("resize", () => {
+      currentIndex = Math.min(currentIndex, getMaxIndex());
+      applyWidths();
+      updatePosition();
+    });
 
-		slider.addEventListener('touchstart', dragStart, {
-			passive: true,
-		});
-
-		slider.addEventListener('touchmove', dragMove, {
-			passive: false,
-		});
-
-		window.addEventListener('touchend', dragEnd);
-
-		window.addEventListener('resize', () => {
-			applyWidths();
-
-			currentIndex = Math.min(currentIndex, getMaxIndex());
-
-			setPositionByIndex();
-		});
-
-		applyWidths();
-		setPositionByIndex();
-	});
+    applyWidths();
+    updatePosition();
+  });
 });

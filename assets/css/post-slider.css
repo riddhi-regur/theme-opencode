@@ -1,8 +1,7 @@
 /* ==========================================================================
-   Post Slider — Mobile First
+   Post Slider
    ========================================================================== */
 
-/* Base (mobile) */
 .custom-post-slider {
   position: relative;
   overflow: hidden;
@@ -20,43 +19,25 @@
 .custom-post-slider .wp-block-post-template {
   display: flex !important;
   flex-wrap: nowrap !important;
-  align-items: stretch !important;
+  align-items: stretch;
   margin: 0 !important;
-  padding: 0 var(--wp--preset--spacing--sm) !important;
-  list-style: none !important;
+  padding: 0 !important;
+  list-style: none;
   width: 100%;
   will-change: transform;
-  overflow: visible;
 }
 
 .custom-post-slider .wp-block-post-template > * {
-  box-sizing: border-box;
-  min-width: 0;
   flex-shrink: 0;
-  display: flex !important;
-  flex-direction: column !important;
+  min-width: 0;
+  box-sizing: border-box;
   transform: translateZ(0);
 }
 
-.custom-post-slider .wp-block-post-template > * img {
-  width: 100% !important;
-  /* height: 239px !important;
-  max-height: 239px !important; */
-  object-fit: cover !important;
+.custom-post-slider img {
+  width: 100%;
+  height: auto;
   display: block;
   pointer-events: none;
   -webkit-user-drag: none;
-}
-
-/* Desktop (768px+) */
-@media (min-width: 768px) {
-  .custom-post-slider .wp-block-post-template {
-    padding: 0 !important;
-    grid-template-columns: unset !important;
-  }
-
-  /* .custom-post-slider .wp-block-post-template > * img {
-    height: 239px !important;
-    max-height: 239px !important;
-  } */
 }
