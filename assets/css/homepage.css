@@ -188,14 +188,6 @@
   min-width: 302px !important;
 }
 
-.homepage-v2-offer-img {
-  max-height: 349px !important;
-}
-
-.homepage-v2-offer-img img {
-  max-height: 349px !important;
-}
-
 .homepage-v2-faq-main {
   margin-top: var(--wp--preset--spacing--lg) !important;
   margin-bottom: 0 !important;
@@ -432,6 +424,14 @@
 
   .homepage-practice-areas-post-image img {
     min-height: 614px !important;
+  }
+
+  .homepage-v2-offer-img {
+    max-height: 478px !important;
+  }
+
+  .homepage-v2-offer-img img {
+    max-height: 478px !important;
   }
 }
 
