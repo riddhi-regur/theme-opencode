@@ -175,15 +175,6 @@
   max-height: 350px !important;
 }
 
-.homepage-practice-areas-post-image {
-  max-height: 223px !important;
-  width: 100% !important;
-}
-
-.homepage-practice-areas-post-image img {
-  max-height: 223px !important;
-}
-
 .homepage-v2-practice-areas-post-image {
   max-height: 322px !important;
 }
@@ -433,6 +424,14 @@
   }
   .faq-column {
     padding-right: 34px !important;
+  }
+  .homepage-practice-areas-post-image {
+    min-height: 614px !important;
+    width: 100% !important;
+  }
+
+  .homepage-practice-areas-post-image img {
+    min-height: 614px !important;
   }
 }
 

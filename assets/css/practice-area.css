@@ -16,6 +16,10 @@
   align-items: center;
   gap: 12px;
 }
+.practice-area-v2-title {
+  font-size: 24px !important;
+  line-height: 32px !important;
+}
 
 .wp-block-query-pagination a,
 .wp-block-query-pagination span {
@@ -116,6 +120,12 @@
   flex-direction: column;
   flex: 1;
   justify-content: space-between;
+}
+
+.practice-area-v2-data-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .button-link {
