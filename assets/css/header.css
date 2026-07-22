@@ -12,7 +12,17 @@ header {
   border-radius: 50%;
 }
 
+.header-menu-v2 .wp-block-navigation__responsive-container-open,
+.header-overlay-close-btn {
+  border: 1px solid var(--wp--preset--color--primary);
+  border-radius: 50%;
+}
+
 .header-menu {
+  order: 3;
+}
+
+.header-menu-v2 {
   order: 3;
 }
 
@@ -26,6 +36,14 @@ header {
   color: lightgrey;
 }
 
+.header-menu-v2 li a:hover {
+  color: lightgrey;
+}
+
+.header-v2-row {
+  padding: 11px 12px;
+}
+
 @media (min-width: 600px) {
   .header-contact {
     order: 3;
@@ -37,10 +55,16 @@ header {
   .header-menu {
     order: 2;
   }
+  .header-menu-v2 {
+    order: 2;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 630px) {
   .header-menu li a span {
+    font-size: 10px !important;
+  }
+  .header-menu-v2 li a span {
     font-size: 10px !important;
   }
   .header-contact {
@@ -51,6 +75,9 @@ header {
 @media (min-width: 631px) and (max-width: 767px) {
   .header-menu li a span {
     font-size: 12px !important;
+  }
+  .header-menu-v2 li a span {
+    font-size: 11px !important;
   }
   .header-contact {
     font-size: 12px !important;
@@ -63,5 +90,8 @@ header {
   }
   header {
     margin-top: 24px;
+  }
+  .header-v2-row {
+    padding: 19px 24px;
   }
 }
