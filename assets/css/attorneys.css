@@ -198,11 +198,6 @@
   .team-details-main-cover {
     padding: 90px 0 !important;
   }
-
-  .homepage-v2-faq-maingroup {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
 }
 
 /* Desktop (768px+) */
@@ -232,5 +227,9 @@
     max-height: 20px !important;
     max-width: 20px !important;
     margin-top: 5px !important;
+  }
+  .homepage-v2-faq-maingroup {
+    padding-left: 200px !important;
+    padding-right: 200px !important;
   }
 }
