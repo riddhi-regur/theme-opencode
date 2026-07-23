@@ -18,8 +18,8 @@
 
     <!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
     <div class="wp-block-group alignfull"><!-- wp:group {"className":"stack-overflow","style":{"spacing":{"margin":{"bottom":"20px"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
-        <div class="wp-block-group stack-overflow" style="margin-bottom:20px"><!-- wp:heading {"className":"practice-area-heading","style":{"typography":{"fontWeight":"800","lineHeight":"1.1","fontSize":"56px"}}} -->
-            <h2 class="wp-block-heading practice-area-heading" style="font-size:56px;font-weight:800;line-height:1.1"><?php echo esc_html(lawfirmpro_get_heading('heading_testimonials', 'Real Stories from Real Clients')); ?></h2>
+        <div class="wp-block-group stack-overflow" style="margin-bottom:20px"><!-- wp:heading {"className":"practice-area-heading"} -->
+            <h2 class="wp-block-heading practice-area-heading"><?php echo esc_html(lawfirmpro_get_heading('heading_testimonials', 'Real Stories from Real Clients')); ?></h2>
             <!-- /wp:heading -->
         </div>
         <!-- /wp:group -->

@@ -183,11 +183,6 @@
   max-height: 322px !important;
 }
 
-.blogs-post-image-homepage {
-  min-height: 179px !important;
-  min-width: 302px !important;
-}
-
 .homepage-v2-faq-main {
   margin-top: var(--wp--preset--spacing--lg) !important;
   margin-bottom: 0 !important;
@@ -432,6 +427,12 @@
 
   .homepage-v2-offer-img img {
     max-height: 478px !important;
+  }
+  .blogs-post-image-homepage {
+    min-height: 239px !important;
+  }
+  .blogs-post-image-homepage img {
+    min-height: 239px !important;
   }
 }
 
