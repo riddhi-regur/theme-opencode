@@ -38,6 +38,10 @@
   justify-content: center;
 }
 
+.about-lawyer {
+  order: 2;
+}
+
 .arrow-image img {
   width: 35px !important;
   height: 35px !important;
@@ -221,6 +225,16 @@
 .protect-rights-heading-group {
   overflow: hidden;
 }
+.contact-form {
+  order: 1 !important;
+}
+
+.contact-map {
+  order: 2 !important;
+}
+.about-contact-btn {
+  justify-content: center !important;
+}
 
 /* Large phone (430px+) */
 @media (min-width: 430px) {
@@ -274,14 +288,6 @@
     font-size: var(--wp--preset--font-size--medium) !important;
   }
 
-  .contact-form {
-    order: 1 !important;
-  }
-
-  .contact-map {
-    order: 2 !important;
-  }
-
   .about-contact {
     justify-content: center !important;
   }
@@ -303,10 +309,6 @@
   .about-paragraph {
     padding-left: 30px !important;
     padding-right: 30px !important;
-  }
-
-  .about-contact-btn {
-    justify-content: center !important;
   }
 
   .about-testimonial {
