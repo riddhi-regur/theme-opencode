@@ -52,14 +52,6 @@
   gap: 10px !important;
 }
 
-.attorneys-post-image {
-  max-height: 193px !important;
-}
-
-.attorneys-post-image img {
-  max-height: 193px !important;
-}
-
 .attorney-heading-group {
   gap: 16px !important;
   overflow: hidden !important;
@@ -149,6 +141,9 @@
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+.attorneys-post-image img {
+  object-position: top !important;
+}
 
 /* Large phone (430px+) */
 @media (min-width: 430px) {
@@ -231,5 +226,13 @@
   .homepage-v2-faq-maingroup {
     padding-left: 200px !important;
     padding-right: 200px !important;
+  }
+  .attorneys-post-image {
+    max-height: 430px !important;
+  }
+
+  .attorneys-post-image img {
+    max-height: 430px !important;
+    object-position: top !important;
   }
 }

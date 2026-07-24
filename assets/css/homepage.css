@@ -236,10 +236,21 @@
   justify-content: center !important;
 }
 
+.about-contact {
+  justify-content: center !important;
+}
+
 /* Large phone (430px+) */
 @media (min-width: 430px) {
   .hero-cover {
     padding-top: var(--wp--preset--spacing--xl) !important;
+  }
+  .contact-form {
+    order: 2 !important;
+  }
+
+  .contact-map {
+    order: 1 !important;
   }
 
   .hero-v2-cover {
@@ -288,10 +299,6 @@
     font-size: var(--wp--preset--font-size--medium) !important;
   }
 
-  .about-contact {
-    justify-content: center !important;
-  }
-
   .column-gap {
     gap: var(--wp--preset--spacing--xs) var(--wp--preset--spacing--xs);
   }
@@ -337,6 +344,12 @@
   }
   .faq-img img {
     height: 727px !important;
+  }
+  .about-contact-btn {
+    justify-content: flex-end !important;
+  }
+  .about-contact {
+    justify-content: flex-start !important;
   }
 
   .faq-img {
