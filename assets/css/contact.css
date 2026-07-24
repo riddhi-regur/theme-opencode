@@ -4,6 +4,7 @@
 
 /* Base (mobile) */
 .contact-details-group {
+  padding: 30px !important;
   min-height: 211px !important;
 }
 
@@ -115,12 +116,17 @@
     min-width: auto !important;
     width: 100% !important;
   }
+  .contact-details {
+    grid-template-columns: repeat(3, 1fr) !important;
+    padding-top: var(--wp--preset--spacing--xl) !important;
+  }
 }
 
 /* Desktop (768px+) */
 @media (min-width: 768px) {
   .contact-details-group {
-    min-height: 245px !important;
+    padding: var(--wp--preset--spacing--xl) !important;
+    min-width: auto !important;
   }
 
   .contact-map-cover {
@@ -136,6 +142,10 @@
   .contact-paragraph {
     padding-left: var(--wp--preset--spacing--3xl) !important;
     padding-right: var(--wp--preset--spacing--3xl) !important;
+  }
+  .contact-details {
+    grid-template-columns: repeat(3, 1fr) !important;
+    padding-top: var(--wp--preset--spacing--xl) !important;
   }
 }
 

@@ -245,13 +245,6 @@
   .hero-cover {
     padding-top: var(--wp--preset--spacing--xl) !important;
   }
-  .contact-form {
-    order: 2 !important;
-  }
-
-  .contact-map {
-    order: 1 !important;
-  }
 
   .hero-v2-cover {
     padding-top: var(--wp--preset--spacing--xl) !important;
@@ -455,5 +448,12 @@
   .calculations-grid {
     grid-template-columns: repeat(1, minmax(0, 1fr));
     overflow: hidden;
+  }
+  .contact-form {
+    order: 2 !important;
+  }
+
+  .contact-map {
+    order: 1 !important;
   }
 }
