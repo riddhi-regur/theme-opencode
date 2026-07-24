@@ -146,13 +146,8 @@
   gap: var(--wp--preset--spacing--xs) !important;
 }
 
-.practice-areas-post-image {
-  max-height: 186px !important;
-}
-
 .practice-areas-post-image img {
-  max-height: 186px !important;
-  max-width: 168px !important;
+  object-position: top;
 }
 
 .practice-area-heading-group {
@@ -319,11 +314,11 @@
   }
 
   .practice-areas-post-image {
-    max-height: 300px !important;
+    min-height: 300px !important;
   }
 
   .practice-areas-post-image img {
-    max-height: 300px !important;
+    min-height: 300px !important;
     object-position: top !important;
   }
 
@@ -393,5 +388,12 @@
   .practice-area-social-icons svg {
     width: 25px !important;
     height: 25px !important;
+  }
+  .practice-areas-post-image {
+    min-height: 430px !important;
+  }
+
+  .practice-areas-post-image img {
+    min-height: 430px !important;
   }
 }
