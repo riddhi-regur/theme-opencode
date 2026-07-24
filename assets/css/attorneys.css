@@ -166,11 +166,11 @@
   }
 
   .attorneys-post-image {
-    max-height: 300px !important;
+    min-height: 300px !important;
   }
 
   .attorneys-post-image img {
-    max-height: 300px !important;
+    min-height: 300px !important;
     object-position: top !important;
   }
 
@@ -228,11 +228,11 @@
     padding-right: 200px !important;
   }
   .attorneys-post-image {
-    max-height: 430px !important;
+    min-height: 430px !important;
   }
 
   .attorneys-post-image img {
-    max-height: 430px !important;
+    min-height: 430px !important;
     object-position: top !important;
   }
 }
