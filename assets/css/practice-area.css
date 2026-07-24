@@ -286,6 +286,8 @@
 }
 
 .custom-posts-grid .wp-block-post-template {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
   gap: 20px;
 }
 
@@ -293,7 +295,7 @@
 @media (min-width: 430px) {
   .custom-posts-grid .wp-block-post-template {
     display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-columns: repeat(2, 1fr) !important;
     gap: var(--wp--preset--spacing--xs);
   }
 
@@ -369,6 +371,11 @@
 
 /* Desktop (768px+) */
 @media (min-width: 768px) {
+  .custom-posts-grid .wp-block-post-template {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: var(--wp--preset--spacing--xs);
+  }
   .practice-areas-heading {
     padding-left: var(--wp--preset--spacing--3xl) !important;
     padding-right: var(--wp--preset--spacing--3xl) !important;
