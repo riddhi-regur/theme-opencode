@@ -95,9 +95,9 @@
 }
 
 .blog-detail-img img {
-  max-width: none !important;
-  max-height: 186px !important;
+  min-height: 186px !important;
   object-position: top !important;
+  width: 100% !important;
 }
 
 .blog-detail-comment-row {
@@ -113,15 +113,11 @@
 .blog-detail-title {
   font-size: 40px !important;
   line-height: 48px !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
 }
 
 .blogs-detail-post-paragraph {
   font-size: 14px !important;
   line-height: 100% !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
 }
 
 .blog-detail-icons svg {
@@ -171,6 +167,16 @@
 .blog-detail-column-stack {
   gap: 0 !important;
 }
+.blog-detail-cover-heading {
+  padding-top: 65px !important;
+  padding-bottom: 65px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  margin: 0 !important;
+  margin-top: var(--wp--preset--spacing--xl) !important;
+  margin-right: calc(50% - 50vw) !important;
+  margin-left: calc(50% - 50vw) !important;
+}
 
 /* Large phone (430px+) */
 @media (min-width: 430px) {
@@ -210,6 +216,17 @@
     flex-wrap: nowrap !important;
     gap: 16px !important;
     padding-top: var(--wp--preset--spacing--md) !important;
+  }
+  .blog-detail-title {
+    font-size: 48px !important;
+    line-height: 56px !important;
+  }
+  .blogs-detail-post-paragraph {
+    font-size: 16px !important;
+    line-height: 100% !important;
+  }
+  .blog-detail-img img {
+    min-height: 408px !important;
   }
 }
 
@@ -256,22 +273,6 @@
     max-width: none !important;
   }
 
-  .blog-detail-cover-heading {
-    padding-top: 65px !important;
-    padding-bottom: 65px !important;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-    margin: 0 !important;
-    margin-top: var(--wp--preset--spacing--xl) !important;
-    margin-right: calc(50% - 50vw) !important;
-    margin-left: calc(50% - 50vw) !important;
-  }
-
-  .blog-detail-img img {
-    max-width: none !important;
-    object-position: top !important;
-  }
-
   .comment-separator {
     margin-top: var(--wp--preset--spacing--md) !important;
     margin-bottom: var(--wp--preset--spacing--md) !important;
@@ -292,5 +293,10 @@
   .blogs-post-image img {
     min-height: 239px !important;
     object-position: top !important;
+  }
+  .blog-detail-cover-heading {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    padding: 40px 16px;
   }
 }
