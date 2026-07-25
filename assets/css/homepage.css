@@ -428,6 +428,14 @@
   .homepage-practice-areas-post-image img {
     min-height: 614px !important;
   }
+  .homepage-practice-areas-post-image-v1 {
+    min-height: 270px !important;
+    width: 100% !important;
+  }
+
+  .homepage-practice-areas-post-image-v1 img {
+    min-height: 270px !important;
+  }
 
   .homepage-v2-offer-img {
     max-height: 478px !important;

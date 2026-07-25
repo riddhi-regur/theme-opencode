@@ -125,7 +125,7 @@
 /* Desktop (768px+) */
 @media (min-width: 768px) {
   .contact-details-group {
-    padding: var(--wp--preset--spacing--xl) !important;
+    padding: 41px 29px !important;
     min-width: auto !important;
   }
 
