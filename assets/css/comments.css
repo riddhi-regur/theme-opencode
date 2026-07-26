@@ -67,7 +67,7 @@
 .comment-form-contact input {
   width: 100%;
   height: 52px;
-  padding: 0 15px;
+  padding: var(--wp--preset--spacing--sm);
   border: 1px solid #ddd;
   background: var(--wp--preset--color--secondary);
 }

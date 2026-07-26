@@ -125,14 +125,6 @@
   height: 14px !important;
 }
 
-.blog-detail-cover {
-  min-height: 322px !important;
-}
-
-.blog-detail-cover img {
-  object-position: 20% !important;
-}
-
 .blogs-detail-main {
   padding-top: var(--wp--preset--spacing--xl) !important;
 }
@@ -269,10 +261,6 @@
     font-size: 16px !important;
   }
 
-  .blog-detail-committed-img img {
-    max-width: none !important;
-  }
-
   .comment-separator {
     margin-top: var(--wp--preset--spacing--md) !important;
     margin-bottom: var(--wp--preset--spacing--md) !important;
@@ -292,6 +280,13 @@
 
   .blogs-post-image img {
     min-height: 239px !important;
+    object-position: top !important;
+  }
+  .blog-detail-cover {
+    min-height: 630px !important;
+  }
+
+  .blog-detail-cover img {
     object-position: top !important;
   }
   .blog-detail-cover-heading {
