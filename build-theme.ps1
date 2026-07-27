@@ -6,8 +6,8 @@
 
 $ErrorActionPreference = 'Stop'
 
-$sourceDir   = "C:\Users\Atharv\OneDrive\Desktop\theme-opencode"
-$outputZip   = "C:\Users\Atharv\OneDrive\Desktop\Lawfirmpro.zip"
+$sourceDir   = "C:\Users\Riddhi Bhatt\Desktop\Theme"
+$outputZip   = "D:\Lawfirmpro.zip"
 $stagingRoot = Join-Path ([System.IO.Path]::GetTempPath()) "Lawfirmpro-build"
 
 # ── Clean staging area ──────────────────────────────────────

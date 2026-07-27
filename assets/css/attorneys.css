@@ -23,14 +23,14 @@
 }
 
 .team-detail-right-image {
-  max-height: 15px !important;
-  max-width: 15px !important;
+  min-height: 15px !important;
+  min-width: 15px !important;
   margin-top: 2px !important;
 }
 
 .team-detail-right-image img {
-  max-height: 15px !important;
-  max-width: 15px !important;
+  min-height: 15px !important;
+  min-width: 15px !important;
   margin-top: 0 !important;
 }
 
@@ -113,11 +113,11 @@
 }
 
 .attorney-pattern-img {
-  max-height: 349px !important;
+  min-height: 349px !important;
 }
 
 .attorney-pattern-img img {
-  max-height: 349px !important;
+  min-height: 349px !important;
 }
 
 .attorney-pattern {
@@ -202,11 +202,11 @@
     padding-right: var(--wp--preset--spacing--3xl) !important;
   }
   .attorney-pattern-img {
-    max-height: 447px !important;
+    min-height: 447px !important;
   }
 
   .attorney-pattern-img img {
-    max-height: 447px !important;
+    min-height: 447px !important;
   }
 
   .attorney-social-icons {
@@ -219,8 +219,8 @@
   }
 
   .team-detail-right-image {
-    max-height: 20px !important;
-    max-width: 20px !important;
+    min-height: 20px !important;
+    min-width: 20px !important;
     margin-top: 5px !important;
   }
   .homepage-v2-faq-maingroup {

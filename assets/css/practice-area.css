@@ -179,11 +179,11 @@
 }
 
 .service-detail-featured-img {
-  max-height: 296px !important;
+  min-height: 296px !important;
 }
 
 .service-detail-featured-img img {
-  max-height: 296px !important;
+  min-height: 296px !important;
 }
 
 .service-details-section1 {

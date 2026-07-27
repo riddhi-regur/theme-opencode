@@ -176,15 +176,15 @@
 
 .protect-rights-img img {
   object-position: top !important;
-  max-height: 350px !important;
+  min-height: 350px !important;
 }
 
 .homepage-v2-practice-areas-post-image {
-  max-height: 322px !important;
+  min-height: 322px !important;
 }
 
 .homepage-v2-practice-areas-post-image img {
-  max-height: 322px !important;
+  min-height: 322px !important;
 }
 
 .homepage-v2-faq-main {
@@ -352,7 +352,7 @@
     margin-top: var(--wp--preset--spacing--lg);
   } */
   .protect-rights-img img {
-    max-height: 100% !important;
+    min-height: 100% !important;
   }
   .protect-rights-cover {
     align-items: flex-start !important;
@@ -438,11 +438,11 @@
   }
 
   .homepage-v2-offer-img {
-    max-height: 478px !important;
+    min-height: 478px !important;
   }
 
   .homepage-v2-offer-img img {
-    max-height: 478px !important;
+    min-height: 478px !important;
   }
   .blogs-post-image-homepage {
     min-height: 239px !important;

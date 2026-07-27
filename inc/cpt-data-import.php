@@ -4071,9 +4071,9 @@ function lawfirmpro_import_about_firm()
 function lawfirmpro_set_default_options()
 {
     $defaults = [
-        'phone'=>'(44) 7956 8221','another_phone'=>'','email'=>'info@aldervox.uk',
+        'phone'=>'(44) 7956 8221','another_phone'=>'(44) 7956 8221','email'=>'info@aldervox.uk',
         'address'=>'125 Holborn, London EC1N 2TD','whatsapp'=>'','map_url'=>'',
-        'copyright_text'=>'© 2026 Aldervox Law Firm. All rights reserved.',
+        'copyright_text'=>'© 2026 Copyrights Lawyer.',
         'facebook_url'=>'','instagram_url'=>'','twitter_url'=>'','linkedin_url'=>'','youtube_url'=>'',
         'stat_1_number'=>'100+','stat_1_label'=>'Successful Cases',
         'stat_2_number'=>'30+','stat_2_label'=>'Years of Legal Experience',
